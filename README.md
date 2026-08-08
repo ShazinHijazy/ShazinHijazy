@@ -107,31 +107,11 @@ I am particularly interested in systems that do not depend excessively on centra
 
 # My Research in One Picture
 
-```text
-                         RELIABLE AUTONOMY
-                                │
-              ┌─────────────────┼─────────────────┐
-              │                 │                 │
-              ▼                 ▼                 ▼
-        PERCEPTION        DECISION-MAKING    COORDINATION
-              │                 │                 │
-       ┌──────┼──────┐    ┌─────┼─────┐     ┌────┼────┐
-       │      │      │    │     │     │     │    │    │
-       ▼      ▼      ▼    ▼     ▼     ▼     ▼    ▼    ▼
-     Vision  Sensors  3D  Risk  Energy  Task  Swarm Distributed
-     LiDAR   GNSS     Data       Aware   Aware Intelligence Control
-       │      │      │    │     │     │     │    │    │
-       └──────┴──────┴────┴─────┴─────┴─────┴────┴────┘
-                                │
-                                ▼
-                     AUTONOMOUS ROBOTIC SYSTEMS
-                                │
-              ┌─────────────────┼─────────────────┐
-              │                 │                 │
-              ▼                 ▼                 ▼
-             UAVs             Marine          Agriculture
-            Swarms            Robotics          Robotics
-````
+# Areas of Research
+
+<p align="center">
+  <img src="media/Areas%20of%20Research.png" alt="Areas of Research of Mohamed Hijazy Shazin Hassan" width="100%">
+</p>
 
 ---
 

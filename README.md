@@ -292,6 +292,10 @@ I am currently interested in research involving:
 
 
 
+🎓 Google Scholar: https://scholar.google.com/citations?user=gjZ9LDQAAAAJ&hl=en
+
+
+
 🆔 ORCID: https://orcid.org/0009-0009-9256-7824
 
 

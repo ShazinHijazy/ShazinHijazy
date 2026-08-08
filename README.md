@@ -110,7 +110,7 @@ I am particularly interested in systems that do not depend excessively on centra
 # Areas of Research
 
 <p align="center">
-  <img src="media/Areas%20of%20Research.png" alt="Areas of Research of Mohamed Hijazy Shazin Hassan" width="100%">
+  <img src="Areas%20of%20Research.png" alt="Areas of Research of Mohamed Hijazy Shazin Hassan" width="100%">
 </p>
 
 ---

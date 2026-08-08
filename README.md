@@ -156,6 +156,14 @@ My long-term goal is to contribute to robotic systems that can move from control
 
 ---
 
+# Research Timeline
+
+<p align="center">
+  <img src="media/Research Timeline.png" alt="Research Timeline of Mohamed Hijazy Shazin Hassan" width="850">
+</p>
+
+---
+
 # Research Portfolio
 
 ## 01. Fault-Tolerant Decentralized UAV Swarm Coordination

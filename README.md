@@ -159,7 +159,7 @@ My long-term goal is to contribute to robotic systems that can move from control
 # Research Timeline
 
 <p align="center">
-  <img src="Research Timeline.png" alt="Research Timeline of Mohamed Hijazy Shazin Hassan" width="850">
+  <img src="Research Timeline.png" alt="Research Timeline of Mohamed Hijazy Shazin Hassan" width="400">
 </p>
 
 ---

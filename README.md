@@ -1296,25 +1296,167 @@ flowchart LR
 ```
 ---
 
-# Beyond Engineering
+<h1>Beyond Engineering</h1>
 
+<p>
 Engineering and research are only part of my work.
-
-<p align="center">
-  <img
-    src="crossroad.png"
-    alt="CrossRoads with Shazin Hijazy"
-    width="25%"
-  />
 </p>
 
-Alongside technical research, I have been involved in **technology communication, student-led innovation, entrepreneurship, technical communities, academic events, youth organisations, and community building**.
+<p>
+Alongside technical research, I have been involved in <strong>technology communication, student-led innovation, entrepreneurship, technical communities, leadership, youth development, and community building.</strong>
+</p>
 
-I am also the host of **CrossRoads with Shazin Hijazy**, a conversation platform that brings together people from different academic, professional, entrepreneurial, and social backgrounds.
+<table align="center" width="100%" cellpadding="18" cellspacing="0">
 
-These experiences have shaped how I approach technical work: not only by developing systems and ideas, but also by **communicating them clearly, connecting people across disciplines, and creating spaces where knowledge and ideas can be shared.**
+<tr>
 
----
+<td align="center" valign="middle" width="33%">
+
+<img src="crossroad.png" alt="CrossRoads with Shazin Hijazy" height="78"><br><br>
+
+<strong>CrossRoads with Shazin Hijazy</strong><br>
+
+<sub><strong>Founder &amp; Host</strong></sub><br><br>
+
+<sub>Conversation platform for academics, entrepreneurs, researchers, and community leaders.</sub><br><br>
+
+<a href="https://www.linkedin.com/company/crossroads-with-shazin-hijazy"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="codeiam-logo.png" alt="CodeIam" height="88"><br><br>
+
+<strong>CodeIam</strong><br>
+
+<sub><strong>President</strong></sub><br><br>
+
+<sub>Student technology and innovation ecosystem focused on pre-incubation.</sub><br><br>
+
+<a href="https://www.linkedin.com/company/codeiam-club"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="hult-au-logo.png" alt="Hult Prize at Andhra University" height="78"><br><br>
+
+<strong>Hult Prize · Andhra University</strong><br>
+
+<sub><strong>Deputy Campus Director</strong></sub><br><br>
+
+<sub>Student innovation, entrepreneurship, partnerships, and campus programmes.</sub><br><br>
+
+<a href="https://www.hultprize.org/"><strong>Explore ↗</strong></a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="gdg-oc-auce-logo.png" alt="GDG on Campus AUCE" height="78"><br><br>
+
+<strong>GDG on Campus · AUCE</strong><br>
+
+<sub><strong>Technical Head · Flutter</strong></sub><br><br>
+
+<sub>Technical community activities, project development, and student technology initiatives.</sub><br><br>
+
+<a href="https://www.linkedin.com/company/gdsc-auce/"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="wosy-logo.png" alt="World Organization of Students and Youth" height="78"><br><br>
+
+<strong>WOSY</strong><br>
+
+<sub><strong>International Secretary</strong></sub><br><br>
+
+<sub>International youth engagement, student representation, cultural exchange, and conferences.</sub><br><br>
+
+<a href="https://www.wosy.org/"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="ayli-logo.png" alt="Al Azhar Youth Leader Institute" height="78"><br><br>
+
+<strong>Al Azhar Youth Leader Institute</strong><br>
+
+<sub><strong>Leadership Trainee · International Member</strong></sub><br><br>
+
+<sub>Youth leadership, international engagement, public speaking, and social development.</sub><br><br>
+
+<a href="http://www.al-azhar.or.id/"><strong>Explore ↗</strong></a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="a-hub-logo.png" alt="a-hub" height="78"><br><br>
+
+<strong>a-hub</strong><br>
+
+<sub><strong>Innovation &amp; Entrepreneurship</strong></sub><br><br>
+
+<sub>Student innovation, startup programmes, ideation, and entrepreneurship activities.</sub><br><br>
+
+<a href="https://www.a-hub.co/"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="caarya-logo.png" alt="Caarya" height="78"><br><br>
+
+<strong>Caarya</strong><br>
+
+<sub><strong>Startup Research &amp; Outreach Intern</strong></sub><br><br>
+
+<sub>Startup research, founder interviews, ecosystem analysis, and student opportunities.</sub><br><br>
+
+<a href="https://caarya.in/"><strong>Explore ↗</strong></a>
+
+</td>
+
+<td align="center" valign="middle" width="33%">
+
+<img src="jci-logo.png" alt="JCI Vizag Incredibles" height="78"><br><br>
+
+<strong>JCI Vizag Incredibles</strong><br>
+
+<sub><strong>Local Organization President</strong></sub><br><br>
+
+<sub>Leadership, entrepreneurship, community initiatives, partnerships, and youth development.</sub><br><br>
+
+<a href="https://jci.cc/"><strong>Explore ↗</strong></a>
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<p align="center">
+<strong>COMMUNICATION · INNOVATION · LEADERSHIP · COMMUNITY</strong>
+</p>
+
+<p>
+These experiences have shaped how I approach technical work: not only by developing systems and ideas, but also by <strong>communicating them clearly, connecting people across disciplines, building communities, and creating opportunities for collaboration.</strong>
+</p>
 
 # Open Source and Research
 

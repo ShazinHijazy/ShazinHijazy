@@ -1028,6 +1028,8 @@ My undergraduate research developed primarily around:
 
 My school education provided a foundation in mathematics and the physical sciences that later developed into an undergraduate focus on computer science, artificial intelligence, robotics, and autonomous systems.
 
+----
+
 # Research Experience
 
 <table align="center">

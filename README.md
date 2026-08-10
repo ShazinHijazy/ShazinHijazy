@@ -2205,22 +2205,215 @@ and academic work.
 
 ---
 
-## LinkedIn
+<h1>Connect</h1>
 
-**LinkedIn:**
-[https://www.linkedin.com/in/shazin-hijazy/](https://www.linkedin.com/in/shazin-hijazy/)
+<p align="center">
+<img
+src="Shazin.png"
+alt="Mohamed Hijazy Shazin Hassan"
+width="180"
+height="180"
+>
+</p>
 
----
+<p align="center">
+<strong>Mohamed Hijazy Shazin Hassan</strong>
+</p>
 
-# Connect
+<p align="center">
+Engineer · Robotics Researcher · Autonomous Systems
+</p>
 
-If you are working on research related to autonomous systems, multi-agent robotics, swarm intelligence, resilient autonomy, marine robotics, agricultural robotics, or reliable AI, I would be happy to connect.
+<p align="center">
+I am always interested in connecting with researchers, engineers, academics,
+entrepreneurs, and technology communities working on challenging problems in
+autonomous systems and intelligent robotics.
+</p>
 
-**Email:**
-[shazhijazy@gmail.com](mailto:shazhijazy@gmail.com)
+<br>
 
-**GitHub:**
-[https://github.com/ShazinHijazy](https://github.com/ShazinHijazy)
+<table align="center" width="100%" cellpadding="18" cellspacing="0">
+
+<!-- LOGOS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33.33%" height="100">
+
+<a href="https://www.linkedin.com/in/shazin-hijazy/">
+<img
+src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg"
+alt="LinkedIn"
+height="48"
+>
+</a>
+
+</td>
+
+<td align="center" valign="middle" width="33.33%" height="100">
+
+<a href="mailto:shazhijazy@gmail.com">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"
+alt="Email"
+height="48"
+>
+</a>
+
+</td>
+
+<td align="center" valign="middle" width="33.33%" height="100">
+
+<a href="https://github.com/ShazinHijazy">
+<img
+src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+height="60"
+>
+</a>
+
+</td>
+
+</tr>
+
+
+<!-- NAMES -->
+
+<tr>
+
+<td align="center" valign="middle" height="55">
+
+<strong>LinkedIn</strong>
+
+</td>
+
+<td align="center" valign="middle" height="55">
+
+<strong>Email</strong>
+
+</td>
+
+<td align="center" valign="middle" height="55">
+
+<strong>GitHub</strong>
+
+</td>
+
+</tr>
+
+
+<!-- CATEGORIES -->
+
+<tr>
+
+<td align="center" valign="middle" height="55">
+
+<sub><strong>Professional Network</strong></sub>
+
+</td>
+
+<td align="center" valign="middle" height="55">
+
+<sub><strong>Direct Contact</strong></sub>
+
+</td>
+
+<td align="center" valign="middle" height="55">
+
+<sub><strong>Open Source · Research</strong></sub>
+
+</td>
+
+</tr>
+
+
+<!-- DESCRIPTIONS -->
+
+<tr>
+
+<td align="center" valign="middle" height="120">
+
+<sub>
+Connect with me professionally, explore my background,
+and follow my work across engineering, robotics, and research.
+</sub>
+
+</td>
+
+<td align="center" valign="middle" height="120">
+
+<sub>
+For research collaboration, academic opportunities,
+technical discussions, partnerships, and professional enquiries.
+</sub>
+
+</td>
+
+<td align="center" valign="middle" height="120">
+
+<sub>
+Explore my research implementations, robotics projects,
+simulation environments, experiments, and open-source work.
+</sub>
+
+</td>
+
+</tr>
+
+
+<!-- LINKS -->
+
+<tr>
+
+<td align="center" valign="middle" height="60">
+
+<a href="https://www.linkedin.com/in/shazin-hijazy/">
+<strong>View Profile ↗</strong>
+</a>
+
+</td>
+
+<td align="center" valign="middle" height="60">
+
+<a href="mailto:shazhijazy@gmail.com">
+<strong>Send an Email ↗</strong>
+</a>
+
+</td>
+
+<td align="center" valign="middle" height="60">
+
+<a href="https://github.com/ShazinHijazy">
+<strong>Explore GitHub ↗</strong>
+</a>
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<p align="center">
+<strong>
+AUTONOMOUS SYSTEMS · MULTI-AGENT ROBOTICS · SWARM INTELLIGENCE ·
+RESILIENT AUTONOMY · MARINE ROBOTICS · AGRICULTURAL ROBOTICS · RELIABLE AI
+</strong>
+</p>
+
+<br>
+
+<p>
+If you are working on research related to
+<strong>autonomous systems, multi-agent robotics, swarm intelligence,
+resilient autonomy, marine robotics, agricultural robotics, or reliable AI</strong>,
+I would be happy to connect and explore opportunities for collaboration.
+</p>
+
+<p align="center">
+<strong>Let's build, research, and learn together.</strong>
+</p>
 
 ---
 

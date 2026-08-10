@@ -950,7 +950,7 @@ I use simulation not as an endpoint, but as a controlled environment for studyin
 
 <p align="center">
   <img
-    src="assets/simulation-to-reality.svg"
+    src="simulation-to-reality.svg"
     width="100%"
     alt="From Simulation to Reality research workflow"
   />

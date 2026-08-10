@@ -1042,6 +1042,7 @@ My school education provided a foundation in mathematics and the physical scienc
 <strong>Autonomous Systems / Marine Robotics</strong><br>
 Research Internship · Autonomous Surface Vehicle Development<br>
 <a href="https://www.iitkgp.ac.in/"><strong>Indian Institute of Technology Kharagpur</strong></a>
+<strong> May 2025 – July 2025 </strong>  
 </td>
 </tr>
 </table>
@@ -1170,25 +1171,51 @@ with reliability, adaptability, and distributed autonomy considered throughout t
 
 # Future Research Interests
 
-I am interested in pursuing deeper research in:
+My future research interests build on my work in autonomous systems, multi-agent robotics, resilient autonomy, marine robotics, and reliable AI.
 
-* Multi-Agent Systems
-* Swarm Intelligence
-* Distributed Robotics
-* Decentralized Control
-* Resilient Autonomy
-* Fault-Tolerant Robotics
-* Autonomous Navigation
-* Sensor Fusion
-* Robot Perception
-* Reliable AI
-* Safe Learning-Enabled Robotics
-* Marine Robotics
-* UAV Systems
-* Agricultural Robotics
-* Human-Robot Collaboration
-* Simulation-to-Real Transfer
-* Physical Intelligence
+I am interested in developing autonomous robotic systems that can operate, coordinate, and learn reliably in uncertain, dynamic, and partially degraded environments.
+
+### 01 · Distributed & Multi-Agent Intelligence
+
+`Multi-Agent Systems` · `Swarm Intelligence` · `Distributed Robotics` · `Decentralized Control`
+
+Researching how autonomous agents can coordinate, make distributed decisions, and collectively accomplish missions without relying entirely on centralized control.
+
+### 02 · Resilient & Reliable Autonomy
+
+`Resilient Autonomy` · `Fault-Tolerant Robotics` · `Reliable AI` · `Safe Learning-Enabled Robotics`
+
+Exploring how robotic systems can maintain useful and safe operation under failures, uncertainty, degraded sensing, communication loss, and changing operating conditions.
+
+### 03 · Perception, Navigation & Decision-Making
+
+`Robot Perception` · `Sensor Fusion` · `Autonomous Navigation` · `Physical Intelligence`
+
+Investigating how robots can combine observations, learned representations, uncertainty, and environmental context to support reliable autonomous decisions.
+
+### 04 · Learning & Simulation-to-Real
+
+`Simulation-to-Real Transfer` · `Robot Learning` · `Synthetic Data` · `Physics-Based Simulation`
+
+Studying how simulation, learning, and experimental feedback can be connected to improve the transfer of robotic algorithms from controlled environments to physical systems.
+
+### 05 · Autonomous Robotic Systems
+
+`Marine Robotics` · `UAV Systems` · `Agricultural Robotics` · `Human-Robot Collaboration`
+
+Applying these research principles across different robotic platforms and real-world operating environments.
+
+---
+
+### Long-Term Research Direction
+
+My long-term interest is in connecting **perception, learning, decision-making, control, and distributed coordination** to develop autonomous systems that remain **reliable, adaptable, and useful beyond controlled laboratory conditions**.
+
+The broader progression I am interested in is:
+
+<p align="center">
+  <strong>LEARN → DECIDE → COORDINATE → ADAPT → DEPLOY</strong>
+</p>
 
 ---
 

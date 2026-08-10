@@ -1030,44 +1030,87 @@ My school education provided a foundation in mathematics and the physical scienc
 
 # Research Experience
 
-## Indian Institute of Technology Kharagpur
+<table align="center">
+<tr>
+<td align="center" valign="middle" width="120">
+<a href="https://www.iitkgp.ac.in/">
+<img src="iitkgp-logo.png" alt="Indian Institute of Technology Kharagpur" width="82">
+</a>
+</td>
 
-### Autonomous Systems / Marine Robotics
+<td align="center" valign="middle">
+<strong>Autonomous Systems / Marine Robotics</strong><br>
+Research Internship · Autonomous Surface Vehicle Development<br>
+<a href="https://www.iitkgp.ac.in/"><strong>Indian Institute of Technology Kharagpur</strong></a>
+</td>
+</tr>
+</table>
 
-Research internship involving Autonomous Surface Vehicle development.
+### Research Focus
 
-Focus:
-
-`ROS 2 · Autonomous Navigation · Sensor Fusion · Localization · Mapping · Nav2 · SLAM · Gazebo`
+`ROS 2` · `Autonomous Navigation` · `Sensor Fusion` · `Localization` · `Mapping` · `Nav2` · `SLAM` · `Gazebo`
 
 ---
 
 ## Independent Research
 
-I continue to explore research problems in:
+I continue to explore research problems across:
 
-* Autonomous systems
-* Multi-agent robotics
-* UAV swarms
-* Resilient autonomy
-* Marine robotics
-* Agricultural robotics
-* Reliable AI
-* Intelligent robotic decision-making
+`Autonomous Systems` · `Multi-Agent Robotics` · `UAV Swarms` · `Resilient Autonomy` · `Marine Robotics` · `Agricultural Robotics` · `Reliable AI` · `Intelligent Robotic Decision-Making`
 
-My research workflow includes:
+## Research Workflow
 
-* Literature review
-* Problem formulation
-* Mathematical modelling
-* Algorithm design
-* Simulation
-* Software implementation
-* Experimental validation
-* Technical writing
-* Research publication
+<p align="center">
+  <strong>FROM RESEARCH QUESTION TO PUBLISHED WORK</strong>
+</p>
 
----
+<table align="center">
+  <tr>
+    <td align="center"><strong>01</strong></td>
+    <td><strong>Literature Review</strong></td>
+    <td>Identify existing work, gaps, and research opportunities.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>02</strong></td>
+    <td><strong>Problem Formulation</strong></td>
+    <td>Define the research problem and its scope.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>03</strong></td>
+    <td><strong>Mathematical Modelling</strong></td>
+    <td>Develop the mathematical representation of the problem.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>04</strong></td>
+    <td><strong>Algorithm Design</strong></td>
+    <td>Develop the proposed computational approach.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>05</strong></td>
+    <td><strong>Simulation</strong></td>
+    <td>Study system behaviour in a controlled environment.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>06</strong></td>
+    <td><strong>Software Implementation</strong></td>
+    <td>Translate the research method into an executable system.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>07</strong></td>
+    <td><strong>Experimental Validation</strong></td>
+    <td>Evaluate performance through experiments and validation.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>08</strong></td>
+    <td><strong>Technical Writing</strong></td>
+    <td>Document methodology, results, analysis, and findings.</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>09</strong></td>
+    <td><strong>Research Publication</strong></td>
+    <td>Communicate the research through scholarly publication.</td>
+  </tr>
+</table>
 
 # Research Direction
 

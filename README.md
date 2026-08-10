@@ -1114,13 +1114,19 @@ I continue to explore research problems across:
 
 # Research Direction
 
-My long-term research interests are centered around **reliable and distributed autonomous systems**.
+My research interests are centered around **reliable and distributed autonomous systems**.
 
-I am particularly interested in systems that can:
+I am interested in how autonomous robots can **perceive, reason, coordinate, adapt, recover, and act** under uncertainty and changing operating conditions.
+
+### Research Perspective
+
+<p align="center">
+  <strong>PERCEIVE → REASON → COORDINATE → ADAPT → RECOVER → ACT → LEARN</strong>
+</p>
 
 ### Perceive
 
-Understand their environment through multiple sensors and learned representations.
+Understand the environment through multiple sensors, observations, and learned representations.
 
 ### Reason
 
@@ -1128,19 +1134,37 @@ Evaluate uncertainty, operational constraints, mission objectives, and available
 
 ### Coordinate
 
-Collaborate with other autonomous agents without relying entirely on centralized control.
+Enable multiple autonomous agents to collaborate through distributed decision-making.
 
 ### Adapt
 
-Change behaviour when the environment, communication conditions, or system state changes.
+Change behaviour as environmental, communication, mission, or system conditions change.
 
 ### Recover
 
-Continue operating after partial failures, degraded sensing, or loss of communication.
+Maintain useful operation despite partial failures, degraded sensing, or communication loss.
 
 ### Act
 
 Translate decisions into safe and effective physical actions.
+
+### Learn
+
+Use data, simulation, and feedback to improve system behaviour and performance.
+
+---
+
+### Research Objective
+
+My broader objective is to connect learning, decision-making, control, and multi-agent coordination with the reliability requirements of real-world autonomous systems.
+
+I am particularly interested in the transition from:
+
+<p align="center">
+  <strong>ALGORITHMS → SIMULATION → ROBOTIC SYSTEMS → REAL-WORLD DEPLOYMENT</strong>
+</p>
+
+with reliability, adaptability, and distributed autonomy considered throughout the process.
 
 ---
 

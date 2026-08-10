@@ -254,7 +254,7 @@ The proposed architecture divides UAV agents into operational roles:
   <img
     src="role-partitioned-swarm-intelligence.png"
     alt="Role-Partitioned Swarm Intelligence for resilient UAV coordination"
-    width="94%"
+    width="100%"
   >
 </p>
 

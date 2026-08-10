@@ -941,20 +941,22 @@ Few-shot language-agnostic keyword spotting for multilingual audio.
 
 ---
 
-# From Simulation to Reality
+## From Simulation to Reality
 
-A recurring component of my research is simulation driven validation.
+A recurring component of my research is simulation-driven validation.
 
 I use simulation not as an endpoint, but as a controlled environment for studying algorithms before physical deployment.
 
-
-<p align="center">
-  <img
-    src="simulation-to-reality.svg"
-    width="100%"
-    alt="From Simulation to Reality research workflow"
-  />
-</p>
+```mermaid
+flowchart TD
+    A["THEORY"] --> B["ALGORITHM"]
+    B --> C["SOFTWARE MODEL"]
+    C --> D["SIMULATION"]
+    D --> E["SITL / GAZEBO"]
+    E --> F["PERFORMANCE EVALUATION"]
+    F --> G["HARDWARE INTEGRATION"]
+    G --> H["REAL-WORLD ROBOT"]
+```
 
 This approach is particularly important for multi-agent systems where large-scale physical experimentation can be expensive and difficult to reproduce.
 

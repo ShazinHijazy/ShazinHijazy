@@ -136,11 +136,71 @@ My long-term goal is to contribute to robotic systems that can move from control
 
 ---
 
-# Research Timeline
+## Research Timeline
 
-<p align="center">
-  <img src="Research Timeline.png" alt="Research Timeline of Mohamed Hijazy Shazin Hassan" width="400">
-</p>
+```mermaid
+flowchart TD
+
+    subgraph Y2024[" "]
+        direction TB
+        Y24["2024"]
+        R24["AI / COMPUTER VISION"]
+        Y24 --> R24
+    end
+
+    subgraph Y2025[" "]
+        direction TB
+        Y25["2025"]
+        R25A["MARINE ROBOTICS"]
+        R25B["UAV SWARMS"]
+        R25C["UNDERWATER<br/> DECISION-MAKING"]
+
+        Y25 --> R25A
+        Y25 --> R25B
+        Y25 --> R25C
+    end
+
+    subgraph Y2026[" "]
+        direction TB
+        Y26["2026"]
+        R26A["FAULT-TOLERANT<br/> UAV COORDINATION"]
+        R26B["ADMOS"]
+        R26C["ROLE-PARTITIONED<br/> SWARM INTELLIGENCE"]
+        R26D["RELIABLE AI"]
+        R26E["AGRICULTURAL ROBOTICS"]
+
+        Y26 --> R26A
+        Y26 --> R26B
+        Y26 --> R26C
+        Y26 --> R26D
+        Y26 --> R26E
+    end
+
+    subgraph YF[" "]
+        direction TB
+        YFUT["FUTURE"]
+        RF["RELIABLE DISTRIBUTED<br/> AUTONOMOUS SYSTEMS"]
+
+        YFUT --> RF
+    end
+
+    Y24 --> Y25
+    Y25 --> Y26
+    Y26 --> YFUT
+
+    classDef year fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2.5px,font-size:22px,font-weight:700;
+    classDef research fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:1.5px,font-size:16px,font-weight:600;
+
+    class Y24,Y25,Y26,YFUT year;
+    class R24,R25A,R25B,R25C,R26A,R26B,R26C,R26D,R26E,RF research;
+
+    style Y2024 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
+    style Y2025 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
+    style Y2026 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
+    style YF fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
 
 ---
 

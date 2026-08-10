@@ -1298,22 +1298,21 @@ flowchart LR
 
 # Beyond Engineering
 
-Research is only one part of my work.
+Engineering and research are only part of my work.
 
-I have also been involved in:
+<p align="center">
+  <img
+    src="crossroad.png"
+    alt="CrossRoads with Shazin Hijazy"
+    width="25%"
+  />
+</p>
 
-* Technology communication
-* Student-led innovation
-* Entrepreneurship
-* Technical communities
-* Youth organisations
-* Academic events
-* Research communication
-* Community building
+Alongside technical research, I have been involved in **technology communication, student-led innovation, entrepreneurship, technical communities, academic events, youth organisations, and community building**.
 
-I am the host of **CrossRoads with Shazin Hijazy**, a platform focused on conversations with people from different academic, professional, entrepreneurial, and social backgrounds.
+I am also the host of **CrossRoads with Shazin Hijazy**, a conversation platform that brings together people from different academic, professional, entrepreneurial, and social backgrounds.
 
-These experiences have strengthened my interest in communicating technical ideas clearly and building communities around technology and research.
+These experiences have shaped how I approach technical work: not only by developing systems and ideas, but also by **communicating them clearly, connecting people across disciplines, and creating spaces where knowledge and ideas can be shared.**
 
 ---
 

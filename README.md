@@ -1041,7 +1041,8 @@ My school education provided a foundation in mathematics and the physical scienc
 <td align="center" valign="middle">
 <strong>Autonomous Systems / Marine Robotics</strong><br>
 Research Internship · Autonomous Surface Vehicle Development<br>
-<a href="https://www.iitkgp.ac.in/"><strong>Indian Institute of Technology Kharagpur</strong></a>
+<a href="https://www.iitkgp.ac.in/"><strong>Indian Institute of Technology Kharagpur</strong></a><br>
+Kharagpur, West-Bengal, India<br>
 <strong> May 2025 – July 2025 </strong>  
 </td>
 </tr>

@@ -849,30 +849,47 @@ Research areas:
 </p>
 
 ---
-# Robotics Platforms
 
-My practical robotics experience spans multiple platforms:
+# Robotic Platforms & Systems
 
-```text
-                     ROBOTIC SYSTEMS
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-      AERIAL             MARINE          GROUND
-        │                  │                  │
-        ▼                  ▼                  ▼
-      UAVs              USVs              AGVs
-      Swarms           Catamaran        Agriculture
-        │                  │              Pruning
-        ▼                  ▼
-    PX4 / ROS2         ROS2 / Nav2
-        │                  │
-        └──────────┬───────┘
-                   │
-                   ▼
-             DISTRIBUTED
-               AUTONOMY
+My practical work spans aerial, marine, and ground robotic systems, with a common focus on autonomous operation, perception, navigation, coordination, and distributed autonomy.
+
+```mermaid
+flowchart TD
+
+    A["ROBOTIC SYSTEMS"]
+
+    A --> B["AERIAL"]
+    A --> C["MARINE"]
+    A --> D["GROUND"]
+
+    B --> B1["UAVs"]
+    B --> B2["UAV SWARMS"]
+    B --> B3["PX4 / ROS 2"]
+
+    C --> C1["USVs"]
+    C --> C2["AUTONOMOUS CATAMARAN"]
+    C --> C3["ROS 2 / NAV2"]
+
+    D --> D1["AGVs"]
+    D --> D2["AGRICULTURAL ROBOTICS"]
+    D --> D3["PRECISION PRUNING"]
+
+    B3 --> E["DISTRIBUTED AUTONOMY"]
+    C3 --> E
+    D3 --> E
+
+    classDef root fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px,font-size:20px,font-weight:700;
+    classDef domain fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:18px,font-weight:700;
+    classDef platform fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:1.5px,font-size:15px,font-weight:600;
+    classDef autonomy fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px,font-size:18px,font-weight:700;
+
+    class A root;
+    class B,C,D domain;
+    class B1,B2,B3,C1,C2,C3,D1,D2,D3 platform;
+    class E autonomy;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
 ```
 
 ---

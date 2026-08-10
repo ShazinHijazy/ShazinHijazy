@@ -677,80 +677,94 @@ Research areas:
 
 # Technical Skills
 
-## Robotics
+### Robotics, Autonomy & Simulation
 
-![ROS2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square\&logo=ros)
-![PX4](https://img.shields.io/badge/PX4-Autopilot-2C2C2C?style=flat-square)
-![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-FF6600?style=flat-square)
-![Nav2](https://img.shields.io/badge/Nav2-Autonomous_Navigation-22314E?style=flat-square)
+**Frameworks & Tools**
 
-* ROS / ROS 2
-* ROS 2 Humble
-* PX4 Autopilot
-* MAVSDK
-* MAVLink
-* Gazebo
-* RViz2
-* Nav2
-* SLAM Toolbox
-* Software-in-the-Loop
-* Sensor Fusion
-* Autonomous Navigation
-* Multi-Agent Coordination
+<p>
+  <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2 Humble"/>
+  <img src="https://img.shields.io/badge/PX4-Autopilot-37474F?style=flat-square&logo=px4&logoColor=white" alt="PX4 Autopilot"/>
+  <img src="https://img.shields.io/badge/MAVSDK-37474F?style=flat-square" alt="MAVSDK"/>
+  <img src="https://img.shields.io/badge/MAVLink-37474F?style=flat-square" alt="MAVLink"/>
+  <img src="https://img.shields.io/badge/Gazebo-37474F?style=flat-square" alt="Gazebo"/>
+  <img src="https://img.shields.io/badge/RViz2-37474F?style=flat-square" alt="RViz2"/>
+  <img src="https://img.shields.io/badge/Nav2-37474F?style=flat-square" alt="Nav2"/>
+  <img src="https://img.shields.io/badge/SLAM%20Toolbox-37474F?style=flat-square" alt="SLAM Toolbox"/>
+  <img src="https://img.shields.io/badge/SITL-37474F?style=flat-square" alt="Software-in-the-Loop"/>
+</p>
 
----
+**Capabilities**
 
-## Programming
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
-
-* Python
-* C++
-* Java
-* C
-* MATLAB
-* Linux
-* Bash
+<p>
+  <img src="https://img.shields.io/badge/Sensor%20Fusion-37474F?style=flat-square" alt="Sensor Fusion"/>
+  <img src="https://img.shields.io/badge/Autonomous%20Navigation-37474F?style=flat-square" alt="Autonomous Navigation"/>
+  <img src="https://img.shields.io/badge/Multi--Agent%20Coordination-37474F?style=flat-square" alt="Multi-Agent Coordination"/>
+</p>
 
 ---
 
-## Artificial Intelligence and Machine Learning
+### Programming & Systems
 
-* Machine Learning
-* Deep Learning
-* Computer Vision
-* Representation Learning
-* Few-Shot Learning
-* Speech Processing
-* Sensor Fusion
-* Extended Kalman Filtering
-* Optimization
-* Calibration
-* Distribution Shift
-* Uncertainty Modelling
-* Reliable AI
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"/>
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+</p>
 
 ---
 
-## Development and Engineering Tools
+### Artificial Intelligence & Machine Learning
 
-* Git
-* GitHub
-* Docker
-* OpenCV
-* NumPy
-* Pandas
-* Keras
-* Streamlit
-* MongoDB
-* REST APIs
-* Cloud Platforms
+<p>
+  <img src="https://img.shields.io/badge/Machine%20Learning-37474F?style=flat-square" alt="Machine Learning"/>
+  <img src="https://img.shields.io/badge/Deep%20Learning-37474F?style=flat-square" alt="Deep Learning"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-37474F?style=flat-square" alt="Computer Vision"/>
+  <img src="https://img.shields.io/badge/Representation%20Learning-37474F?style=flat-square" alt="Representation Learning"/>
+  <img src="https://img.shields.io/badge/Few--Shot%20Learning-37474F?style=flat-square" alt="Few-Shot Learning"/>
+  <img src="https://img.shields.io/badge/Speech%20Processing-37474F?style=flat-square" alt="Speech Processing"/>
+  <img src="https://img.shields.io/badge/Extended%20Kalman%20Filtering-37474F?style=flat-square" alt="Extended Kalman Filtering"/>
+  <img src="https://img.shields.io/badge/Optimization-37474F?style=flat-square" alt="Optimization"/>
+  <img src="https://img.shields.io/badge/Calibration-37474F?style=flat-square" alt="Calibration"/>
+  <img src="https://img.shields.io/badge/Distribution%20Shift-37474F?style=flat-square" alt="Distribution Shift"/>
+  <img src="https://img.shields.io/badge/Uncertainty%20Modelling-37474F?style=flat-square" alt="Uncertainty Modelling"/>
+  <img src="https://img.shields.io/badge/Reliable%20AI-37474F?style=flat-square" alt="Reliable AI"/>
+</p>
 
 ---
 
+### Development & Engineering Tools
+
+**Development & Infrastructure**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/REST%20APIs-37474F?style=flat-square" alt="REST APIs"/>
+  <img src="https://img.shields.io/badge/Cloud%20Platforms-37474F?style=flat-square" alt="Cloud Platforms"/>
+</p>
+
+**Data, Computer Vision & Machine Learning**
+
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras"/>
+</p>
+
+**Applications & Data Infrastructure**
+
+<p>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+</p>
+
+---
 # Robotics Platforms
 
 My practical robotics experience spans multiple platforms:

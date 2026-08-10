@@ -2199,10 +2199,6 @@ and academic work.
 
 <br>
 
-<p align="center">
-<strong>SCHOLARLY IDENTITY · PUBLICATIONS · CITATIONS · RESEARCH NETWORK</strong>
-</p>
-
 ---
 
 <h1>Connect</h1>
@@ -2221,7 +2217,7 @@ height="180"
 </p>
 
 <p align="center">
-Engineer · Robotics Researcher · Autonomous Systems
+<strong>AUTONOMOUS SYSTEMS · MULTI-AGENT ROBOTICS · SWARM INTELLIGENCE · RESILIENT AUTONOMY · MARINE ROBOTICS<br> · AGRICULTURAL ROBOTICS · RELIABLE AI</strong>
 </p>
 
 <p align="center">
@@ -2238,8 +2234,7 @@ autonomous systems and intelligent robotics.
 
 <tr>
 
-<td align="center" valign="middle" width="33.33%" height="100">
-
+<td align="center" valign="middle" width="33%">
 <a href="https://www.linkedin.com/in/shazin-hijazy/">
 <img
 src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg"
@@ -2247,31 +2242,26 @@ alt="LinkedIn"
 height="48"
 >
 </a>
-
 </td>
 
-<td align="center" valign="middle" width="33.33%" height="100">
-
+<td align="center" valign="middle" width="33%">
 <a href="mailto:shazhijazy@gmail.com">
 <img
-src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"
+src="https://cdn.simpleicons.org/gmail"
 alt="Email"
 height="48"
 >
 </a>
-
 </td>
 
-<td align="center" valign="middle" width="33.33%" height="100">
-
+<td align="center" valign="middle" width="33%">
 <a href="https://github.com/ShazinHijazy">
 <img
 src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
 alt="GitHub"
-height="60"
+height="65"
 >
 </a>
-
 </td>
 
 </tr>
@@ -2281,47 +2271,35 @@ height="60"
 
 <tr>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <strong>LinkedIn</strong>
-
 </td>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <strong>Email</strong>
-
 </td>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <strong>GitHub</strong>
-
 </td>
 
 </tr>
 
 
-<!-- CATEGORIES -->
+<!-- ROLES -->
 
 <tr>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <sub><strong>Professional Network</strong></sub>
-
 </td>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <sub><strong>Direct Contact</strong></sub>
-
 </td>
 
-<td align="center" valign="middle" height="55">
-
+<td align="center" valign="middle">
 <sub><strong>Open Source · Research</strong></sub>
-
 </td>
 
 </tr>
@@ -2331,7 +2309,7 @@ height="60"
 
 <tr>
 
-<td align="center" valign="middle" height="120">
+<td align="center" valign="middle">
 
 <sub>
 Connect with me professionally, explore my background,
@@ -2340,7 +2318,7 @@ and follow my work across engineering, robotics, and research.
 
 </td>
 
-<td align="center" valign="middle" height="120">
+<td align="center" valign="middle">
 
 <sub>
 For research collaboration, academic opportunities,
@@ -2349,7 +2327,7 @@ technical discussions, partnerships, and professional enquiries.
 
 </td>
 
-<td align="center" valign="middle" height="120">
+<td align="center" valign="middle">
 
 <sub>
 Explore my research implementations, robotics projects,
@@ -2365,7 +2343,7 @@ simulation environments, experiments, and open-source work.
 
 <tr>
 
-<td align="center" valign="middle" height="60">
+<td align="center" valign="middle">
 
 <a href="https://www.linkedin.com/in/shazin-hijazy/">
 <strong>View Profile ↗</strong>
@@ -2373,7 +2351,7 @@ simulation environments, experiments, and open-source work.
 
 </td>
 
-<td align="center" valign="middle" height="60">
+<td align="center" valign="middle">
 
 <a href="mailto:shazhijazy@gmail.com">
 <strong>Send an Email ↗</strong>
@@ -2381,7 +2359,7 @@ simulation environments, experiments, and open-source work.
 
 </td>
 
-<td align="center" valign="middle" height="60">
+<td align="center" valign="middle">
 
 <a href="https://github.com/ShazinHijazy">
 <strong>Explore GitHub ↗</strong>
@@ -2395,15 +2373,6 @@ simulation environments, experiments, and open-source work.
 
 <br>
 
-<p align="center">
-<strong>
-AUTONOMOUS SYSTEMS · MULTI-AGENT ROBOTICS · SWARM INTELLIGENCE ·
-RESILIENT AUTONOMY · MARINE ROBOTICS · AGRICULTURAL ROBOTICS · RELIABLE AI
-</strong>
-</p>
-
-<br>
-
 <p>
 If you are working on research related to
 <strong>autonomous systems, multi-agent robotics, swarm intelligence,
@@ -2411,22 +2380,24 @@ resilient autonomy, marine robotics, agricultural robotics, or reliable AI</stro
 I would be happy to connect and explore opportunities for collaboration.
 </p>
 
+<hr>
+
+<h1>Research Motto</h1>
+
+<p align="center">
+<strong>
+"Building autonomous systems that can operate when the real world does not behave as expected."
+</strong>
+</p>
+
+<br>
+
 <p align="center">
 <strong>Let's build, research, and learn together.</strong>
 </p>
 
----
-
-# Research Motto
+----
 
 <p align="center">
-
-### "Building autonomous systems that can operate when the real world does not behave as expected."
-
-</p>
-
----
-
-<p align="center">
-  <sub>© Mohamed Hijazy Shazin Hassan · Robotics · Autonomous Systems · Artificial Intelligence · Multi-Agent Robotics</sub>
+© Mohamed Hijazy Shazin Hassan · Robotics · Autonomous Systems · Artificial Intelligence · Multi-Agent Robotics
 </p>

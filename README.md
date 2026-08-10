@@ -250,19 +250,13 @@ This research investigates whether assigning specialised functional roles to UAV
 
 The proposed architecture divides UAV agents into operational roles:
 
-```text
-                    SWARM
-                      │
-          ┌───────────┼───────────┐
-          │           │           │
-          ▼           ▼           ▼
-      DEFENDER    MIDFIELDER    FORWARD
-          │           │           │
-          └───────────┼───────────┘
-                      │
-                      ▼
-             COORDINATED MISSION
-```
+<p align="center">
+  <img
+    src="role-partitioned-swarm-intelligence.png"
+    alt="Role-Partitioned Swarm Intelligence for resilient UAV coordination"
+    width="94%"
+  >
+</p>
 
 The work explores:
 

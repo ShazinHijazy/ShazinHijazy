@@ -960,40 +960,73 @@ flowchart TD
 
 This approach is particularly important for multi-agent systems where large-scale physical experimentation can be expensive and difficult to reproduce.
 
----
+# Education
 
-# Academic Background
+<table align="center">
+  <tr>
+    <td align="center" valign="middle" width="120">
+      <a href="https://www.andhrauniversity.edu.in/" target="_blank">
+        <img
+          src="au-logo.png"
+          alt="Andhra University"
+          width="82"
+        />
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <strong>Bachelor of Technology in Computer Science and Engineering</strong><br>
+      Department of Computer Science and Systems Engineering<br>
+      <a href="https://www.andhrauniversity.edu.in/" target="_blank">
+        <strong>Andhra University</strong>
+      </a><br>
+      Visakhapatnam, India<br>
+      <strong>2022 – 2026</strong>
+    </td>
+    <td align="center" valign="middle" width="130">
+      <strong>CGPA</strong><br>
+      <strong>8.80 / 10</strong>
+    </td>
+  </tr>
+</table>
 
-## Andhra University
-
-**Bachelor of Technology in Computer Science and Engineering**
-
-Department of Computer Science and Systems Engineering
-
-Visakhapatnam, India
-
-**CGPA: 8.80 / 10**
-
-Research-oriented coursework and project work included:
-
-* Artificial Intelligence
-* Machine Learning
-* Embedded Systems
-* Computer Networks
-* Operating Systems
-* Cloud Computing
+### Research & Academic Focus
 
 My undergraduate research developed primarily around:
 
-* Swarm Robotics
-* Autonomous Systems
-* Multi-Agent Coordination
-* Marine Robotics
-* Autonomous Navigation
-* Intelligent Control
-* Sensor Fusion
+`Swarm Robotics` · `Autonomous Systems` · `Multi-Agent Coordination` · `Marine Robotics` · `Autonomous Navigation` · `Intelligent Control` · `Sensor Fusion`
+
+### Coursework
+
+`Artificial Intelligence` · `Machine Learning` · `Embedded Systems` · `Computer Networks` · `Operating Systems` · `Cloud Computing`
 
 ---
+
+<table align="center">
+  <tr>
+    <td align="center" valign="middle" width="120">
+      <a href="https://www.zahiracollege.lk/" target="_blank">
+        <img
+          src="zahira-college-logo.png"
+          alt="Zahira College Colombo"
+          width="82"
+        />
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <strong>GCE Advanced Level – Physical Sciences</strong><br>
+      <strong>Subjects:</strong> · Pure Mathematics · Applied Mathematics · Physics · Chemistry<br>
+      <a href="https://www.zahiracollege.lk/" target="_blank">
+        <strong>Zahira College Colombo</strong>
+      </a><br>
+      Colombo, Sri Lanka<br>
+      <strong>2007 – 2020</strong>
+    </td>
+  </tr>
+</table>
+
+### Academic Foundation
+
+My school education provided a foundation in mathematics and the physical sciences that later developed into an undergraduate focus on computer science, artificial intelligence, robotics, and autonomous systems.
 
 # Research Experience
 

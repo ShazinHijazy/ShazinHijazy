@@ -203,7 +203,7 @@ The thesis represents the foundation of my current research direction in **fault
 
 <p align="center">
 <a href="https://www.researchsquare.com/article/rs-9957095/v1">
-<img src="research-square-logo.png" alt="Research Square" width="64">
+<img src="research-square-logo.png" alt="Research Square" width="240">
   
 ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
 

@@ -201,19 +201,24 @@ The thesis represents the foundation of my current research direction in **fault
 
 ## Adaptive Dual-Mode Operational Swarm for Resilient Asset Defense under Communication Jamming
 
-<p align="center">
-  <a href="https://www.researchsquare.com/article/rs-9957095/v1">
-    <img src="research-square-logo.webp"
-         alt="Research Square preprint rs-9957095/v1"
-         width="360">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">
-    <img src="doi-logo.png"
-         alt="DOI 10.21203/rs.3.rs-9957095/v1"
-         width="110">
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://www.researchsquare.com/article/rs-9957095/v1">
+        <img src="research-square-logo.webp"
+             alt="Research Square"
+             width="250">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">
+        <img src="doi-logo.png"
+             alt="DOI"
+             width="64">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
 

@@ -205,7 +205,7 @@ The thesis represents the foundation of my current research direction in **fault
   <a href="https://www.researchsquare.com/article/rs-9957095/v1">
     <img src="research-square-logo.webp"
          alt="Research Square"
-         height="64">
+         height="100">
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">

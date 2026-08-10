@@ -1054,8 +1054,6 @@ Kharagpur, West-Bengal, India<br>
 
 `ROS 2` · `Autonomous Navigation` · `Sensor Fusion` · `Localization` · `Mapping` · `Nav2` · `SLAM` · `Gazebo`
 
----
-
 ## Independent Research
 
 I continue to explore research problems across:
@@ -1156,7 +1154,6 @@ Translate decisions into safe and effective physical actions.
 
 Use data, simulation, and feedback to improve system behaviour and performance.
 
----
 
 ### Research Objective
 

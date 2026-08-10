@@ -152,6 +152,14 @@ My long-term goal is to contribute to robotic systems that can move from control
 
 **A Fault-Tolerant Decentralized Coordination Framework for UAV Swarms using Relative Suitability Elective Consensus and SITL Validation**
 
+<p align="center">
+  <img
+    src="uav-swarm-research-overview.png"
+    alt="High-level decentralized resilient UAV swarm research overview"
+    width="100%"
+  >
+</p>
+
 My bachelor's thesis investigates decentralized coordination and autonomous leadership in UAV swarms.
 
 The framework explores a **Relative Suitability Value (RSV)** based leader-election mechanism in which individual UAVs evaluate local operational conditions such as:

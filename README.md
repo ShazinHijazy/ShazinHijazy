@@ -531,22 +531,68 @@ The proposed concept uses a closed-loop data generation and policy refinement pi
 
 # Research Themes
 
-My research portfolio can be grouped into the following interconnected themes.
+<p align="center">
+  <strong>My research portfolio can be grouped into the following interconnected themes.</strong>
+</p>
 
-| Research Theme        | Areas                                    |
-| --------------------- | ---------------------------------------- |
-| Autonomous Systems    | UAVs, USVs, UUVs, AGVs                   |
-| Multi-Agent Robotics  | Swarms, distributed coordination         |
-| Resilient Autonomy    | Fault tolerance, graceful degradation    |
-| Decision-Making       | Arbitration, distributed decisions       |
-| Navigation            | Localization, mapping, path planning     |
-| Perception            | LiDAR, vision, sensor fusion             |
-| Reliable AI           | Calibration, distribution shift          |
-| Machine Learning      | Deep learning, few-shot learning         |
-| Robot Learning        | Simulation, synthetic data, manipulation |
-| Agricultural Robotics | Precision pruning, intelligent orchards  |
-| Marine Robotics       | Surface and underwater autonomy          |
-| Simulation            | Gazebo, SITL, physics-based validation   |
+<table align="center">
+  <thead>
+    <tr>
+      <th align="center">Research Theme</th>
+      <th align="center">Areas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Autonomous Systems</td>
+      <td align="center">UAVs, USVs, UUVs, AGVs</td>
+    </tr>
+    <tr>
+      <td align="center">Multi-Agent Robotics</td>
+      <td align="center">Swarms, distributed coordination</td>
+    </tr>
+    <tr>
+      <td align="center">Resilient Autonomy</td>
+      <td align="center">Fault tolerance, graceful degradation</td>
+    </tr>
+    <tr>
+      <td align="center">Decision-Making</td>
+      <td align="center">Arbitration, distributed decisions</td>
+    </tr>
+    <tr>
+      <td align="center">Navigation</td>
+      <td align="center">Localization, mapping, path planning</td>
+    </tr>
+    <tr>
+      <td align="center">Perception</td>
+      <td align="center">LiDAR, vision, sensor fusion</td>
+    </tr>
+    <tr>
+      <td align="center">Reliable AI</td>
+      <td align="center">Calibration, distribution shift</td>
+    </tr>
+    <tr>
+      <td align="center">Machine Learning</td>
+      <td align="center">Deep learning, few-shot learning</td>
+    </tr>
+    <tr>
+      <td align="center">Robot Learning</td>
+      <td align="center">Simulation, synthetic data, manipulation</td>
+    </tr>
+    <tr>
+      <td align="center">Agricultural Robotics</td>
+      <td align="center">Precision pruning, intelligent orchards</td>
+    </tr>
+    <tr>
+      <td align="center">Marine Robotics</td>
+      <td align="center">Surface and underwater autonomy</td>
+    </tr>
+    <tr>
+      <td align="center">Simulation</td>
+      <td align="center">Gazebo, SITL, physics-based validation</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -554,46 +600,24 @@ My research portfolio can be grouped into the following interconnected themes.
 
 I am interested in the complete research lifecycle:
 
-```text
-        PROBLEM
-           │
-           ▼
-    LITERATURE REVIEW
-           │
-           ▼
-   PROBLEM FORMULATION
-           │
-           ▼
-   MATHEMATICAL MODEL
-           │
-           ▼
-      ALGORITHM
-           │
-           ▼
-   SYSTEM ARCHITECTURE
-           │
-           ▼
-     IMPLEMENTATION
-           │
-           ▼
-       SIMULATION
-           │
-           ▼
-     EXPERIMENTATION
-           │
-           ▼
-      VALIDATION
-           │
-           ▼
-       ANALYSIS
-           │
-           ▼
-      PUBLICATION
-           │
-           ▼
-   REAL-WORLD DEPLOYMENT
+```mermaid
+flowchart TD
+    A["PROBLEM"] --> B["LITERATURE REVIEW"]
+    B --> C["PROBLEM FORMULATION"]
+    C --> D["MATHEMATICAL MODEL"]
+    D --> E["ALGORITHM"]
+    E --> F["SYSTEM ARCHITECTURE"]
+    F --> G["IMPLEMENTATION"]
+    G --> H["SIMULATION"]
+    H --> I["EXPERIMENTATION"]
+    I --> J["VALIDATION"]
+    J --> K["ANALYSIS"]
+    K -->|REFINEMENT| C
+    K -->|ITERATION| G
+    K --> L["PUBLICATION"]
+    L --> M["REAL-WORLD DEPLOYMENT"]
 ```
-
+    
 My goal is to progressively connect theoretical research with practical robotic systems.
 
 ---

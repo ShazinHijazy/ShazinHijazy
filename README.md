@@ -1225,17 +1225,50 @@ Across different robotic domains, my research repeatedly returns to one central 
 
 > **How can autonomous systems remain useful, safe, and coordinated when their assumptions about the world stop being true?**
 
-For UAV swarms, this may mean communication failure.
+Autonomous systems are often developed under assumptions about:
 
-For marine robots, it may mean uncertain localization or limited sensing.
+- Reliable communication
+- Accurate sensing
+- Stable environments
+- Known system dynamics
+- Representative training data
+- Successful component operation
+
+In real-world deployment, these assumptions can fail.
+
+For UAV swarms, this may mean communication loss or degraded coordination.
+
+For marine robots, it may mean uncertain localization, limited sensing, or changing environmental conditions.
 
 For agricultural robots, it may mean occluded and changing plant structures.
 
-For AI systems, it may mean distribution shift.
+For learning-based systems, it may mean distribution shift, uncertainty, or unfamiliar observations.
 
-For manipulation systems, it may mean the physical world differs from the training environment.
+For manipulation systems, it may mean that the physical world differs from the environment in which the system was trained.
 
 These are different manifestations of the same underlying challenge:
+
+## Building autonomy that remains reliable under uncertainty.
+
+My research perspective is centered on systems that can reason about uncertainty, coordinate under constraints, adapt to changing conditions, recover from partial failures, and continue operating when assumptions break down.
+
+This connects my interests across:
+
+`Multi-Agent Robotics` · `Resilient Autonomy` · `Reliable AI` · `Perception` · `Decision-Making` · `Control` · `Marine Robotics` · `UAV Systems` · `Agricultural Robotics`
+
+### The Research Goal
+
+Ultimately, I am interested in the transition from:
+
+<p align="center">
+  <strong>ASSUMPTION-DRIVEN AUTONOMY</strong><br>
+  ↓<br>
+  <strong>UNCERTAINTY-AWARE AUTONOMY</strong><br>
+  ↓<br>
+  <strong>ADAPTIVE & RESILIENT AUTONOMY</strong><br>
+  ↓<br>
+  <strong>RELIABLE REAL-WORLD AUTONOMY</strong>
+</p>
 
 ## Building autonomy that remains reliable under uncertainty.
 

@@ -203,11 +203,10 @@ The thesis represents the foundation of my current research direction in **fault
 
 <p align="center">
 <a href="https://www.researchsquare.com/article/rs-9957095/v1">
-<img src="research-square-logo.png" alt="Research Square" width="150"></a>
-</p>
-<p align="center">
+<img align="center" src="research-square-logo.png" alt="Research Square" width="150"></a>
+&nbsp;&nbsp
 <a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">
-<img src="doi-logo.png" alt="DOI" width="60">
+<img align="center" src="doi-logo.png" alt="DOI" width="60">
 </a>
 </p>
   

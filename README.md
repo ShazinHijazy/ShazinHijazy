@@ -173,15 +173,23 @@ The objective is to enable the swarm to dynamically determine a suitable leader 
 
 ### Technical Stack
 
-* ROS 2 Humble
-* PX4 Autopilot
-* MAVSDK
-* MAVLink
-* Gazebo
-* DDS
-* Software-in-the-Loop (SITL)
-* Python
-* C++
+**Robotics & Autonomy**
+
+![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![PX4 Autopilot](https://img.shields.io/badge/PX4-Autopilot-37474F?style=flat-square&logo=px4&logoColor=white)
+![MAVSDK](https://img.shields.io/badge/MAVSDK-37474F?style=flat-square)
+![MAVLink](https://img.shields.io/badge/MAVLink-37474F?style=flat-square)
+
+**Simulation & Communication**
+
+![Gazebo](https://img.shields.io/badge/Gazebo-37474F?style=flat-square&logo=gazebo&logoColor=white)
+![DDS](https://img.shields.io/badge/DDS-37474F?style=flat-square)
+![SITL](https://img.shields.io/badge/Software--in--the--Loop%20(SITL)-37474F?style=flat-square)
+
+**Programming**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 ### Research Problems
 

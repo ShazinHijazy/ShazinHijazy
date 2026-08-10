@@ -213,6 +213,14 @@ The thesis represents the foundation of my current research direction in **fault
   
 ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
 
+<p align="center">
+  <img
+    src="admos.png"
+    alt="ADMOS adaptive dual-mode UAV swarm architecture"
+    width="100%"
+  >
+</p>
+
 The research explores an adaptive architecture combining:
 
 ### Distributed State Estimation

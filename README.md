@@ -291,25 +291,24 @@ The project brought together hardware, perception, localization, navigation, tel
 
 ### Platform
 
-* Raspberry Pi
-* Blue Robotics T100 thrusters
-* Electronic Speed Controllers
-* GNSS
-* IMU
-* RPLiDAR
-* Ultrasonic sensing
-* Telemetry radio
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
+![Blue Robotics](https://img.shields.io/badge/Blue%20Robotics-T100-1F4E79?style=flat-square)
+![ESC](https://img.shields.io/badge/Electronic%20Speed%20Controllers-333333?style=flat-square)
+![GNSS](https://img.shields.io/badge/GNSS-2E7D32?style=flat-square)
+![IMU](https://img.shields.io/badge/IMU-5C6BC0?style=flat-square)
+![RPLiDAR](https://img.shields.io/badge/RPLiDAR-37474F?style=flat-square)
+![Ultrasonic](https://img.shields.io/badge/Ultrasonic%20Sensing-00838F?style=flat-square)
+![Telemetry](https://img.shields.io/badge/433%20MHz%20Telemetry-6A1B9A?style=flat-square)
 
 ### Software
 
-* ROS 2
-* Nav2
-* SLAM Toolbox
-* Gazebo
-* RViz2
-* Python
-* Linux
-
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
+![Nav2](https://img.shields.io/badge/Nav2-ROS%202-22314E?style=flat-square)
+![SLAM Toolbox](https://img.shields.io/badge/SLAM%20Toolbox-ROS%202-22314E?style=flat-square)
+![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-FF6F00?style=flat-square&logo=gazebo&logoColor=white)
+![RViz2](https://img.shields.io/badge/RViz2-Visualization-22314E?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Development-333333?style=flat-square&logo=linux&logoColor=white)
 ### Research and Engineering Areas
 
 * Autonomous waypoint navigation

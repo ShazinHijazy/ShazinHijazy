@@ -1303,145 +1303,325 @@ Engineering and research are only part of my work.
 </p>
 
 <p>
-Alongside technical research, I have been involved in <strong>technology communication, student-led innovation, entrepreneurship, technical communities, leadership, youth development, and community building.</strong>
+Alongside technical research, I have been involved in
+<strong>technology communication, student-led innovation, entrepreneurship, technical communities, leadership, youth development, and community building.</strong>
 </p>
 
 <table align="center" width="100%" cellpadding="18" cellspacing="0">
 
+<!-- LOGOS -->
+
 <tr>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="crossroad.png" alt="CrossRoads with Shazin Hijazy" height="78"><br><br>
-
-<strong>CrossRoads with Shazin Hijazy</strong><br>
-
-<sub><strong>Founder &amp; Host</strong></sub><br><br>
-
-<sub>Conversation platform for academics, entrepreneurs, researchers, and community leaders.</sub><br><br>
-
-<a href="https://www.linkedin.com/company/crossroads-with-shazin-hijazy"><strong>Explore ↗</strong></a>
-
+<img src="crossroad.png" alt="CrossRoads with Shazin Hijazy" height="78">
 </td>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="codeiam-logo.png" alt="CodeIam" height="88"><br><br>
-
-<strong>CodeIam</strong><br>
-
-<sub><strong>President</strong></sub><br><br>
-
-<sub>Student technology and innovation ecosystem focused on pre-incubation.</sub><br><br>
-
-<a href="https://www.linkedin.com/company/codeiam-club"><strong>Explore ↗</strong></a>
-
+<img src="codeiam-logo.png" alt="CodeIam" height="78">
 </td>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="hult-au-logo.png" alt="Hult Prize at Andhra University" height="78"><br><br>
-
-<strong>Hult Prize · Andhra University</strong><br>
-
-<sub><strong>Deputy Campus Director</strong></sub><br><br>
-
-<sub>Student innovation, entrepreneurship, partnerships, and campus programmes.</sub><br><br>
-
-<a href="https://www.hultprize.org/"><strong>Explore ↗</strong></a>
-
+<img src="hult-au-logo.png" alt="Hult Prize at Andhra University" height="78">
 </td>
 
 </tr>
 
+<!-- ORGANIZATION NAMES -->
+
 <tr>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="gdg-oc-auce-logo.png" alt="GDG on Campus AUCE" height="78"><br><br>
-
-<strong>GDG on Campus · AUCE</strong><br>
-
-<sub><strong>Technical Head · Flutter</strong></sub><br><br>
-
-<sub>Technical community activities, project development, and student technology initiatives.</sub><br><br>
-
-<a href="https://www.linkedin.com/company/gdsc-auce/"><strong>Explore ↗</strong></a>
-
+<strong>CrossRoads with Shazin Hijazy</strong>
 </td>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="wosy-logo.png" alt="World Organization of Students and Youth" height="78"><br><br>
-
-<strong>WOSY</strong><br>
-
-<sub><strong>International Secretary</strong></sub><br><br>
-
-<sub>International youth engagement, student representation, cultural exchange, and conferences.</sub><br><br>
-
-<a href="https://www.wosy.org/"><strong>Explore ↗</strong></a>
-
+<strong>CodeIam</strong>
 </td>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="ayli-logo.png" alt="Al Azhar Youth Leader Institute" height="78"><br><br>
-
-<strong>Al Azhar Youth Leader Institute</strong><br>
-
-<sub><strong>Leadership Trainee · International Member</strong></sub><br><br>
-
-<sub>Youth leadership, international engagement, public speaking, and social development.</sub><br><br>
-
-<a href="http://www.al-azhar.or.id/"><strong>Explore ↗</strong></a>
-
+<strong>Hult Prize · Andhra University</strong>
 </td>
 
 </tr>
 
+<!-- ROLES -->
+
 <tr>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="a-hub-logo.png" alt="a-hub" height="78"><br><br>
-
-<strong>a-hub</strong><br>
-
-<sub><strong>Innovation &amp; Entrepreneurship</strong></sub><br><br>
-
-<sub>Student innovation, startup programmes, ideation, and entrepreneurship activities.</sub><br><br>
-
-<a href="https://www.a-hub.co/"><strong>Explore ↗</strong></a>
-
+<sub><strong>Founder &amp; Host</strong></sub>
 </td>
 
 <td align="center" valign="middle" width="33%">
-
-<img src="caarya-logo.png" alt="Caarya" height="78"><br><br>
-
-<strong>Caarya</strong><br>
-
-<sub><strong>Startup Research &amp; Outreach Intern</strong></sub><br><br>
-
-<sub>Startup research, founder interviews, ecosystem analysis, and student opportunities.</sub><br><br>
-
-<a href="https://caarya.in/"><strong>Explore ↗</strong></a>
-
+<sub><strong>President</strong></sub>
 </td>
 
 <td align="center" valign="middle" width="33%">
+<sub><strong>Deputy Campus Director</strong></sub>
+</td>
 
-<img src="jci-logo.png" alt="JCI Vizag Incredibles" height="78"><br><br>
+</tr>
 
-<strong>JCI Vizag Incredibles</strong><br>
+<!-- DESCRIPTIONS -->
 
-<sub><strong>Local Organization President</strong></sub><br><br>
+<tr>
 
-<sub>Leadership, entrepreneurship, community initiatives, partnerships, and youth development.</sub><br><br>
+<td align="center" valign="middle" width="33%">
+<sub>
+Conversation platform for academics, entrepreneurs,<br>
+researchers, and community leaders.
+</sub>
+</td>
 
-<a href="https://jci.cc/"><strong>Explore ↗</strong></a>
+<td align="center" valign="middle" width="33%">
+<sub>
+Student technology and innovation ecosystem<br>
+focused on development and pre-incubation.
+</sub>
+</td>
 
+<td align="center" valign="middle" width="33%">
+<sub>
+Student innovation, entrepreneurship,<br>
+partnerships, and campus programmes.
+</sub>
+</td>
+
+</tr>
+
+<!-- LINKS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.linkedin.com/company/crossroads-with-shazin-hijazy">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.linkedin.com/company/codeiam-club">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.hultprize.org/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+</tr>
+
+
+<!-- SECOND ROW: LOGOS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<img src="gdg-oc-auce-logo.png" alt="GDG on Campus AUCE" height="78">
+</td>
+
+<td align="center" valign="middle" width="33%">
+<img src="wosy-logo.png" alt="World Organization of Students and Youth" height="78">
+</td>
+
+<td align="center" valign="middle" width="33%">
+<img src="ayli-logo.png" alt="Al Azhar Youth Leader Institute" height="78">
+</td>
+
+</tr>
+
+<!-- SECOND ROW: NAMES -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<strong>GDG on Campus · AUCE</strong>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<strong>WOSY</strong>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<strong>Al Azhar Youth Leader Institute</strong>
+</td>
+
+</tr>
+
+<!-- SECOND ROW: ROLES -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>Technical Head · Flutter</strong></sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>International Secretary</strong></sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>Leadership Trainee · International Member</strong></sub>
+</td>
+
+</tr>
+
+<!-- SECOND ROW: DESCRIPTIONS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+Technical community activities, project development,<br>
+and student technology initiatives.
+</sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+International youth engagement, student representation,<br>
+cultural exchange, and conferences.
+</sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+Youth leadership, international engagement,<br>
+public speaking, and social development.
+</sub>
+</td>
+
+</tr>
+
+<!-- SECOND ROW: LINKS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.linkedin.com/company/gdsc-auce/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.wosy.org/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="http://www.al-azhar.or.id/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+</tr>
+
+
+<!-- THIRD ROW: LOGOS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<img src="a-hub-logo.png" alt="a-hub" height="78">
+</td>
+
+<td align="center" valign="middle" width="33%">
+<img src="caarya-logo.png" alt="Caarya" height="78">
+</td>
+
+<td align="center" valign="middle" width="33%">
+<img src="jci-logo.png" alt="JCI Vizag Incredibles" height="78">
+</td>
+
+</tr>
+
+<!-- THIRD ROW: NAMES -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<strong>a-hub</strong>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<strong>Caarya</strong>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<strong>JCI Vizag Incredibles</strong>
+</td>
+
+</tr>
+
+<!-- THIRD ROW: ROLES -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>Innovation &amp; Entrepreneurship</strong></sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>Startup Research &amp; Outreach Intern</strong></sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub><strong>Local Organization President</strong></sub>
+</td>
+
+</tr>
+
+<!-- THIRD ROW: DESCRIPTIONS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+Student innovation, startup programmes, ideation,<br>
+and entrepreneurship activities.
+</sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+Startup research, founder interviews, ecosystem analysis,<br>
+and student opportunities.
+</sub>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<sub>
+Leadership, entrepreneurship, community initiatives,<br>
+partnerships, and youth development.
+</sub>
+</td>
+
+</tr>
+
+<!-- THIRD ROW: LINKS -->
+
+<tr>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://www.a-hub.co/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://caarya.in/">
+<strong>Explore ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<a href="https://jci.cc/">
+<strong>Explore ↗</strong>
+</a>
 </td>
 
 </tr>
@@ -1455,75 +1635,573 @@ Alongside technical research, I have been involved in <strong>technology communi
 </p>
 
 <p>
-These experiences have shaped how I approach technical work: not only by developing systems and ideas, but also by <strong>communicating them clearly, connecting people across disciplines, building communities, and creating opportunities for collaboration.</strong>
+These experiences have shaped how I approach technical work: not only by developing systems and ideas, but also by communicating them clearly, connecting people across disciplines, building communities, and creating opportunities for collaboration.
 </p>
 
-# Open Source and Research
+# The Drone Swarm
 
-I use GitHub as more than a code repository.
+<p align="center">
+  <img src="the-drone-swarm-logo.png" alt="The Drone Swarm" width="150">
+</p>
 
-For me, GitHub is a research workspace for:
+<p align="center">
+  <strong>An Independent Research Collaboration Initiative in Robotics & Intelligent Autonomous Systems</strong>
+</p>
 
-* Reproducible experiments
-* Robotics software
-* Simulation environments
-* Algorithm implementations
-* Research prototypes
-* Documentation
-* Experimental results
-* Open technical discussion
+<p align="center">
+  <a href="https://www.linkedin.com/company/drones-swarm">
+    <strong>Explore The Drone Swarm ↗</strong>
+  </a>
+</p>
 
-Where appropriate, I aim to make research implementations understandable, reproducible, and useful to other researchers and engineers.
 
----
+The Drone Swarm is an independent research collaboration initiative established to connect researchers, engineers, students, and technical contributors
+working on robotics and intelligent autonomous systems.
 
-# Selected Repository Areas
+The initiative grew from my own research journey in swarm robotics and autonomous systems, and from the belief that meaningful research increasingly emerges through collaboration across institutions, disciplines, and geographical boundaries.
 
-My GitHub repositories currently include work related to:
+Rather than functioning as a conventional organization, The Drone Swarm is intended as a collaborative research space for exploring ideas, developing research concepts, building experimental systems, and connecting people who share an interest in advancing autonomous systems.
 
-* UAV swarm systems
-* Autonomous catamaran systems
-* Adaptive mobile barrier coverage
-* Final-year research
-* Maritime technology
-* Autonomous robotics
-* Research prototypes
+## Research Scope
 
----
+The initiative is centered around research areas including:
 
-# Research Profiles
-
-## Google Scholar
-
-My Google Scholar profile provides the academic publication and citation record associated with my research work.
-
-**Google Scholar:**
-[https://scholar.google.com/citations?user=gjZ9LDQAAAAJ&hl=en](https://scholar.google.com/citations?user=gjZ9LDQAAAAJ&hl=en)
+`Swarm Robotics` · `Multi-Agent Systems` · `Autonomous Systems` · `Distributed Intelligence` · `Robotic Perception` · `Sensor Fusion` · `Autonomous Navigation` · `Marine Robotics` · `UAV Systems` · `Reliable AI` · `Resilient Autonomy` · `Human-Robot Collaboration`
 
 ---
 
-## ResearchGate
+## How Collaboration Works
 
-ResearchGate contains my research publications, manuscripts, and research-related work.
+```mermaid
+flowchart TD
 
-**ResearchGate:**
-[https://www.researchgate.net/profile/Mohamed-Hijazy-Hassan](https://www.researchgate.net/profile/Mohamed-Hijazy-Hassan)
+A["RESEARCH QUESTIONS"] --> B["IDEAS & DISCUSSION"]
+B --> C["COLLABORATIVE RESEARCH"]
+C --> D["ALGORITHMS & SYSTEM DESIGN"]
+D --> E["SIMULATION & EXPERIMENTATION"]
+E --> F["PROTOTYPE VALIDATION"]
+F --> G["RESEARCH OUTPUT"]
+
+G --> H["OPEN TECHNICAL KNOWLEDGE"]
+
+classDef core fill:#FFFFFF,stroke:#0F172A,stroke-width:2px,color:#0F172A,font-weight:bold;
+classDef research fill:#E5E7EB,stroke:#0F172A,stroke-width:2px,color:#0F172A,font-weight:bold;
+classDef output fill:#0F172A,stroke:#0F172A,stroke-width:2px,color:#FFFFFF,font-weight:bold;
+
+class A,B core;
+class C,D,E,F research;
+class G,H output;
+
+linkStyle default stroke:#0F172A,stroke-width:2px;
+```
 
 ---
 
-## Academia.edu
+<h1>Open Source · Research · Reproducibility</h1>
 
-My Academia profile contains selected papers and research uploads, including work on resilient UAV swarms, autonomous underwater decision-making, and calibration under distribution shift.
+<p>
+I use GitHub not only as a code repository, but as a working space for
+<strong>research, experimentation, simulation, and reproducible technical development.</strong>
+</p>
 
-**Academia.edu:**
-[https://andhrauniversity.academia.edu/MohamedHijazyShazinHassan](https://andhrauniversity.academia.edu/MohamedHijazyShazinHassan)
+<p>
+My repositories document different stages of my research process, from
+<strong>algorithm development and simulation</strong> to
+<strong>robotics software, experimental validation, documentation, and research prototypes.</strong>
+</p>
+
+<p align="center">
+<strong>RESEARCH · IMPLEMENTATION · SIMULATION · EXPERIMENTATION · DOCUMENTATION · REPRODUCIBILITY</strong>
+</p>
+
+<h2>Selected Research Repositories</h2>
+
+<table align="center" width="100%" cellpadding="12" cellspacing="0">
+
+<tr>
+
+<!-- ===================================================== -->
+<!-- CARD 1 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>Autonomous Catamaran</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>Marine Robotics · ROS 2 · Navigation</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Autonomous Surface Vehicle development involving sensing,<br>
+navigation, SLAM, telemetry, simulation, and system integration.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
+<strong>Repository ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+
+<!-- ===================================================== -->
+<!-- CARD 2 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>Adaptive Mobile<br>Barrier Coverage</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>Distributed Robotics · Probabilistic Coverage</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Decentralized mobile-sensor barrier coverage for stochastic<br>
+target trajectories with reproducible numerical evaluation.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
+<strong>Repository ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+
+<!-- ===================================================== -->
+<!-- CARD 3 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>RASID-SH<br>Architecture</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>Multi-Agent Systems · Swarm Simulation</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Multi-agent swarm simulation exploring decentralized<br>
+leader election, reputation, communication quality, and visualization.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
+<strong>Repository ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+
+<tr>
+
+<!-- ===================================================== -->
+<!-- CARD 4 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy/sihdrone">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>SIH Drone</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>UAV Swarms · Distributed Coordination</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Drone-swarm simulation studying decentralized coordination,<br>
+communication degradation, stochastic scenarios, and swarm behaviour.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy/sihdrone">
+<strong>Repository ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+
+<!-- ===================================================== -->
+<!-- CARD 5 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy/final-year-project">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>Final-Year Research</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>UAV Swarms · Resilient Autonomy</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Research implementation supporting undergraduate work on<br>
+fault-tolerant decentralized coordination for UAV swarms.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy/final-year-project">
+<strong>Repository ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+
+<!-- ===================================================== -->
+<!-- CARD 6 -->
+<!-- ===================================================== -->
+
+<td width="33.33%" valign="top" align="center">
+
+<table width="100%" cellpadding="14" cellspacing="0">
+
+<tr>
+<td align="center" valign="middle" height="85">
+<a href="https://github.com/ShazinHijazy?tab=repositories">
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+alt="GitHub"
+width="48">
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<strong>More Research<br>&amp; Robotics</strong>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<sub><strong>Projects · Experiments · Prototypes</strong></sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="115">
+<sub>
+Additional work covering autonomous robotics, maritime technology,<br>
+software experiments, research prototypes, and technical projects.
+</sub>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="middle" height="55">
+<a href="https://github.com/ShazinHijazy?tab=repositories">
+<strong>View All ↗</strong>
+</a>
+</td>
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<h2>Research Reproducibility</h2>
+
+<p align="center">
+<strong>CODE · SIMULATION · EXPERIMENTS · DOCUMENTATION · RESULTS</strong>
+</p>
+
+<p align="center">
+Where possible, I aim to make my research implementations understandable, reproducible, and useful beyond the original experiment.
+</p>
+
+<p align="center">
+<a href="https://github.com/ShazinHijazy">
+<strong>Explore My GitHub ↗</strong>
+</a>
+</p>
 
 ---
 
-## ORCID
+<h1>Research Profiles</h1>
 
-**ORCID:**
-[https://orcid.org/0009-0009-9256-7824](https://orcid.org/0009-0009-9256-7824)
+<p>
+My scholarly work and research presence can be explored through the following academic platforms.
+</p>
+
+<table align="center" width="100%" cellpadding="18" cellspacing="0">
+
+<tr>
+
+<td align="center" valign="middle" width="25%">
+<a href="https://orcid.org/0009-0009-9256-7824">
+<img src="https://cdn.simpleicons.org/orcid/A6CE39" alt="ORCID" width="60" height="60">
+</a>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<a href="https://scholar.google.com/citations?user=gjZ9LDQAAAAJ&amp;hl=en">
+<img src="https://cdn.simpleicons.org/googlescholar/4285F4" alt="Google Scholar" width="60" height="60">
+</a>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<a href="https://www.researchgate.net/profile/Mohamed-Hijazy-Hassan">
+<img src="https://cdn.simpleicons.org/researchgate/00CCBB" alt="ResearchGate" width="60" height="60">
+</a>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<a href="https://andhrauniversity.academia.edu/MohamedHijazyShazinHassan">
+<img src="https://cdn.simpleicons.org/academia/41454A" alt="Academia.edu" width="60" height="60">
+</a>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<strong>ORCID</strong>
+</td>
+
+<td align="center" valign="middle">
+<strong>Google Scholar</strong>
+</td>
+
+<td align="center" valign="middle">
+<strong>ResearchGate</strong>
+</td>
+
+<td align="center" valign="middle">
+<strong>Academia.edu</strong>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Researcher Identifier</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Publications &amp; Citations</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Research Network</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Research &amp; Publications</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>
+Persistent identifier connecting my<br>
+research work and scholarly record.
+</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>
+Academic publications, citation information,<br>
+and scholarly research output.
+</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>
+Research publications, manuscripts, projects,<br>
+and connections with the research community.
+</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>
+Selected papers, manuscripts, research uploads,<br>
+and academic work.
+</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<a href="https://orcid.org/0009-0009-9256-7824">
+<strong>View Profile ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle">
+<a href="https://scholar.google.com/citations?user=gjZ9LDQAAAAJ&amp;hl=en">
+<strong>View Profile ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle">
+<a href="https://www.researchgate.net/profile/Mohamed-Hijazy-Hassan">
+<strong>View Profile ↗</strong>
+</a>
+</td>
+
+<td align="center" valign="middle">
+<a href="https://andhrauniversity.academia.edu/MohamedHijazyShazinHassan">
+<strong>View Profile ↗</strong>
+</a>
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<p align="center">
+<strong>SCHOLARLY IDENTITY · PUBLICATIONS · CITATIONS · RESEARCH NETWORK</strong>
+</p>
 
 ---
 

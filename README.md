@@ -1270,31 +1270,30 @@ Ultimately, I am interested in the transition from:
   <strong>RELIABLE REAL-WORLD AUTONOMY</strong>
 </p>
 
-## Building autonomy that remains reliable under uncertainty.
-
----
-
 # Research Network
 
-I believe research progresses through collaboration.
+Research progresses through collaboration across disciplines, institutions, and technical perspectives.
 
-I am interested in working with:
+I am interested in connecting with:
 
-* Robotics laboratories
-* AI research groups
-* Universities
-* Autonomous systems researchers
-* Multi-agent systems researchers
-* Marine robotics researchers
-* Agricultural robotics researchers
-* Machine learning researchers
-* Open-source robotics communities
-* Interdisciplinary engineering teams
+`Robotics Laboratories` · `AI Research Groups` · `Universities` · `Autonomous Systems` · `Multi-Agent Systems` · `Marine Robotics` · `Agricultural Robotics` · `Machine Learning` · `Open-Source Robotics` · `Interdisciplinary Engineering Teams`
 
-Especially collaborations that combine:
+### Collaboration Across the Research Stack
 
-**Theory + Algorithms + Simulation + Hardware + Real-World Validation**
+```mermaid
+flowchart LR
+    A["THEORY"] --> B["ALGORITHMS"]
+    B --> C["SIMULATION"]
+    C --> D["HARDWARE"]
+    D --> E["EXPERIMENTATION"]
+    E --> F["REAL-WORLD<br/>VALIDATION"]
 
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px;
+    classDef final fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px;
+
+    class A,B,C,D,E stage;
+    class F final;
+```
 ---
 
 # Beyond Engineering

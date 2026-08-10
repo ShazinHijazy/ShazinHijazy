@@ -1,5 +1,3 @@
-# Mohamed Hijazy Shazin Hassan
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E3A5F&height=220&section=header&text=Mohamed%20Hijazy%20Shazin%20Hassan&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Robotics%20%7C%20Autonomous%20Systems%20%7C%20Multi-Agent%20Robotics%20%7C%20AI&descAlignY=58&descSize=18" width="100%"/>
 </p>
@@ -130,7 +128,7 @@ For me, meaningful autonomy also requires understanding what happens when:
 * multiple agents disagree,
 * or a learned model encounters conditions outside its training distribution.
 
-This has led my research toward **resilience, decentralization, adaptability, uncertainty, and practical validation**.
+This has led my research toward resilience, decentralization, adaptability, uncertainty, and practical validation.
 
 My long-term goal is to contribute to robotic systems that can move from controlled demonstrations toward dependable operation in real environments.
 
@@ -222,7 +220,7 @@ flowchart TD
 
 My bachelor's thesis investigates decentralized coordination and autonomous leadership in UAV swarms.
 
-The framework explores a **Relative Suitability Value (RSV)** based leader-election mechanism in which individual UAVs evaluate local operational conditions such as:
+The framework explores a Relative Suitability Value (RSV) based leader-election mechanism in which individual UAVs evaluate local operational conditions such as:
 
 * Residual energy
 * Neighbour connectivity

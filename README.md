@@ -1658,6 +1658,41 @@ flowchart TD
     linkStyle default stroke:#0F172A,stroke-width:2px;
 ```
 
+The broader objective is to develop autonomous systems that are not only capable of making intelligent decisions, but are also able to recognise the limits of their own predictions when operating under uncertainty and distribution shift.
+
+<br> <p align="center"> 
+
+Two manuscript versions document the evolution of this research direction. Research Square and DOI links are provided below for direct access.</sub> 
+
+</p> 
+
+<br> 
+
+<p align="center"> 
+  <strong>READ VERSION 1</strong> 
+<p align="center">
+  <a href="https://www.researchsquare.com/article/rs-9829547/v1"> <img src="research-square-logo.png" alt="Research Square Version 1" width="150" /> 
+    </a>
+</p>
+<p align="center">
+<a href="https://doi.org/10.21203/rs.3.rs-9829547/v1"> <img src="doi-logo.png" alt="DOI Version 1" width="60" /> 
+</a>
+</p>
+</p>
+<br>
+<br>
+<p align="center"> 
+  <strong>READ VERSION 2</strong>
+<p align="center">
+<a href="https://www.researchsquare.com/article/rs-9829547/v2"> <img src="research-square-logo.png" alt="Research Square Version 2" width="150" /> 
+</a>
+</p>
+<p align="center">
+<a href="https://doi.org/10.21203/rs.3.rs-9829547/v2"> <img src="doi-logo.png" alt="DOI Version 2" width="60" /> 
+</a> 
+</p>
+</p>
+
 ---
 
 # 09. Few-Shot Language-Agnostic Keyword Spotting

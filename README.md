@@ -1938,32 +1938,195 @@ The complete implementation, model files, evaluation scripts, and supporting res
 </p> <br> 
 <p align="center"> 
   <a href="https://github.com/ShazinHijazy/Echo-Fuse-FSLAKWS"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
-</p> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
 
 
-# 9. Computer Vision
+# 09. Computer Vision
 
 ## Deep Learning-Based Image Profiling and Similarity Detection
 
-During my software project management internship, I contributed to the development of a facial image profiling and similarity detection system.
+Development of a facial image profiling and similarity detection system designed to identify and group images based on facial similarity.
 
-The system combined:
+The system allows a user to provide a single image and retrieve other images containing the same individual, including both individual and group photographs.
 
-* Image preprocessing
-* Facial feature extraction
-* Facial embeddings
-* Euclidean distance analysis
-* DBSCAN clustering
-* OpenCV
-* NumPy
-* Pandas
-* Python
+## Research and Technical Focus
 
-The system was designed to cluster images based on facial similarity and retrieve images containing the same individual across individual and group photographs.
+<p align="center">
 
-The project reported **95.71% accuracy under normal lighting conditions**, while also identifying low-light performance as an important limitation.
+<img src="https://img.shields.io/badge/Computer_Vision-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Facial_Recognition-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Face_Embeddings-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Image_Similarity-0F172A?style=for-the-badge" />
 
-This project gave me practical exposure to the relationship between machine learning models, data quality, preprocessing, clustering, and real-world deployment constraints.
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/DBSCAN-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Euclidean_Distance-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OpenCV-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Python-1E3A5F?style=for-the-badge" />
+
+</p>
+
+## System Architecture
+
+The system follows a pipeline from image standardization and facial feature extraction to embedding generation, similarity analysis, clustering, and image retrieval.
+
+```mermaid
+flowchart TD
+
+    A["INPUT IMAGE"]
+    B["IMAGE PREPROCESSING<br/>
+    8-BIT RGB"]
+    C["FACIAL FEATURE<br/>
+    EXTRACTION"]
+    D["FACIAL EMBEDDING<br/>
+    GENERATION"]
+    E["EUCLIDEAN DISTANCE<br/>ANALYSIS"]
+    F["DBSCAN<br/>
+    CLUSTERING"]
+    G["IMAGE GROUPING"]
+    H["MATCHED IMAGE<br/>
+    RETRIEVAL"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef process fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A,B,C stage;
+    class D,E,F,G process;
+    class H final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+## Image Processing
+
+Input images are first standardized into an 8-bit RGB format to provide consistent input for downstream processing.
+
+Facial features are then extracted using the face_recognition library. The report describes the use of facial landmarks such as the eyes, nose, and mouth, together with Euclidean-distance based feature comparison and facial embeddings.
+
+<p align="center"> <img src="https://img.shields.io/badge/8--Bit_RGB-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Facial_Landmarks-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Embeddings-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Euclidean_Distance-1E3A5F?style=for-the-badge" /> </p>
+
+## Similarity and Clustering
+
+The generated facial embeddings are compared and grouped using DBSCAN.
+
+DBSCAN was selected because it can identify dense groups in the embedding space without requiring the number of clusters to be specified in advance, while also allowing sparse points to be treated as noise.
+
+```mermaid
+flowchart LR
+
+    A["FACIAL EMBEDDINGS"]
+    B["DISTANCE ANALYSIS"]
+    C["DENSITY-BASED<br/>
+    CLUSTERING"]
+    D["SIMILAR FACE<br/>
+    GROUPS"]
+    E["NOISE /<br/>
+    OUTLIERS"]
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+
+    classDef input fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef process fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef output fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A input;
+    class B,C process;
+    class D,E output;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+## Deployment and Optimization
+
+The system was deployed through a Streamlit interface on a DigitalOcean server to support interactive image processing.
+
+The deployment architecture incorporated AWS Lambda for encoding tasks to reduce processing latency. The report records a 35% reduction in latency following this optimization.
+
+<p align="center"> <img src="https://img.shields.io/badge/Streamlit-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/AWS_Lambda-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/DigitalOcean-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/35%25_Latency_Reduction-1E3A5F?style=for-the-badge" /> </p>
+
+### Deployment Configuration
+
+<p align="center"> <img src="https://img.shields.io/badge/Ubuntu-22.04-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/RAM-8_GiB-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/CPU-4_vCPUs-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Storage-160_GiB_SSD-1E3A5F?style=for-the-badge" /> </p>
+Performance
+
+The image profiling system reports an overall accuracy of 95.71% under normal lighting conditions, with a false-positive rate of 4.29%. It also explicitly identifies low-light conditions as a limitation affecting facial feature extraction and system performance.
+
+<p align="center"> <img src="https://img.shields.io/badge/Accuracy-95.71%25-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/False_Positive_Rate-4.29%25-1E3A5F?style=for-the-badge" /> </p>
+
+### Reliability Consideration
+
+The reported evaluation also records zero values for precision, recall, and F1 score and identifies possible class imbalance, metric-calculation, or thresholding issues requiring further investigation. Therefore, the 95.71% accuracy figure should be interpreted together with these evaluation limitations rather than as a complete measure of system reliability.
+
+### Practical Constraint
+
+A significant limitation identified during development was low-light image performance.
+
+Reduced image clarity can affect the detection of facial landmarks and consequently influence embedding quality, similarity estimation, and clustering performance.
+
+The report proposes future directions including improved low-light preprocessing, stronger embedding models, clustering optimisation, expanded evaluation metrics, dataset diversification, and privacy-preserving approaches.
+
+## Research and Engineering Themes
+
+<p align="center"> <img src="https://img.shields.io/badge/Image_Preprocessing-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Feature_Extraction-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Facial_Embeddings-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Similarity_Detection-0F172A?style=for-the-badge" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Density--Based_Clustering-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Scalable_Image_Retrieval-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Real--Time_Deployment-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Computer_Vision_Systems-1E3A5F?style=for-the-badge" /> </p>
+
+## From Model to Deployment
+
+The project gave me practical exposure to the complete path from image preprocessing and representation learning to clustering, deployment, optimisation, and evaluation.
+
+```mermaid
+flowchart LR
+
+    A["IMAGE DATA"]
+    B["PREPROCESSING"]
+    C["FEATURE<br/>
+    REPRESENTATION"]
+    D["SIMILARITY"]
+    E["CLUSTERING"]
+    F["DEPLOYMENT"]
+    G["EVALUATION"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A,B,C,D,E,F stage;
+    class G final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+## Technical Report
+<p>
+The technical report documents the system architecture, methodology, deployment, evaluation, limitations, and future development directions.</p> 
+<br> 
+<p align="center"> 
+<a href="image-profiling.pdf"> <img src="https://img.shields.io/badge/READ_TECHNICAL_REPORT-0F172A?style=for-the-badge" alt="READ TECHNICAL REPORT" /> </a>
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
 
 ---
 

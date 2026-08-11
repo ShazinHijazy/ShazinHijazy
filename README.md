@@ -1695,31 +1695,253 @@ Two manuscript versions document the evolution of this research direction. Resea
 
 ---
 
-# 09. Few-Shot Language-Agnostic Keyword Spotting
+# 08. Few-Shot Language-Agnostic Keyword Spotting
 
-## FSLAKWS
+## Echo Fuse — A Few-Shot Language-Agnostic Keyword Spotting System
 
-### A Few-Shot Language Agnostic Keyword Spotting System for Audio Files
+Echo Fuse is an applied machine learning system for **language-agnostic keyword spotting in audio**, designed to identify target keywords from speech while reducing the amount of keyword-specific training data required.
 
-I have also worked on applied machine learning research involving multilingual speech and few-shot keyword spotting.
+The project combines speech feature extraction, convolutional representation learning, temporal modelling, and keyword classification into an audio recognition pipeline.
 
-The work investigates a language-agnostic keyword spotting pipeline capable of operating with limited examples of newly introduced keywords.
+The work originated in the context of **Smart India Hackathon 2024** and expanded my experience into speech AI, few-shot learning, representation learning, and audio-based machine intelligence.
 
-The research combines:
+## Research and Technical Focus
 
-* Self-supervised speech representations
-* Few-shot learning
-* Multilingual speech processing
-* Keyword spotting
-* Detection operators
-* Audio embeddings
-* Statistical calibration
+<p align="center">
 
-This work originated in the context of **Smart India Hackathon 2024** and expanded my experience into speech AI and representation learning.
+<img src="https://img.shields.io/badge/Speech_AI-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Few--Shot_Learning-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Keyword_Spotting-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Language--Agnostic_AI-0F172A?style=for-the-badge" />
 
----
+</p>
 
-# 10. Computer Vision
+<p align="center">
+
+<img src="https://img.shields.io/badge/Audio_Embeddings-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Speech_Recognition-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Representation_Learning-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Temporal_Modeling-1E3A5F?style=for-the-badge" />
+
+</p>
+
+## System Architecture
+
+The system processes speech through a sequence of feature extraction, convolutional representation learning, temporal modelling, and keyword classification.
+
+```mermaid
+flowchart TD
+
+    A["AUDIO INPUT"]
+    B["MFCC FEATURE EXTRACTION"]
+    C["BATCH NORMALIZATION"]
+    D["CONVOLUTIONAL FEATURE EXTRACTION"]
+    E["TEMPORAL MODELLING"]
+    F["KEYWORD CLASSIFICATION"]
+    G["KEYWORD / NON-KEYWORD"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,C,D,E,F stage;
+    class G final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+## Audio Representation
+
+The speech processing pipeline uses MFCC features as the primary representation.
+
+<p align="center"> <img src="https://img.shields.io/badge/MFCC_Bins-13-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mel_Bins-80-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Frame_Length-256-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Frame_Step-128-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/FFT_Length-256-1E3A5F?style=for-the-badge" /> </p>
+
+The audio representation captures short-term spectral characteristics of speech before being passed into the neural network for feature extraction and temporal modelling.
+
+## Model Architecture
+
+The implemented architecture combines convolutional feature extraction with temporal modelling.
+
+### Convolutional Feature Extraction
+
+The convolutional component progressively extracts local acoustic and phonetic patterns through three feature-extraction blocks.
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Block_1-32_Filters-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Block_2-64_Filters-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Block_3-128_Filters-1E3A5F?style=for-the-badge" />
+
+</p>
+
+### Temporal Modelling
+
+The extracted representations are processed through two unidirectional LSTM layers for temporal sequence modelling.
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/LSTM_1-128_Units-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LSTM_2-128_Units-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Dropout-0.25-1E3A5F?style=for-the-badge" />
+
+</p>
+
+### Model Architecture Overview
+
+```mermaid
+flowchart TD
+
+    A["MFCC AUDIO REPRESENTATION"]
+
+    B["CONVOLUTIONAL BLOCK 1<br/> 
+    32 FILTERS"]
+
+    C["CONVOLUTIONAL BLOCK 2<br/> 
+    64 FILTERS"]
+
+    D["CONVOLUTIONAL BLOCK 3<br/> 
+    128 FILTERS"]
+
+    E["LSTM 1<br/>
+    128 UNITS<br/>
+    DROPOUT 0.25"]
+
+    F["LSTM 2<br/>
+    128 UNITS<br/> 
+    DROPOUT 0.25"]
+
+    G["DENSE OUTPUT"]
+
+    H["KEYWORD PREDICTION"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+
+    classDef feature fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef temporal fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A,B,C,D feature;
+    class E,F,G temporal;
+    class H final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+
+## Training Configuration
+
+<p align="center"> <img src="https://img.shields.io/badge/Train--Test_Split-80%2F20-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Batch_Size-64-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Random_Seed-47-1E3A5F?style=for-the-badge" /> </p>
+
+The training configuration uses an 80/20 train-test split, a batch size of 64, and a fixed random seed of 47.
+
+## Keyword Evaluation
+
+The evaluated keyword classes include:
+
+<p align="center"> <img src="https://img.shields.io/badge/house-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/right-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/down-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/left-0F172A?style=for-the-badge" /> </p> <p align="center"> <img src="https://img.shields.io/badge/no-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/five-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/one-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/three-1E3A5F?style=for-the-badge" /> </p>
+
+## Performance
+
+The reported aggregate evaluation metrics are:
+
+<p align="center"> <img src="https://img.shields.io/badge/Precision-96.47%25-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Recall-95.85%25-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/F1_Score-96.14%25-1E3A5F?style=for-the-badge" /> </p>
+
+### Per-Keyword Performance
+
+<div align="center">
+
+| Keyword | Precision | Recall | F1 Score |
+|:---:|:---:|:---:|:---:|
+| house | 0.9929 | 0.9640 | 0.9782 |
+| right | 0.9580 | 0.9648 | 0.9614 |
+| down | 0.9815 | 0.9376 | 0.9591 |
+| left | 0.9380 | 0.9545 | 0.9462 |
+| no | 0.9743 | 0.9627 | 0.9685 |
+| five | 0.9356 | 0.9566 | 0.9460 |
+| one | 0.9784 | 0.9729 | 0.9756 |
+| three | 0.9587 | 0.9544 | 0.9566 |
+
+</div>
+<p align="center"> <img src="https://img.shields.io/badge/Overall_Precision-96.47%25-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Overall_Recall-95.85%25-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Overall_F1-96.14%25-1E3A5F?style=for-the-badge" /> </p>
+
+## Evaluation Pipeline
+
+```mermaid
+flowchart LR
+
+    A["AUDIO DATA"]
+    B["FEATURE EXTRACTION"]
+    C["MODEL TRAINING"]
+    D["KEYWORD DETECTION"]
+    E["CONFUSION MATRIX"]
+    F["PRECISION / RECALL / F1"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-weight:700;
+
+    class A,B,C,D,E stage;
+    class F final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+## Applied Research Direction
+
+Echo Fuse represents an early stage in my transition from conventional computer vision toward representation learning for unstructured sensory data.
+
+The project broadened my experience across speech processing, few-shot learning, audio representations, temporal modelling, and applied machine learning.
+
+```mermaid
+flowchart TD
+
+    A["COMPUTER VISION"]
+    B["REPRESENTATION LEARNING"]
+    C["SPEECH AI"]
+    D["FEW-SHOT LEARNING"]
+    E["RELIABLE AI"]
+    F["AUTONOMOUS SYSTEMS"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,C,D,E stage;
+    class F final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+
+## Project Resources
+
+<p> 
+The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
+</p> <br> 
+<p align="center"> 
+  <a href="https://github.com/ShazinHijazy/Echo-Fuse-FSLAKWS"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+</p> 
+
+
+# 9. Computer Vision
 
 ## Deep Learning-Based Image Profiling and Similarity Detection
 
@@ -1745,7 +1967,7 @@ This project gave me practical exposure to the relationship between machine lear
 
 ---
 
-# 11. Generalizable Robot Manipulation
+# 10. Generalizable Robot Manipulation
 
 ## Differentiable Neural Radiance Fields and Physics-Guided Diffusion
 

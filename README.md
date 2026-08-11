@@ -564,45 +564,161 @@ The research is being evaluated through simulation-driven analysis.
 
 ## Autonomous Surface Vehicle Catamaran
 
-During my research internship at the **Indian Institute of Technology Kharagpur**, I worked on an Autonomous Surface Vehicle based on a catamaran platform.
+During my research internship at the **Indian Institute of Technology Kharagpur**, I worked on an **Autonomous Surface Vehicle (ASV) based on a catamaran platform**.
 
-The project brought together hardware, perception, localization, navigation, telemetry, and control within a ROS 2 based architecture.
+The project brought together **marine sensing, localization, sensor fusion, perception, mapping, navigation, control, telemetry, and safety** within a modular **ROS 2** based robotic architecture.
 
-### Platform
+### Technology Stack
 
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=white)
-![Blue Robotics](https://img.shields.io/badge/Blue%20Robotics-T100-1F4E79?style=flat-square)
-![ESC](https://img.shields.io/badge/Electronic%20Speed%20Controllers-333333?style=flat-square)
-![GNSS](https://img.shields.io/badge/GNSS-2E7D32?style=flat-square)
-![IMU](https://img.shields.io/badge/IMU-5C6BC0?style=flat-square)
-![RPLiDAR](https://img.shields.io/badge/RPLiDAR-37474F?style=flat-square)
-![Ultrasonic](https://img.shields.io/badge/Ultrasonic%20Sensing-00838F?style=flat-square)
-![Telemetry](https://img.shields.io/badge/433%20MHz%20Telemetry-6A1B9A?style=flat-square)
+<p align="center">
+
+<img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Raspberry_Pi-4B-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Nav2-ROS_2-22314E?style=for-the-badge" />
+<img src="https://img.shields.io/badge/SLAM_Toolbox-Mapping-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/RViz2-Visualization-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/GNSS-Localization-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/RPLIDAR-Perception-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/IMU-State_Estimation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Telemetry-Communication-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Blue_Robotics-T100_Thrusters-0F172A?style=for-the-badge" />
+
+</p>
+
+<h3>Platform</h3>
+
+<table align="center" width="80%">
+  <tr>
+    <th align="center">Component</th>
+    <th align="center">Role</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Raspberry Pi 4B</strong></td>
+    <td align="center">Onboard computation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>RPLIDAR</strong></td>
+    <td align="center">2D perception and mapping</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>GNSS</strong></td>
+    <td align="center">Global localization</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>IMU</strong></td>
+    <td align="center">Orientation and motion estimation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Ultrasonic Sensors</strong></td>
+    <td align="center">Short-range obstacle detection</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Blue Robotics T100 Thrusters</strong></td>
+    <td align="center">Propulsion and maneuvering</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>ESCs</strong></td>
+    <td align="center">Thruster actuation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Telemetry System</strong></td>
+    <td align="center">Remote communication and monitoring</td>
+  </tr>
+</table>
 
 ### Software
 
-![ROS 2](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
-![Nav2](https://img.shields.io/badge/Nav2-ROS%202-22314E?style=flat-square)
-![SLAM Toolbox](https://img.shields.io/badge/SLAM%20Toolbox-ROS%202-22314E?style=flat-square)
-![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-FF6F00?style=flat-square&logo=gazebo&logoColor=white)
-![RViz2](https://img.shields.io/badge/RViz2-Visualization-22314E?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-Development-333333?style=flat-square&logo=linux&logoColor=white)
+<table align="center" width="80%">
+  <tr>
+    <th align="center">Layer</th>
+    <th align="center">Technologies</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Operating System</strong></td>
+    <td align="center">Ubuntu 22.04</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Robotics Middleware</strong></td>
+    <td align="center">ROS 2 Humble</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Navigation</strong></td>
+    <td align="center">Nav2</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Mapping</strong></td>
+    <td align="center">SLAM Toolbox</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Localization</strong></td>
+    <td align="center">GNSS + IMU</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Visualization</strong></td>
+    <td align="center">RViz2</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Control</strong></td>
+    <td align="center">ROS 2 Thruster Control</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Simulation</strong></td>
+    <td align="center">2D / 3D Simulation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Communication</strong></td>
+    <td align="center">Telemetry</td>
+  </tr>
+</table>
+
 ### Research and Engineering Areas
 
-* Autonomous waypoint navigation
-* Localization
-* Mapping
-* Sensor fusion
-* Obstacle avoidance
-* Telemetry
-* Navigation planning
-* Hardware-software integration
-* Autonomous marine systems
+- Autonomous waypoint navigation
+- Localization and state estimation
+- Sensor fusion
+- Mapping and perception
+- Obstacle detection and avoidance
+- Navigation planning
+- Thruster control
+- Telemetry and remote intervention
+- Fail-safe operation
+- ROS 2 hardware-software integration
+- Simulation-driven development
+- Autonomous marine systems
 
-The experience strengthened my interest in the transition from simulation-based autonomy toward real robotic deployment.
+### From Simulation to Deployment
 
----
+The project involved an iterative transition between **simulation, hardware integration, testing, and controlled field deployment**, bringing together sensing, localization, navigation, control, telemetry, and safety within a real robotic platform.
+
+The experience strengthened my interest in moving **autonomous systems from controlled simulation environments toward reliable operation in real-world conditions**.
+
+<br>
+
+<p align="center">
+
+<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
+<img src="https://img.shields.io/badge/EXPLORE_PROJECT-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+</p>
+
+<p align ="center">
+<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP/blob/main/docs/IIT%20KGP%20Internship%20Report_compressed.pdf">
+<img src="https://img.shields.io/badge/READ_TECHNICAL_REPORT-1E3A5F?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
+</a>
+
+</p>
 
 # 05. Autonomous Underwater Robotics
 

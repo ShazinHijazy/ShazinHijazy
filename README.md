@@ -809,7 +809,7 @@ The role structure is inspired by layered team organisation, with specialised op
 </p>
 
 <p align="center">
-  <sub>Details are available through the research abstract, for additional information regarding the work, please get in touch.</sub>
+Details are available through the research abstract, for additional information regarding the work, please get in touch.
 </p>
 
 <p align="center">

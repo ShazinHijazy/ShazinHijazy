@@ -1007,29 +1007,127 @@ The experience strengthened my interest in moving **autonomous systems from cont
 
 ## Arbitration Layer for Decision-Making in Autonomous Underwater Robots
 
+<p align="center">
+  <img
+    src="underwater-arbitration-research-overview.png"
+    alt="Arbitration Layer for Decision-Making in Autonomous Underwater Robots research overview"
+    width="100%"
+  />
+</p>
+
 This research investigates lightweight decision-making for autonomous underwater robots operating under uncertainty and resource constraints.
 
-The proposed arbitration layer evaluates candidate actions using multiple operational factors, including:
+The work proposes a lightweight, modular arbitration layer that separates real-time action selection from computationally intensive planning. Candidate actions are evaluated using multiple operational factors so that the system can respond to changing mission and environmental conditions without relying on a single fixed decision pathway.
 
-* Task priority
-* Sensor confidence
-* Mission objectives
-* Energy constraints
-* Environmental uncertainty
+### Decision Factors
 
-The objective is to provide a lightweight and deterministic decision layer capable of supporting real-time action selection on resource-constrained autonomous underwater platforms.
+<table align="center" width="90%">
+  <tr>
+    <th align="center">Factor</th>
+    <th align="center">Role in Decision-Making</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Task Priority</strong></td>
+    <td align="center">Represents the relative importance of candidate actions</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Sensor Reliability</strong></td>
+    <td align="center">Accounts for confidence in available sensory information</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Mission Objectives</strong></td>
+    <td align="center">Keeps action selection aligned with current mission requirements</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Energy Cost</strong></td>
+    <td align="center">Considers resource limitations during action selection</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Environmental Uncertainty</strong></td>
+    <td align="center">Accounts for changing and partially uncertain operating conditions</td>
+  </tr>
+</table>
 
-### Research Themes
+### Research Focus
 
-* Autonomous underwater robotics
-* Decision-making under uncertainty
-* Resource-constrained autonomy
-* Sensor confidence
-* Action arbitration
-* Real-time robotics
-* Marine autonomy
+<p align="center">
 
-The work was presented at the **8th International Conference on Ship and Offshore Technology (ICSOT 2025)** and accepted for publication in the Springer conference proceedings.
+<img src="https://img.shields.io/badge/Autonomous_Underwater_Robotics-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Decision--Making-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Uncertainty--Aware_Autonomy-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Resource--Constrained_Autonomy-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Real--Time_Robotics-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Marine_Robotics-1E3A5F?style=for-the-badge" />
+
+</p>
+
+### Evaluation
+
+The manuscript evaluates the arbitration approach under challenging underwater operating conditions including dynamic obstacles, sensor noise, variable turbidity, current-flow perturbations, and unexpected mission changes.
+
+The reported evaluation focuses on:
+
+- Decision consistency
+- Action-selection latency
+- Energy consumption
+- Robustness under environmental perturbations
+- Comparison with conventional heuristic approaches
+- Comparison with more computationally intensive deliberative architectures
+
+The reported results indicate high decision consistency, sub-second decision latency, and low energy consumption, supporting the suitability of the approach for resource-constrained autonomous underwater platforms.
+
+### Application Direction
+
+The framework is positioned toward practical underwater applications including:
+
+- Environmental monitoring
+- Underwater structure inspection
+- Marine exploration
+- Resource-constrained autonomous operation
+
+The manuscript also identifies future extensions toward multi-robot coordination, adaptive sensor fusion, learning-based arbitration, multi-objective decision-making, and longer-duration mission validation.
+
+### Conference & Publication
+
+The work was presented at the 8th International Conference on Ship and Offshore Technology (ICSOT 2025) and accepted for publication in the Springer conference proceedings.
+
+<br>
+
+<p align="center">
+  <strong>READ HERE</strong>
+</p>
+
+<p align="center">
+
+  <a href="https://www.researchsquare.com/article/rs-10094721/v1">
+    <img
+      src="research-square-logo.png"
+      alt="Read the manuscript on Research Square"
+      width="150"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <strong>DOI</strong>
+</p>
+
+<p align="center">
+
+  <a href="https://doi.org/10.21203/rs.3.rs-10094721/v1">
+    <img
+      src="doi-logo.png"
+      alt="Open DOI"
+      width="60"
+    />
+  </a>
+
+</p>
 
 ---
 

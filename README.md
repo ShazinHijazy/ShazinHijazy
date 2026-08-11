@@ -65,38 +65,223 @@ I am particularly interested in systems that do not depend excessively on centra
 
 ---
 
-# Research Identity
+<h1>Research Identity</h1>
 
-### Primary Research Area
+<p align="center">
+  <strong>Autonomous Systems &amp; Multi-Agent Robotics</strong>
+</p>
 
-**Autonomous Systems and Multi-Agent Robotics**
+<table align="center" width="100%" cellpadding="12" cellspacing="0">
 
-### Core Research Themes
+<!-- HEADERS -->
 
-- Swarm Robotics
-- Multi-Agent Systems
-- Decentralized Coordination
-- Distributed Robotic Intelligence
-- Resilient Autonomous Systems
-- Fault-Tolerant Robotics
-- Communication-Aware Autonomy
-- Autonomous Navigation
-- Intelligent Robotic Decision-Making
-- Uncertainty-Aware Robotics
-- Sensor Fusion
-- Robot Perception
-- Simulation-Driven Validation
+<tr>
 
-### Application Domains
+<td align="center" valign="middle" width="33%">
+<strong>COORDINATION</strong>
+</td>
 
-- UAV Swarms
-- Autonomous Aerial Vehicles
-- Autonomous Surface Vehicles
-- Autonomous Underwater Vehicles
-- Marine Robotics
-- Agricultural Robotics
-- Precision Agriculture
-- Generalizable Robot Manipulation
+<td align="center" valign="middle" width="33%">
+<strong>RELIABLE AUTONOMY</strong>
+</td>
+
+<td align="center" valign="middle" width="33%">
+<strong>PERCEPTION &amp; VALIDATION</strong>
+</td>
+
+</tr>
+
+<!-- ROW 01 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Multi-Agent Systems</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Resilient Autonomous Systems</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Sensor Fusion</sub>
+</td>
+
+</tr>
+
+<!-- ROW 02 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Swarm Robotics</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Fault-Tolerant Robotics</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Robot Perception</sub>
+</td>
+
+</tr>
+
+<!-- ROW 03 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Decentralized Coordination</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Uncertainty-Aware Decision-Making</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Autonomous Navigation</sub>
+</td>
+
+</tr>
+
+<!-- ROW 04 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Distributed Robotic Intelligence</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Intelligent Robotic Decision-Making</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Simulation-Driven Validation</sub>
+</td>
+
+</tr>
+
+<!-- ROW 05 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Communication-Aware Autonomy</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Reliable Autonomous Systems</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Experimental Evaluation</sub>
+</td>
+
+</tr>
+
+</table>
+
+<br>
+
+<p align="center">
+<strong>ROBOTIC PLATFORMS &amp; APPLICATIONS</strong>
+</p>
+
+<table align="center" width="100%" cellpadding="12" cellspacing="0">
+
+<!-- PLATFORM HEADERS -->
+
+<tr>
+
+<td align="center" valign="middle" width="25%">
+<strong>AERIAL</strong>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<strong>MARINE</strong>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<strong>AGRICULTURAL</strong>
+</td>
+
+<td align="center" valign="middle" width="25%">
+<strong>MANIPULATION</strong>
+</td>
+
+</tr>
+
+<!-- PLATFORM ROW 01 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>UAV Swarms</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Autonomous Surface Vehicles</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Agricultural Robotics</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Generalizable Robot Manipulation</sub>
+</td>
+
+</tr>
+
+<!-- PLATFORM ROW 02 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Autonomous Aerial Vehicles</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Autonomous Underwater Vehicles</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Precision Agriculture</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Adaptive Robotic Systems</sub>
+</td>
+
+</tr>
+
+<!-- PLATFORM ROW 03 -->
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Distributed Aerial Robotics</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Marine Robotics</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Autonomous Agricultural Systems</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Robot Learning</sub>
+</td>
+
+</tr>
+
+</table>
+
+<br>
 
 ---
 

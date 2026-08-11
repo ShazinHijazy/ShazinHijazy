@@ -1323,6 +1323,33 @@ flowchart TD
     linkStyle default stroke:#0F172A,stroke-width:2px;
 ```
 
+<p align="center">
+Further details are available through the research abstract and presentation, For additional information regarding the research, please get in touch.
+</p>
+
+<br>
+
+<p align="center">
+
+  <a href="agricultural-robotics-abstract.pdf">
+    <img
+      src="https://img.shields.io/badge/READ_ABSTRACT-0F172A?style=for-the-badge"
+      alt="Read Abstract"
+    />
+  </a>
+</p>
+
+<p align="center">
+ 
+  <a href="mailto:shazhijazy@gmail.com?subject=Request%20for%20More%20Information%20-%20Agricultural%20Robotics">
+    <img
+      src="https://img.shields.io/badge/REQUEST_MORE_INFORMATION-0F172A?style=for-the-badge"
+      alt="Request More Information"
+    />
+  </a>
+
+</p>
+
 ---
 
 # 07. Reliable AI and Calibration under Distribution Shift

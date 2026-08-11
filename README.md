@@ -715,30 +715,119 @@ ADMOS extends my research direction from fault-tolerant decentralized coordinati
 
 ## Resilient UAV Coordination in Contested Electromagnetic Environments
 
-This research investigates whether assigning specialised functional roles to UAVs can improve swarm organisation and resilience.
-
-The proposed architecture divides UAV agents into operational roles:
-
 <p align="center">
   <img
     src="role-partitioned-swarm-intelligence.png"
-    alt="Role-Partitioned Swarm Intelligence for resilient UAV coordination"
+    alt="Role-Partitioned Swarm Intelligence research overview"
     width="100%"
-  >
+  />
 </p>
 
-The work explores:
+This research investigates whether **functional specialisation within UAV swarms** can improve coordination, scalability, and resilience in communication-contested environments.
 
-* Role-partitioned swarm intelligence
-* Distributed coordination
-* Communication-aware behaviour
-* Covariance Intersection
-* High-Order Control Barrier Functions
-* Safety filtering
-* Swarm scalability
-* Communication degradation
+The work explores a role-partitioned swarm architecture in which UAVs are organised into specialised operational groups rather than relying entirely on homogeneous swarm behaviour.
 
-The research is being evaluated through simulation-driven analysis.
+### Research Focus
+
+- **Role-Partitioned Swarm Intelligence**
+- **Distributed Multi-Agent Coordination**
+- **Communication-Resilient Autonomy**
+- **Swarm Scalability**
+- **Safety-Critical Coordination**
+- **Simulation-Based Validation**
+
+The work is being evaluated through Software-in-the-Loop (SITL) simulation and comparative analysis.
+
+### Conceptual Organisation
+
+<table align="center" width="90%">
+  <tr>
+    <th align="center">Operational Group</th>
+    <th align="center">High-Level Function</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Defender</strong></td>
+    <td align="center">Asset protection and defensive coordination</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Midfielder</strong></td>
+    <td align="center">Interception, support, and information bridging</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Forward</strong></td>
+    <td align="center">Forward engagement and mission projection</td>
+  </tr>
+</table>
+
+The role structure is inspired by layered team organisation, with specialised operational responsibilities distributed across the swarm.
+
+### Research Areas
+
+<table align="center" width="90%">
+  <tr>
+    <th align="center">Focus</th>
+    <th align="center">Research Direction</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Swarm Organisation</strong></td>
+    <td align="center">Functional specialisation within multi-agent systems</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Coordination</strong></td>
+    <td align="center">Distributed coordination across specialised agents</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Resilience</strong></td>
+    <td align="center">Maintaining useful operation under communication degradation</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Scalability</strong></td>
+    <td align="center">Studying coordination behaviour as swarm size increases</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Safety</strong></td>
+    <td align="center">Safety-aware autonomous swarm operation</td>
+  </tr>
+</table>
+
+### Technical Domains
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Multi--Agent_Systems-Research-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Swarm_Intelligence-Research-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Distributed_Control-Research-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/UAV_Swarms-Autonomous_Systems-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Communication_Resilience-Research-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/SITL-Simulation-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+  <a href="role-partitioned-abstract.pdf">
+    <img
+      src="https://img.shields.io/badge/READ_ABSTRACT-0F172A?style=for-the-badge"
+      alt="Read Abstract"
+    />
+  </a>
+</p>
+
+  <p align="center">
+    
+  <a href="mailto:shazhijazy@gmail.com?subject=Request%20for%20Further%20Information%20-%20Role-Partitioned%20Swarm%20Intelligence">
+    <img
+      src="https://img.shields.io/badge/REQUEST_MORE_INFORMATION-1E3A5F?style=for-the-badge"
+      alt="Request More Information"
+    />
+  </a>
+
+</p>
 
 ---
 

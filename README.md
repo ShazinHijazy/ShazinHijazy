@@ -57,7 +57,7 @@ My broader goal is to contribute to reliable distributed autonomous systems that
 <h1>Research Identity</h1>
 
 <p align="center">
-  <strong>Autonomous Systems &amp; Multi-Agent Robotics</strong>
+  <strong>AUTONOMOUS SYSTEMS &amp; MULTI-AGENT ROBOTICS</strong>
 </p>
 
 <table align="center" width="100%" cellpadding="12" cellspacing="0">

@@ -2639,7 +2639,7 @@ Research areas:
 
 **Frameworks & Tools**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2 Humble"/>
   <img src="https://img.shields.io/badge/PX4-Autopilot-37474F?style=flat-square&logo=px4&logoColor=white" alt="PX4 Autopilot"/>
   <img src="https://img.shields.io/badge/MAVSDK-37474F?style=flat-square" alt="MAVSDK"/>
@@ -2653,7 +2653,7 @@ Research areas:
 
 **Capabilities**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Sensor%20Fusion-37474F?style=flat-square" alt="Sensor Fusion"/>
   <img src="https://img.shields.io/badge/Autonomous%20Navigation-37474F?style=flat-square" alt="Autonomous Navigation"/>
   <img src="https://img.shields.io/badge/Multi--Agent%20Coordination-37474F?style=flat-square" alt="Multi-Agent Coordination"/>
@@ -2663,7 +2663,7 @@ Research areas:
 
 ### Programming & Systems
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java"/>
@@ -2677,7 +2677,7 @@ Research areas:
 
 ### Artificial Intelligence & Machine Learning
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-37474F?style=flat-square" alt="Machine Learning"/>
   <img src="https://img.shields.io/badge/Deep%20Learning-37474F?style=flat-square" alt="Deep Learning"/>
   <img src="https://img.shields.io/badge/Computer%20Vision-37474F?style=flat-square" alt="Computer Vision"/>
@@ -2698,7 +2698,7 @@ Research areas:
 
 **Development & Infrastructure**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
@@ -2708,7 +2708,7 @@ Research areas:
 
 **Data, Computer Vision & Machine Learning**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
@@ -2717,7 +2717,7 @@ Research areas:
 
 **Applications & Data Infrastructure**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
 </p>

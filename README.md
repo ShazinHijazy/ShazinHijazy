@@ -568,34 +568,116 @@ The thesis established the foundation for my continuing interest in fault-tolera
 
 ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
 
-The research explores an adaptive architecture combining:
+The research addresses a fundamental limitation of communication-dependent swarm coordination: when inter-agent communication deteriorates, shared situational awareness can become inconsistent and centralized or consensus-based coordination can degrade abruptly. The manuscript therefore explores an architecture designed around graceful degradation rather than complete dependence on continuous communication. 
+
+### Architecture
+
+ADMOS combines three complementary components:
+
+<table align="center" width="90%">
+  <tr>
+    <th align="center">Component</th>
+    <th align="center">Purpose</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Covariance Intersection</strong></td>
+    <td align="center">Consistent distributed state estimation when information-source correlations are unknown</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dual-Mode Supervisor</strong></td>
+    <td align="center">Transitions agents between cooperative and autonomous operation using hysteresis and minimum dwell time</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>HOCBF Safety Filter</strong></td>
+    <td align="center">Maintains safety constraints through a quadratic-program-based control filter</td>
+  </tr>
+</table>
+
+The three components operate as a coordinated pipeline in which local sensing and received neighbour information feed the Covariance Intersection estimator; the resulting covariance measure drives the mode supervisor; and the selected control action is passed through the HOCBF safety filter before actuation.
 
 ### Distributed State Estimation
 
-**Covariance Intersection (CI)** is used to maintain consistent state estimation when correlations between information sources are unknown.
+**Covariance Intersection (CI)** is used to maintain consistent state estimates when correlations between information sources are unknown, including correlations introduced through reused neighbour information.
 
 ### Dual-Mode Operation
 
-Agents can operate in:
+Agents operate in two modes:
 
-- Cooperative mode
-- Autonomous mode
+- **Cooperative mode**
+- **Autonomous mode**
 
-A hybrid supervisor manages the transition between the two modes using **hysteresis and minimum dwell time**.
+A hybrid supervisor manages transitions between the modes using hysteresis and minimum dwell time, reducing unnecessary switching and preventing mode chattering.
 
 ### Safety-Critical Control
 
-A **Higher-Order Control Barrier Function (HOCBF)** based safety filter is integrated into the architecture and solved as a quadratic program.
+A Higher-Order Control Barrier Function (HOCBF) based safety filter is integrated into the architecture and formulated as a quadratic program (QP) operating at 10 Hz. The filter is designed to maintain forward invariance of the defined safe set under the stated assumptions.
+
+### Technical Stack
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/UAV_Swarms-Multi--Agent_Control-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Covariance_Intersection-State_Estimation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/HOCBF-Safety_Filter-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Quadratic_Programming-Control-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Monte_Carlo-Simulation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/High--Fidelity-Quadrotor_Simulation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Communication_Jamming-Resilience-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ISS-Stability_Analysis-0F172A?style=for-the-badge" />
+
+</p>
 
 ### Research Objective
 
 Rather than assuming that communication will always remain available, ADMOS investigates a more resilient principle:
 
-> **When coordination becomes unreliable, autonomous agents should degrade gracefully rather than fail catastrophically.**
+When coordination becomes unreliable, autonomous agents should degrade gracefully rather than fail catastrophically.
 
-The manuscript has been developed around simulation-based evaluation of UAV swarm resilience under communication degradation and jamming conditions.
+The manuscript establishes an input-to-state stability result with respect to estimation error under the stated assumptions and explicitly identifies the conditions under which the guarantee no longer applies.
 
-The preprint is available through **Research Square**, while the manuscript is currently under peer review with *Discover Vehicles* (Springer Nature).
+### Simulation and Evaluation
+
+The architecture was evaluated using a high-fidelity quadrotor simulator across 80 Monte Carlo trials per scenario, with randomized initial conditions and intruder strategies. The evaluation considered both healthy communication and complete communication jamming.
+
+<table align="center" width="85%">
+  <tr>
+    <th align="center">Condition</th>
+    <th align="center">ADMOS</th>
+    <th align="center">Consensus Baseline</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Healthy Links</strong></td>
+    <td align="center"><strong>92.5%</strong></td>
+    <td align="center">78.4%</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Full Jamming</strong></td>
+    <td align="center"><strong>84.0%</strong></td>
+    <td align="center">42.0%</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Safety Violations</strong></td>
+    <td align="center"><strong>0</strong></td>
+    <td align="center">—</td>
+  </tr>
+</table>
+
+The reported results show improved asset-protection performance under both healthy and fully jammed communication conditions, while the evaluation recorded zero safety violations. An ablation study further examined the contribution of the individual architectural components.
+
+### Research Contribution
+
+ADMOS explores a resilient swarm-control architecture in which estimation, coordination mode, and safety are adapted to communication quality rather than treating communication availability as a fixed assumption.
+
+The work also identifies the boundary between the current simulation-based guarantees and future validation requirements, including hardware-in-the-loop testing, outdoor flight validation, real radio-jamming experiments, larger-scale decentralized computation, and learning-augmented components.
+
+### Research Direction
+
+ADMOS extends my research direction from fault-tolerant decentralized coordination toward communication-resilient multi-agent autonomy, with particular interest in how autonomous systems can maintain useful behaviour when shared information becomes incomplete, delayed, or unavailable.
 
 <br>
 

@@ -284,24 +284,97 @@ My broader goal is to contribute to reliable distributed autonomous systems that
 
 ---
 
-# Research Philosophy
+<h1>Research Philosophy</h1>
 
+<p>
 I do not view autonomy simply as the ability of a robot to complete a predefined task.
+For me, meaningful autonomy also requires understanding what happens when the assumptions
+behind that task begin to fail.
+</p>
 
-For me, meaningful autonomy also requires understanding what happens when:
+<table align="center" width="100%" cellpadding="14" cellspacing="0">
 
-* communication becomes unreliable,
-* an agent fails,
-* sensors become uncertain,
-* energy becomes limited,
-* environmental conditions change,
-* localization becomes degraded,
-* multiple agents disagree,
-* or a learned model encounters conditions outside its training distribution.
+<tr>
 
-This has led my research toward resilience, decentralization, adaptability, uncertainty, and practical validation.
+<td align="center" valign="middle" width="50%">
+<strong>COMMUNICATION &amp; COORDINATION</strong>
+</td>
 
-My long-term goal is to contribute to robotic systems that can move from controlled demonstrations toward dependable operation in real environments.
+<td align="center" valign="middle" width="50%">
+<strong>SYSTEM &amp; ENVIRONMENTAL UNCERTAINTY</strong>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Communication becomes unreliable</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Sensors become uncertain</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Multiple agents disagree</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Environmental conditions change</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>An individual agent fails</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Localization becomes degraded</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Coordination becomes constrained</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Energy availability becomes limited</sub>
+</td>
+
+</tr>
+
+<tr>
+
+<td align="center" valign="middle">
+<sub>Decisions must be made with imperfect information</sub>
+</td>
+
+<td align="center" valign="middle">
+<sub>Learned models encounter unfamiliar conditions</sub>
+</td>
+
+</tr>
+
+</table>
+
+<p>
+These challenges have led my research toward autonomous systems that can make decisions under imperfect information, coordinate despite communication constraints, adapt to changing conditions, and continue operating when individual components or agents become unreliable.
+</p>
+
+<p>
+My long-term goal is to contribute to reliable distributed autonomous systems that can move beyond controlled demonstrations toward dependable operation in real environments.
+</p>
 
 ---
 

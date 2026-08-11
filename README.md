@@ -2784,6 +2784,18 @@ ROS 2 based autonomous surface vehicle platform integrating:
 * Localization
 * Obstacle avoidance
 
+### Project Resources
+
+<p> 
+The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
+</p> <br> 
+<p align="center"> 
+  <a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
+
+
 ---
 
 ## N-SWARM
@@ -2795,11 +2807,33 @@ Decentralized autonomous drone swarm framework exploring:
 * Distributed decision-making
 * Swarm behaviour
 
+### Project Resources
+
+<p> 
+The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
+</p> <br> 
+<p align="center"> 
+  <a href="https://github.com/ShazinHijazy/sihdrone"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
+
 ---
 
 ## Adaptive Mobile Barrier Coverage
 
 Research and implementation involving decentralized mobile sensor networks for adaptive probabilistic barrier coverage of time-varying stochastic target trajectories.
+
+### Project Resources
+
+<p> 
+The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
+</p> <br> 
+<p align="center"> 
+  <a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
 
 ---
 
@@ -2807,11 +2841,35 @@ Research and implementation involving decentralized mobile sensor networks for a
 
 Facial similarity detection and image clustering using deep learning based embeddings and DBSCAN.
 
+### Project Resources
+
+<p>
+The technical report documents the system architecture, methodology, deployment, evaluation, limitations, and future development directions.</p> 
+<br> 
+<p align="center"> 
+<a href="image-profiling.pdf"> <img src="https://img.shields.io/badge/READ_TECHNICAL_REPORT-0F172A?style=for-the-badge" alt="READ TECHNICAL REPORT" /> </a>
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
+
 ---
 
 ## FSLAKWS
 
 Few-shot language-agnostic keyword spotting for multilingual audio.
+
+
+
+### Project Resources
+
+<p> 
+The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
+</p> <br> 
+<p align="center"> 
+  <a href="https://github.com/ShazinHijazy/Echo-Fuse-FSLAKWS"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
 
 ---
 

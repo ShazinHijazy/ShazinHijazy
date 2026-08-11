@@ -134,67 +134,36 @@ My long-term goal is to contribute to robotic systems that can move from control
 ## Research Timeline
 
 ```mermaid
-flowchart TD
+flowchart LR
 
-    subgraph Y2024[" "]
-        direction TB
-        Y24["2024"]
-        R24["AI / COMPUTER VISION"]
-        Y24 --> R24
-    end
+A["2024"] --> B["2025"] --> C["2026"] --> D["FUTURE"]
 
-    subgraph Y2025[" "]
-        direction TB
-        Y25["2025"]
-        R25A["MARINE ROBOTICS"]
-        R25B["UAV SWARMS"]
-        R25C["UNDERWATER<br/> DECISION-MAKING"]
+A1["01 · AI / Computer Vision"]
 
-        Y25 --> R25A
-        Y25 --> R25B
-        Y25 --> R25C
-    end
+B1["01 · Marine Robotics <br> 
+02 · UAV Swarms <br> 
+03 · Underwater Decision-Making"]
 
-    subgraph Y2026[" "]
-        direction TB
-        Y26["2026"]
-        R26A["FAULT-TOLERANT<br/> UAV COORDINATION"]
-        R26B["ADMOS"]
-        R26C["ROLE-PARTITIONED<br/> SWARM INTELLIGENCE"]
-        R26D["RELIABLE AI"]
-        R26E["AGRICULTURAL ROBOTICS"]
+C1["01 · Fault-Tolerant UAV Coordination<br>
+02 · ADMOS<br> 
+03 · Role-Partitioned Swarm Intelligence<br> 
+04 · Reliable AI<br> 
+05 · Agricultural Robotics"]
 
-        Y26 --> R26A
-        Y26 --> R26B
-        Y26 --> R26C
-        Y26 --> R26D
-        Y26 --> R26E
-    end
+D1["01 · Reliable Distributed Autonomous Systems"]
 
-    subgraph YF[" "]
-        direction TB
-        YFUT["FUTURE"]
-        RF["RELIABLE DISTRIBUTED<br/> AUTONOMOUS SYSTEMS"]
+A --- A1
+B --- B1
+C --- C1
+D --- D1
 
-        YFUT --> RF
-    end
+classDef year fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px,font-size:18px,font-weight:bold;
+classDef research fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:1.5px,font-size:14px;
 
-    Y24 --> Y25
-    Y25 --> Y26
-    Y26 --> YFUT
+class A,B,C,D year;
+class A1,B1,C1,D1 research;
 
-    classDef year fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2.5px,font-size:22px,font-weight:700;
-    classDef research fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:1.5px,font-size:16px,font-weight:600;
-
-    class Y24,Y25,Y26,YFUT year;
-    class R24,R25A,R25B,R25C,R26A,R26B,R26C,R26D,R26E,RF research;
-
-    style Y2024 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
-    style Y2025 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
-    style Y2026 fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
-    style YF fill:#FFFFFF,stroke:#0F172A,stroke-width:1.5px;
-
-    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+linkStyle default stroke:#0F172A,stroke-width:1.5px;
 ```
 
 ---

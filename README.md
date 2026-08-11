@@ -1135,35 +1135,193 @@ The work was presented at the 8th International Conference on Ship and Offshore 
 
 ## Autonomous Ground Vehicle for Precision Pruning and Intelligent Orchard Operations
 
-My agricultural robotics research explores the development of an **Autonomous Ground Vehicle (AGV) for precision pruning**.
+<p align="center">
+  <img
+    src="agricultural-robotics-research-overview.png"
+    alt="Autonomous Ground Vehicle for Precision Pruning and Intelligent Orchard Operations"
+    width="100%"
+  />
+</p>
 
-The central research problem is different from conventional agricultural navigation.
+This research explores the development of an Autonomous Ground Vehicle (AGV) for precision pruning, addressing a fundamental challenge in agricultural robotics: moving beyond reliable navigation toward autonomous physical intervention.
 
-A robot may be able to navigate an orchard reliably, but pruning requires the system to understand the structure of the plant and make an informed intervention.
+While an agricultural robot may be capable of navigating orchard rows, precision pruning requires the system to understand the three-dimensional structure of the plant, identify suitable intervention points, plan a safe manipulation trajectory, and execute the intervention while accounting for uncertainty and changing environmental conditions.
 
-The research therefore explores the integration of:
+The proposed research therefore integrates multi-modal perception, real-time 3D canopy reconstruction, topological analysis, horticultural decision-making, autonomous navigation, and precision manipulation.
 
-* Autonomous ground navigation
-* 3D perception
-* RGB-D sensing
-* LiDAR
-* Point cloud processing
-* Plant structure understanding
-* Topological representations
-* Occlusion-aware perception
-* Manipulation
-* Force feedback
-* Intelligent pruning decisions
+### Research Gap
 
-The research investigates the gap between:
+The central research gap lies in moving agricultural robots beyond reliable navigation toward understanding, decision-making, and autonomous physical intervention.
 
-**Autonomous navigation**
+```mermaid
+flowchart TD
 
-and
+    A["AUTONOMOUS NAVIGATION"]
+    B["STRUCTURAL PLANT UNDERSTANDING"]
+    C["INTELLIGENT DECISION-MAKING"]
+    D["AUTONOMOUS PHYSICAL INTERVENTION"]
 
-**Autonomous physical intervention.**
+    A --> B
+    B --> C
+    C --> D
 
-A major challenge is developing perception and decision-making approaches that generalise across different tree species, growth stages, occlusions, and real-world orchard conditions.
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:17px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:17px,font-weight:700;
+
+    class A,B,C stage;
+    class D final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+
+Conventional agricultural automation has made significant progress in navigation, spraying, monitoring, and harvesting. However, precision pruning remains substantially more difficult because the robot must reason about the structural topology of the plant rather than simply detecting a target object.
+
+### Proposed Research Architecture
+
+<table align="center" width="90%">
+  <tr>
+    <th align="center">Subsystem</th>
+    <th align="center">Research Focus</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Perception</strong></td>
+    <td align="center">LiDAR, RGB-D sensing, IMU, RTK-GPS and multi-modal sensor fusion</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>3D Reconstruction</strong></td>
+    <td align="center">Real-time canopy reconstruction and thin-structure perception</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Topological Analysis</strong></td>
+    <td align="center">Branch connectivity and skeletal representation of tree architecture</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Decision Layer</strong></td>
+    <td align="center">Horticultural rules and intelligent pruning-point determination</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Navigation</strong></td>
+    <td align="center">RTK-GPS planning, LiDAR-visual SLAM, row following and obstacle avoidance</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Manipulation</strong></td>
+    <td align="center">6-DoF robotic arm, trajectory planning and force-feedback-assisted cutting</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Integration</strong></td>
+    <td align="center">ROS 2 based modular architecture with edge AI processing</td>
+  </tr>
+</table>
+
+The proposed architecture is organised around four major functional subsystems: **perception, cognition, navigation, and manipulation**, connected through a modular ROS 2 middleware layer.
+
+### Technical Focus
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/Multi--Modal-Perception-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/3D-Canopy_Reconstruction-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Topological-Skeletonisation-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/LiDAR-Perception-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/RGB--D-Vision-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/SLAM-Navigation-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Edge_AI-NVIDIA_Jetson-1E3A5F?style=for-the-badge" />
+
+</p>
+
+### Perception and Plant Understanding
+
+The perception pipeline combines LiDAR and RGB-D sensing to capture both geometric and semantic information about the orchard environment.
+
+The proposed processing pipeline consists of:
+
+- Point cloud preprocessing
+- Sensor calibration and registration
+- Motion compensation
+- Branch detection
+- Occlusion-aware perception
+- 3D reconstruction
+- Topological skeletonisation
+- Branch connectivity analysis
+
+The objective is to produce a high-fidelity representation of tree structure suitable for subsequent horticultural decision-making.
+
+### Autonomous Navigation
+
+The proposed AGV uses a dual-mode navigation strategy:
+
+<table align="center" width="85%">
+  <tr>
+    <th align="center">Operating Condition</th>
+    <th align="center">Navigation Approach</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Open Canopy / Headlands</strong></td>
+    <td align="center">RTK-GPS based global planning and row assignment</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dense Canopy / GPS-Denied Areas</strong></td>
+    <td align="center">LiDAR-visual SLAM with IMU and odometry</td>
+  </tr>
+</table>
+
+The navigation layer is intended to support row following, dynamic obstacle avoidance, GPS-denied operation, and synchronisation between vehicle movement and manipulation.
+
+### Precision Pruning Workflow
+
+The proposed end-to-end workflow is:
+
+```mermaid
+flowchart TD
+
+    A["01<br/><br/> APPROACH <br/><br/>
+    <small>Tree approach and <br/> multi-angle scanning</small>"]
+
+    B["02<br/><br/> 3D CANOPY RECONSTRUCTION <br/><br/>
+    <small> LiDAR + RGB-D <br/> perception</small>"]
+
+    C["03<br/><br/> TOPOLOGICAL ANALYSIS <br/><br/> 
+    <small> Branch connectivity <br/> and skeletal representation</small>"]
+
+    D["04<br/><br/> PRUNING POINT DETERMINATION<br/><br/> 
+    <small> Horticultural criteria <br/> and decision rules</small>"]
+
+    E["05<br/><br/> MANIPULATOR PATH PLANNING<br/><br/> 
+    <small> Collision-free <br/> trajectory generation</small>"]
+
+    F["06<br/><br/> GRASP • CUT • RETRACT<br/><br/> 
+    <small> Force-feedback-assisted <br/> execution</small>"]
+
+    G["07<br/><br/> QUALITY VERIFICATION <br/><br/> 
+    <small> Post-cut inspection <br/> and validation</small>"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef start fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef decision fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef execute fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2.5px,font-size:15px,font-weight:700;
+    classDef finish fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A start;
+    class B,C stage;
+    class D decision;
+    class E,F execute;
+    class G finish;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
 
 ---
 

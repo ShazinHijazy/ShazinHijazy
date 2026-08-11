@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:1E3A5F&height=220&section=header&text=Mohamed%20Hijazy%20Shazin%20Hassan&fontSize=38&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Robotics%20%7C%20Autonomous%20Systems%20%7C%20Multi-Agent%20Robotics%20%7C%20AI&descAlignY=58&descSize=18" width="100%"/>
+  <img
+    src="github-banner.svg"
+    alt="MOHAMED HIJAZY SHAZIN HASSAN — ROBOTICS AUTONOMOUS SYSTEMS SWARM INTELLIGENCE AI"
+    width="100%"
+  />
 </p>
 
 <p align="center">
@@ -27,13 +31,6 @@
 <a href="https://orcid.org/0009-0009-9256-7824">
 <img src="https://img.shields.io/badge/ORCID-0009--0009--9256--7824-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" />
 </a>
-
-</p>
-
-<p align="center">
-  <strong>Robotics & AI Researcher</strong><br>
-  Autonomous Systems · Multi-Agent Robotics · Swarm Intelligence · Resilient Autonomy
-</p>
 
 ---
 

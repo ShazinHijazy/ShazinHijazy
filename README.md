@@ -1356,52 +1356,307 @@ Further details are available through the research abstract and presentation, Fo
 
 ## Embedding-Level Calibration under Distribution Shift in Visual Recognition
 
-Another research direction explores the reliability of confidence estimates produced by visual recognition systems when deployment data differs from training data.
+A research direction focused on the reliability of confidence estimates produced by visual recognition systems when deployment data differs from the training distribution.
 
-The research investigates the limitations of conventional score-level calibration under distribution shift.
+The work investigates a fundamental limitation of conventional score-level calibration. When distribution shift causes samples from different classes to occupy the same predicted-score region, the score can lose information that remains available in the underlying representation. In such cases, recalibrating the score alone cannot recover the missing information.
 
-The work introduces concepts including:
+The research therefore moves the calibration problem from the predicted score toward the embedding representation.
 
-* Calibration Witness
-* Embedding-level calibration
-* Distribution shift
-* Score-level non-identifiability
-* Witness Field
-* Propagation Algebra
+## Core Research Question
 
-The broader question is:
+> **How can a visual recognition system maintain reliable confidence when deployment data differs from its training distribution?**
 
-> **Can an AI system know when its confidence is no longer trustworthy?**
+## Research Framework
 
-This research connects directly with my interest in trustworthy autonomy because robotic systems depend heavily on the reliability of perception models when operating outside controlled environments.
+```mermaid
+flowchart TD
 
----
+    A["DISTRIBUTION SHIFT"]
+    B["SCORE-LEVEL COLLISION"]
+    C["LOSS OF IDENTIFIABILITY"]
+    D["EMBEDDING-LEVEL INFORMATION"]
+    E["CALIBRATION WITNESS"]
+    F["WITNESS FIELD"]
+    G["RELIABLE CONFIDENCE ESTIMATION"]
 
-# 08. Calibration Witness and Propagation Algebra
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
 
-## The Calibration Witness and Its Propagation Algebra
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:16px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:16px,font-weight:700;
 
-This research develops a theoretical framework for understanding calibration failure when representation-level information is lost or collapsed into indistinguishable score regions.
+    class A,B,C,D,E,F stage;
+    class G final;
 
-The work investigates:
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
 
-* Calibration error
-* Representation-level information
-* Distribution shift
-* Score-level limitations
-* Embedding-level structure
-* Layer-wise epistemic information
-* Calibration reliability
+## Research Areas
 
-The research has applications across areas including:
+<p align="center">
 
-* Computer vision
-* Autonomous systems
-* Biometrics
-* Medical imaging
-* Machine learning reliability
+<img src="https://img.shields.io/badge/Reliable_AI-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Distribution_Shift-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Embedding--Level_Calibration-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Uncertainty-0F172A?style=for-the-badge" />
 
-The central motivation is closely aligned with my broader interest in **reliable AI for systems that must make decisions under uncertainty**.
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Computer_Vision-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Visual_Recognition-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Epistemic_Uncertainty-1E3A5F?style=for-the-badge" />
+
+</p>
+
+## Key Concepts
+
+- Calibration Witness
+- Embedding-Level Calibration
+- Distribution Shift
+- Score-Level Non-Identifiability
+- Score Fibre Collision
+- Witness Field
+- Propagation Algebra
+- Epistemic Uncertainty
+- Representation Shift
+- Calibration Reliability
+
+## Theoretical Contributions
+
+The research formalises a Twin Construction showing that two deployment distributions can be indistinguishable to a score-measurable calibrator while requiring different calibrated outputs.
+
+The Calibration Witness characterises the calibration deficit created by collapsed score fibres at the embedding level.
+
+The Witness Identity establishes a direct relationship between the calibration deficit of score-measurable calibration and the Calibration Witness.
+
+The Witness Field provides a constructive approach for estimating the relevant conditional structure using labelled training data and unlabelled deployment data without requiring deployment labels.
+
+The research further introduces a Propagation Algebra to describe how layer-wise epistemic uncertainty accumulates through a neural network and converges toward the terminal Calibration Witness.
+
+## Recoverability and Failure Boundary
+
+The framework distinguishes between two important cases:
+
+```mermaid
+flowchart TD
+
+    A["REPRESENTATION RETAINS <br/> DISCRIMINATIVE INFORMATION"]
+    B["EMBEDDING-LEVEL INFORMATION <br/> REMAINS AVAILABLE"]
+    C["CALIBRATION CAN BE <br/> IMPROVED"]
+
+    D["REPRESENTATION COLLAPSES <br/> RELEVANT INFORMATION"]
+    E["INFORMATION IS <br/> ALREADY LOST"]
+    F["CALIBRATION ALONE <br/> CANNOT RECOVER IT"]
+    G["REPRESENTATION <br/> RETRAINING IS REQUIRED"]
+
+    A --> B
+    B --> C
+
+    D --> E
+    E --> F
+    F --> G
+
+    classDef positive fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef boundary fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,D,E positive;
+    class F boundary;
+    class C,G final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+<p>This establishes an important boundary between calibration failure and representation failure.</p>
+
+## Empirical Validation
+
+The research has been evaluated across a broad range of visual recognition settings and multiple backbone architectures.
+
+### Visual Recognition Benchmarks
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/CIFAR--10--C-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ImageNet--C-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/PACS-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DomainNet-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/WILDS_iWildCam-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Camelyon17-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ImageNet--A-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ImageNet--R-1E3A5F?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/ObjectNet-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/NICO%2B%2B-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/OOD--CV-0F172A?style=for-the-badge" />
+
+</p>
+
+### Backbone Architectures
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/ResNet--50-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ResNet--101-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ViT--B%2F16-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ConvNeXt--Base-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/EfficientNet--B0-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Swin--B-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DeiT--III--B-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MaxViT--T-1E3A5F?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/DINOv2--B%2F14-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/EVA--02--B-0F172A?style=for-the-badge" />
+
+</p>
+
+### Validation Scale
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/11_Visual_Benchmarks-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/10_Backbone_Architectures-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/2M%2B_Field_Images-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/200K%2B_Individuals-1E3A5F?style=for-the-badge" />
+
+</p>
+
+A large-scale field deployment involving approximately two million cattle images from two hundred thousand individuals was also used to examine the behaviour of the framework at operational scale.
+
+The synthetic validation reproduced the theoretically predicted quantities within approximately ±3%, while the benchmark experiments showed score-level calibrators reaching the predicted structural floor and the Witness Field achieving the reported parametric calibration behaviour.
+
+## Research Validation Pipeline
+
+```mermaid
+flowchart LR
+
+    A["THEORETICAL <br/> ANALYSIS"]
+    B["SYNTHETIC <br/> VALIDATION"]
+    C["11 VISUAL <br/> BENCHMARKS"]
+    D["10 BACKBONE <br/> ARCHITECTURES"]
+    E["FIELD-SCALE <br/> DEPLOYMENT"]
+    F["RELIABILITY <br/> ASSESSMENT"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,C,D,E stage;
+    class F final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
+
+## Relevance to Reliable Autonomous Systems
+
+The work connects with my broader interest in trustworthy autonomy and reliable AI.
+
+Autonomous systems increasingly depend on visual perception models to make decisions in environments that differ from controlled training conditions. In such settings, prediction accuracy alone is insufficient. A perception system must also provide confidence estimates that remain meaningful when conditions change.
+
+> **Not only whether an AI system is correct, but whether its confidence can still be trusted when the environment changes.**
+
+This perspective is relevant to applications including:
+
+- Autonomous robotics
+- UAV perception
+- Marine and surface robotics
+- Multi-agent systems
+- Computer vision
+- Biometrics
+- Medical imaging
+- Industrial inspection
+- Safety-critical autonomous systems
+
+## Research Evolution
+
+The work evolved through two manuscript versions.
+
+### Version 1 — The Calibration Witness and Its Propagation Algebra
+
+The first version developed the theoretical foundations around the Calibration Witness, score-level impossibility, Witness Field, and Propagation Algebra.
+
+### Version 2 — Embedding-Level Calibration under Distribution Shift in Visual Recognition
+
+The second version refined the central framing around embedding-level calibration and reliability under distribution shift, while expanding the empirical evaluation and practical interpretation.
+
+```mermaid
+flowchart LR
+
+    A["VERSION 1<br/><br/>
+    CALIBRATION WITNESS<br/>AND ITS PROPAGATION ALGEBRA"]
+
+    B["VERSION 2<br/><br/>
+    EMBEDDING-LEVEL CALIBRATION<br/>UNDER DISTRIBUTION SHIFT"]
+
+    C["EXPANDED EMPIRICAL <br/> VALIDATION"]
+
+    D["RELIABLE AI <br/> UNDER DISTRIBUTION SHIFT"]
+
+    A --> B
+    B --> C
+    C --> D
+
+    classDef version fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-weight:700;
+
+    class A,B,C version;
+    class D final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```   
+
+## Broader Research Direction
+
+This work forms part of my broader research interest in:
+
+```mermaid
+flowchart TD
+
+    A["RELIABLE AI"]
+    B["UNCERTAINTY-AWARE PERCEPTION"]
+    C["TRUSTWORTHY DECISION-MAKING"]
+    D["RELIABLE AUTONOMOUS SYSTEMS"]
+
+    A --> B
+    B --> C
+    C --> D
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:16px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:16px,font-weight:700;
+
+    class A,B,C stage;
+    class D final;
+
+    linkStyle default stroke:#0F172A,stroke-width:2px;
+```
 
 ---
 

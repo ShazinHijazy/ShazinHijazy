@@ -564,6 +564,14 @@ The research is being evaluated through simulation-driven analysis.
 
 ## Autonomous Surface Vehicle Catamaran
 
+<p align="center">
+  <img
+    src="catamaran.png"
+    alt="Autonomous Surface Vehicle Catamaran research architecture"
+    width="100%"
+  />
+</p>
+
 During my research internship at the **Indian Institute of Technology Kharagpur**, I worked on an **Autonomous Surface Vehicle (ASV) based on a catamaran platform**.
 
 The project brought together **marine sensing, localization, sensor fusion, perception, mapping, navigation, control, telemetry, and safety** within a modular **ROS 2** based robotic architecture.

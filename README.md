@@ -559,24 +559,14 @@ The thesis established the foundation for my continuing interest in fault-tolera
 ## Adaptive Dual-Mode Operational Swarm for Resilient Asset Defense under Communication Jamming
 
 <p align="center">
-<a href="https://www.researchsquare.com/article/rs-9957095/v1">
-<img align="center" src="research-square-logo.png" alt="Research Square" width="200"></a>
-&nbsp;&nbsp
-
-<a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">
-<img align="center" src="doi-logo.png" alt="DOI" width="60">
-</a>
-</p>
-  
-ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
-
-<p align="center">
   <img
     src="admos.png"
-    alt="ADMOS adaptive dual-mode UAV swarm architecture"
+    alt="ADMOS adaptive dual-mode operational swarm research overview"
     width="100%"
-  >
+  />
 </p>
+
+ADMOS investigates how cooperative UAV swarms can continue operating when communication between agents becomes degraded or unavailable.
 
 The research explores an adaptive architecture combining:
 
@@ -588,14 +578,14 @@ The research explores an adaptive architecture combining:
 
 Agents can operate in:
 
-* Cooperative mode
-* Autonomous mode
+- Cooperative mode
+- Autonomous mode
 
-A hybrid supervisor manages the transition between the two modes using hysteresis and minimum dwell time.
+A hybrid supervisor manages the transition between the two modes using **hysteresis and minimum dwell time**.
 
 ### Safety-Critical Control
 
-A Higher-Order Control Barrier Function based safety filter is integrated into the architecture and solved as a quadratic program.
+A **Higher-Order Control Barrier Function (HOCBF)** based safety filter is integrated into the architecture and solved as a quadratic program.
 
 ### Research Objective
 
@@ -604,6 +594,38 @@ Rather than assuming that communication will always remain available, ADMOS inve
 > **When coordination becomes unreliable, autonomous agents should degrade gracefully rather than fail catastrophically.**
 
 The manuscript has been developed around simulation-based evaluation of UAV swarm resilience under communication degradation and jamming conditions.
+
+The preprint is available through **Research Square**, while the manuscript is currently under peer review with *Discover Vehicles* (Springer Nature).
+
+<br>
+
+<p align="center">
+  <strong>READ HERE</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.researchsquare.com/article/rs-9957095/v1">
+    <img
+      src="research-square-logo.png"
+      alt="Read the ADMOS manuscript on Research Square"
+      width="150"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <strong>DOI</strong>
+</p>
+
+<p align="center">
+  <a href="https://doi.org/10.21203/rs.3.rs-9957095/v1">
+    <img
+      src="doi-logo.png"
+      alt="Open ADMOS DOI"
+      width="60"
+    />
+  </a>
+</p>
 
 ---
 

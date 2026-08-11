@@ -36,32 +36,21 @@
 
 # About Me
 
-I am a Computer Science and Engineering graduate from **Andhra University, India**, working at the intersection of **robotics, autonomous systems, artificial intelligence, multi-agent coordination, and resilient robotic autonomy**.
+I am a Computer Science and Engineering graduate from Andhra University, India, working at the intersection of robotics, autonomous systems, artificial intelligence, multi-agent coordination, and resilient robotic autonomy.
 
-My research is driven by a fundamental question:
+My research is guided by a fundamental question:
 
 > **How can autonomous robotic systems perceive, decide, coordinate, adapt, and continue operating reliably when the real world is uncertain, dynamic, communication-constrained, or partially degraded?**
 
-My work has gradually evolved from robotic software development and autonomous navigation toward research in **decentralized coordination, swarm intelligence, fault-tolerant autonomy, uncertainty-aware decision-making, and real-world robotic deployment**.
+My work has evolved from robotic software development, computer vision, and autonomous navigation toward research in decentralized coordination, swarm intelligence, fault-tolerant autonomy, uncertainty-aware decision-making, and reliable robotic systems.
 
-I have worked across multiple robotic domains, including:
+Across aerial, marine, underwater, and agricultural robotics, I am interested in a common problem:
 
-- Autonomous aerial systems
-- UAV swarms
-- Multi-agent robotic systems
-- Autonomous surface vehicles
-- Autonomous underwater robots
-- Agricultural robotics
-- Robot perception
-- Computer vision
-- Machine learning
-- Distributed decision-making
+> **How do we build autonomous systems that remain useful when their environment, communication, sensing, or individual agents cannot be assumed to be reliable?**
 
-A common thread connects these areas:
+This has led me toward decentralized and distributed approaches where robotic systems can make decisions locally, coordinate with other agents, adapt to changing conditions, and tolerate partial failures rather than relying entirely on centralized control.
 
-**Reliable autonomy in imperfect environments.**
-
-I am particularly interested in systems that do not depend excessively on centralized control and that can continue functioning when communication, sensing, energy availability, or individual robotic agents become unreliable.
+My broader goal is to contribute to reliable distributed autonomous systems that can move beyond controlled environments and operate meaningfully in the complexity of the real world.
 
 ---
 

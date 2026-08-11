@@ -2614,18 +2614,22 @@ Research areas:
 
 # Research Publication Status
 
-| Work                                                                  | Type                          | Status                                        |
-| --------------------------------------------------------------------- | ----------------------------- | --------------------------------------------- |
-| Arbitration Layer for Decision-Making in Autonomous Underwater Robots | Conference Research           | Presented / Accepted for Springer Proceedings |
-| ADMOS                                                                 | Research Manuscript           | Ongoing / Pre-Print                          |
-| Role-Partitioned Swarm Intelligence                                   | Research Manuscript           | Ongoing / Manuscript                          |
-| Embedding Level Calibration under Distribution Shift                  | Research Manuscript           | Ongoing / Pre-Print                         |
-| The Calibration Witness and Its Propagation Algebra                   | Research Work                 | Research Output/ Pre-Print                               |
-| FSLAKWS                                                               | Research Project / Manuscript | Research Work                                 |
-| Autonomous Catamaran                                                  | Robotics Project              | Completed Project Work                        |
-| UAV Swarm Coordination Thesis                                         | Bachelor's Thesis             | Completed                                     |
-| Precision Pruning AGV                                                 | Research Direction            | Ongoing Research                              |
-| Generalizable Robot Manipulation                                      | Research Proposal             | Ongoing Research                             |
+<div align="center">
+
+| Work | Type | Status |
+|:---:|:---:|:---:|
+| Arbitration Layer for Decision-Making in Autonomous Underwater Robots | Conference Research | Presented / Accepted for Springer Proceedings |
+| ADMOS | Research Manuscript | Ongoing / Pre-Print |
+| Role-Partitioned Swarm Intelligence | Research Manuscript | Ongoing / Manuscript |
+| Embedding-Level Calibration under Distribution Shift | Research Manuscript | Ongoing / Pre-Print |
+| The Calibration Witness and Its Propagation Algebra | Research Work | Research Output / Pre-Print |
+| FSLAKWS | Research Project / Manuscript | Research Work |
+| Autonomous Catamaran | Robotics Project | Completed Project Work |
+| UAV Swarm Coordination Thesis | Bachelor's Thesis | Completed |
+| Precision Pruning AGV | Research Direction | Ongoing Research |
+| Generalizable Robot Manipulation | Research Proposal | Ongoing Research |
+
+</div>
 
 ---
 

@@ -1003,6 +1003,8 @@ The experience strengthened my interest in moving **autonomous systems from cont
 
 </p>
 
+---
+
 # 05. Autonomous Underwater Robotics
 
 ## Arbitration Layer for Decision-Making in Autonomous Underwater Robots
@@ -1942,6 +1944,7 @@ The complete implementation, model files, evaluation scripts, and supporting res
 <p align="center"> 
 <a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
 
+---
 
 # 09. Computer Vision
 
@@ -2132,28 +2135,327 @@ The technical report documents the system architecture, methodology, deployment,
 
 # 10. Generalizable Robot Manipulation
 
-## Differentiable Neural Radiance Fields and Physics-Guided Diffusion
+## Differentiable Neural Radiance Fields and Physics-Guided Diffusion for Generalizable Robot Manipulation
 
-I have also explored a research direction focused on **generalizable robot manipulation in human-centric and unstructured environments**.
+This research direction explores how robot manipulation systems can become more generalizable when operating in human-centric and unstructured environments.
 
-The proposed framework combines:
-
-* Differentiable Neural Radiance Fields
-* Physics-guided diffusion models
-* Differentiable simulation
-* Synthetic data generation
-* Robot manipulation
-* Sim-to-real transfer
-* Physical consistency
-* Policy refinement
+The proposed framework combines differentiable scene representation, physics-guided generative modelling, differentiable simulation, and iterative policy refinement to generate physically consistent training experiences.
 
 The central motivation is to address three recurring challenges in robot learning:
 
-1. Sim-to-real transfer
-2. Scarcity of real-world interaction data
-3. Lack of physical understanding in learned policies
+- The sim-to-real gap
+- Scarcity of real-world interaction data
+- Lack of physical understanding in learned policies
 
-The proposed concept uses a closed-loop data generation and policy refinement pipeline to create physically consistent training experiences.
+The proposal explores a closed-loop framework in which synthetic environments and physically consistent interactions are continuously generated and used to refine robot manipulation policies. :contentReference[oaicite:2]{index=2}
+
+## Research and Technical Focus
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Robot_Manipulation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Differentiable_NeRFs-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Physics--Guided_Diffusion-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Differentiable_Simulation-0F172A?style=for-the-badge" />
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Synthetic_Data_Generation-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Sim--to--Real_Transfer-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Policy_Refinement-1E3A5F?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Physical_Consistency-1E3A5F?style=for-the-badge" />
+
+</p>
+
+## Core Research Challenges
+
+The proposed research is motivated by three fundamental limitations in current robot learning systems.
+
+### Sim-to-Real Gap
+
+Policies trained in idealised simulation can experience significant performance degradation when transferred to physical robots because of differences in friction, contact dynamics, lighting, sensor noise, and other environmental factors.
+
+### Real-World Data Scarcity
+
+Collecting diverse and high-quality robot interaction data directly from physical systems is expensive, time-consuming, and introduces hardware wear. This limits the amount of data available for training generalizable manipulation policies.
+
+### Lack of Physical Understanding
+
+Learned models can demonstrate strong semantic capabilities while lacking sufficient understanding of the physical consequences of actions and object interactions.
+
+This can result in brittle behaviour when robots encounter novel objects, tasks, or unstructured environments.
+
+## Proposed Research Architecture
+
+The proposed framework brings together four major components:
+
+```mermaid
+flowchart TD
+
+    A["UNSTRUCTURED<br/>
+    ENVIRONMENT"]
+
+    B["DIFFERENTIABLE<br/>
+    NeRF"]
+
+    C["HIGH-FIDELITY<br/>
+    3D SCENE REPRESENTATION"]
+
+    D["PHYSICS-GUIDED<br/>
+    DIFFUSION"]
+
+    E["ROBOT ACTIONS<br/>
+    AND TRAJECTORIES"]
+
+    F["DIFFERENTIABLE<br/>
+    PHYSICS SIMULATION"]
+
+    G["PHYSICAL CONSISTENCY<br/>
+    AND FEEDBACK"]
+
+    H["SYNTHETIC<br/>
+    TRAINING DATA"]
+
+    I["MANIPULATION<br/>
+    POLICY"]
+
+    J["POLICY REFINEMENT"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> B
+
+    classDef input fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef representation fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef process fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef feedback fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A input;
+    class B,C representation;
+    class D,E,F process;
+    class G,H feedback;
+    class I,J final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+## Differentiable Neural Radiance Fields
+
+### Differentiable NeRFs are proposed as the scene and object representation layer.
+
+The framework uses NeRFs to construct continuous 3D representations of environments and objects from 2D observations, enabling the generation of diverse and high-fidelity visual data.
+
+The differentiable representation is important because gradients can propagate through the rendering process, allowing geometry, appearance, and physical properties to be jointly considered during optimisation.
+
+<p align="center"> <img src="https://img.shields.io/badge/Continuous_3D_Representation-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Novel_View_Synthesis-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Differentiable_Rendering-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/High--Fidelity_Scenes-1E3A5F?style=for-the-badge" /> </p>
+
+### Physics-Guided Diffusion
+
+Physics-Guided Diffusion Models are proposed to generate robot actions and interaction trajectories while incorporating physical constraints.
+
+The framework considers manipulation behaviours such as grasping and pushing, with generated trajectories guided by feedback from a differentiable physics simulator.
+
+<p align="center"> <img src="https://img.shields.io/badge/Generative_Action_Modeling-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Multimodal_Trajectories-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Physics_Constraints-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Manipulation_Trajectories-1E3A5F?style=for-the-badge" /> </p>
+
+### Differentiable Physics Simulation
+
+The proposed framework incorporates differentiable simulation to provide physical feedback during trajectory generation.
+
+The proposal identifies MuJoCo or Genesis as candidate simulation environments for providing physical feedback and gradients to the diffusion process.
+
+<p align="center"> <img src="https://img.shields.io/badge/Differentiable_Physics-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/MuJoCo-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Genesis-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Gradient--Based_Feedback-1E3A5F?style=for-the-badge" /> </p>
+
+## Closed-Loop Data Flywheel
+
+A central concept of the proposal is a closed-loop synthetic data generation and policy refinement process.
+
+Differentiable NeRFs generate realistic scenes, Physics-Guided Diffusion generates physically consistent interactions, and the resulting synthetic experiences are used to train and iteratively refine manipulation policies.
+
+The refined policies then contribute to the generation of further training experiences, creating a continuous data-generation loop.
+
+```mermaid
+flowchart TD
+
+    A["DIFFERENTIABLE<br/>
+    NeRF"]
+
+    B["REALISTIC<br/>
+    3D SCENES"]
+
+    C["PHYSICS-GUIDED<br/>
+    DIFFUSION"]
+
+    D["ROBOT ACTIONS<br/>
+    AND INTERACTIONS"]
+
+    E["DIFFERENTIABLE<br/>
+    SIMULATION"]
+
+    F["PHYSICALLY CONSISTENT<br/>
+    SYNTHETIC DATA"]
+
+    G["MANIPULATION<br/>
+    POLICY"]
+
+    H["POLICY<br/>
+    REFINEMENT"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> A
+
+    classDef representation fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef generation fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:14px,font-weight:700;
+
+    class A,B representation;
+    class C,D,E,F generation;
+    class G,H final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+### From Synthetic Experience to Generalizable Manipulation
+
+The proposed research aims to move beyond simply increasing the quantity of training data.
+
+The objective is to generate training experiences that are simultaneously:
+
+<p align="center"> <img src="https://img.shields.io/badge/Photorealistic-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Physically_Consistent-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Diverse-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Interactive-1E3A5F?style=for-the-badge" /> </p>
+
+The proposed data-generation process is intended to reduce dependence on costly physical interaction data while improving the ability of manipulation policies to operate on unseen objects, novel tasks, and varied environmental conditions.
+
+## Research Objectives
+
+```mermaid
+flowchart LR
+
+    A["REDUCE<br/>
+    SIM-TO-REAL GAP"]
+
+    B["REDUCE<br/>
+    DATA SCARCITY"]
+
+    C["IMPROVE<br/>
+    PHYSICAL CONSISTENCY"]
+
+    D["IMPROVE<br/>
+    GENERALIZATION"]
+
+    E["GENERALIZABLE<br/>
+    ROBOT MANIPULATION"]
+
+    A --> E
+    B --> E
+    C --> E
+    D --> E
+
+    classDef objective fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,C,D objective;
+    class E final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+## Research Direction
+
+This work represents a research direction toward generalizable physical intelligence, where robots are expected to learn not only visual and semantic representations, but also the physical consequences of their actions.
+
+The broader objective is to develop manipulation systems capable of adapting to:
+
+Unseen objects
+Novel tasks
+Unstructured environments
+Changing physical conditions
+Human-centric settings
+
+The proposal positions the framework as a pathway toward autonomous systems that can interact with the physical world more reliably and safely.
+
+### Expected Contributions
+
+The proposal identifies four primary contribution areas:
+
+<p align="center"> <img src="https://img.shields.io/badge/Novel_Framework-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Data_Scarcity_Reduction-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Generalization-1E3A5F?style=for-the-badge" /> <img src="https://img.shields.io/badge/Physical_Consistency-1E3A5F?style=for-the-badge" /> </p>
+
+The proposed framework is intended to combine photorealistic scene generation with physical consistency, reduce dependence on real-world interaction data, improve policy generalization, and incorporate physical reasoning into the generative learning process.
+
+### Research Status
+
+This work is currently presented as a proposed research framework.
+
+The uploaded document describes the architecture, motivation, methodology, and expected contributions, but does not report completed experimental results or measured performance.
+
+<p align="center"> <img src="https://img.shields.io/badge/Research_Proposal-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Framework_Design-0F172A?style=for-the-badge" /> <img src="https://img.shields.io/badge/Experimental_Validation-Future_Work-1E3A5F?style=for-the-badge" /> </p>
+Broader Research Connection
+
+This research direction connects naturally with my broader interest in reliable and generalizable autonomous systems.
+
+```mermaid
+flowchart TD
+
+    A["PERCEPTION"]
+
+    B["3D SCENE<br/>
+    UNDERSTANDING"]
+
+    C["PHYSICAL<br/>
+    REASONING"]
+
+    D["ACTION<br/>
+    GENERATION"]
+
+    E["POLICY<br/>
+    REFINEMENT"]
+
+    F["GENERALIZABLE<br/>
+    AUTONOMY"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
+    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:14px,font-weight:700;
+    classDef final fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+
+    class A,B,C,D,E stage;
+    class F final;
+
+    linkStyle default stroke:#0F172A,stroke-width:1.5px;
+```
+
+The longer-term research direction is toward robotic systems that can perceive unfamiliar environments, reason about physical interactions, generate appropriate actions, and refine their behaviour through increasingly realistic and physically grounded experiences.
+
+### Research Proposal
+
+<p align="center">
+  The proposal describes the research motivation, framework, methodology, expected contributions, and broader direction toward generalizable robot manipulation. 
+</p> 
+<br>
+<p align="center"> <a href="PGDM.pdf"> <img src="https://img.shields.io/badge/READ_RESEARCH_PROPOSAL-0F172A?style=for-the-badge" alt="Read Research Proposal" /> 
+</a> 
+</p>
+<p align="center"> 
+<a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> 
+</a> 
+</p>
 
 ---
 

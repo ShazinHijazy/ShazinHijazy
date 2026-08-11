@@ -426,53 +426,131 @@ linkStyle default stroke:#0F172A,stroke-width:1.5px;
 <p align="center">
   <img
     src="uav-swarm-research-overview.png"
-    alt="High-level decentralized resilient UAV swarm research overview"
+    alt="Fault-Tolerant Decentralized UAV Swarm Coordination research overview"
     width="100%"
-  >
+  />
 </p>
 
-My bachelor's thesis investigates decentralized coordination and autonomous leadership in UAV swarms.
+My bachelor's thesis investigates decentralized coordination, adaptive leadership, and fault tolerance in UAV swarms.
 
-The framework explores a Relative Suitability Value (RSV) based leader-election mechanism in which individual UAVs evaluate local operational conditions such as:
+The framework uses a Relative Suitability Value (RSV) based leader-election mechanism in which individual UAVs continuously evaluate operational conditions including:
 
-* Residual energy
-* Neighbour connectivity
-* Formation positioning
-* Operational suitability
+- Residual energy
+- Neighbour connectivity
+- Formation positioning
+- Operational suitability
 
-The objective is to enable the swarm to dynamically determine a suitable leader while reducing dependence on a centralized command structure.
+Rather than relying on a permanently assigned leader or centralized command structure, the swarm can collectively determine a suitable coordinator and autonomously recover when the current leader becomes unavailable.
 
 ### Technical Stack
 
-**Robotics & Autonomy**
+#### Robotics & Autonomy
 
-![ROS 2 Humble](https://img.shields.io/badge/ROS%202-Humble-22314E?style=flat-square&logo=ros&logoColor=white)
-![PX4 Autopilot](https://img.shields.io/badge/PX4-Autopilot-37474F?style=flat-square&logo=px4&logoColor=white)
-![MAVSDK](https://img.shields.io/badge/MAVSDK-37474F?style=flat-square)
-![MAVLink](https://img.shields.io/badge/MAVLink-37474F?style=flat-square)
+<p align="center">
 
-**Simulation & Communication**
+<img src="https://img.shields.io/badge/ROS_2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/PX4-Autopilot-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MAVSDK-C%2B%2B-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MAVLink-Communication-0F172A?style=for-the-badge" />
 
-![Gazebo](https://img.shields.io/badge/Gazebo-37474F?style=flat-square&logo=gazebo&logoColor=white)
-![DDS](https://img.shields.io/badge/DDS-37474F?style=flat-square)
-![SITL](https://img.shields.io/badge/Software--in--the--Loop%20(SITL)-37474F?style=flat-square)
+</p>
 
-**Programming**
+#### Simulation & Communication
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+<p align="center">
+
+<img src="https://img.shields.io/badge/Gazebo-Classic_11-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/SITL-Validation-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DDS-Peer--to--Peer-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+
+</p>
+
+#### Programming
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+
+</p>
 
 ### Research Problems
 
-* Decentralized leader election
-* Node failure
-* Autonomous failover
-* Communication-aware coordination
-* Distributed decision-making
-* Swarm resilience
-* Multi-agent autonomy
+- Decentralized leader election
+- Autonomous failover
+- Node failure resilience
+- Communication-aware coordination
+- Distributed decision-making
+- Swarm resilience
+- Multi-agent autonomy
+- Formation maintenance
+- Mission continuity
 
-The thesis represents the foundation of my current research direction in **fault-tolerant distributed robotic systems**.
+### Validation
+
+The framework was evaluated through Software-in-the-Loop (SITL) simulation using a multi-drone swarm in Gazebo. The documented validation included a 15-drone swarm, with the system maintaining a real-time factor of 1.0 at approximately 48% CPU load.
+
+The validation also recorded:
+
+<table align="center" width="80%">
+  <tr>
+    <th align="center">Metric</th>
+    <th align="center">Result</th>
+  </tr>
+  <tr>
+    <td align="center"><strong>Swarm Size</strong></td>
+    <td align="center">15 UAVs</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Collision Safety Violations</strong></td>
+    <td align="center">0</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Minimum Inter-Agent Distance</strong></td>
+    <td align="center">6.031 m</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Leader Failure Detection</strong></td>
+    <td align="center">3.0 s</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Leadership Recovery</strong></td>
+    <td align="center">0.45 s</td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Simulation Real-Time Factor</strong></td>
+    <td align="center">1.0</td>
+  </tr>
+</table>
+
+The documented failure-recovery experiment demonstrated autonomous leadership transfer from SYS 4 to SYS 8, with mission continuity maintained during active flight states.
+
+### Research Contribution
+
+The central contribution of the thesis is a fully decentralized leadership-election and failover framework in which UAVs evaluate their relative suitability and collectively determine the next coordinator rather than depending on a fixed centralized authority. The implementation uses ROS 2 DDS for peer-to-peer communication and integrates the high-level coordination logic with PX4 and MAVSDK within the SITL environment.
+
+### Research Direction
+
+The thesis established the foundation for my continuing interest in fault-tolerant distributed robotic systems, particularly autonomous systems that can coordinate, adapt, and maintain mission continuity when individual agents or communication links become unreliable.
+
+<br>
+
+<p align="center">
+
+<a href="Mohamed_Hijazy_Shazin_Hassan_Bachelors_Project_Thesis-Abstract.pdf">
+<img src="https://img.shields.io/badge/READ_ABSTRACT-0F172A?style=for-the-badge" />
+</a>
+
+</p>
+
+<p align="center">
+
+<a href="mailto:shazhijazy@gmail.com?subject=Request%20for%20Full%20Bachelor's%20Thesis">
+<img src="https://img.shields.io/badge/REQUEST_FULL_THESIS-1E3A5F?style=for-the-badge" />
+</a>
+
+</p>
 
 ---
 

@@ -417,9 +417,9 @@ linkStyle default stroke:#0F172A,stroke-width:1.5px;
 
 # Research Portfolio
 
-## 01. Fault-Tolerant Decentralized UAV Swarm Coordination
+# 01. Fault-Tolerant Decentralized UAV Swarm Coordination
 
-### Bachelor's Thesis
+## Bachelor's Thesis
 
 **A Fault-Tolerant Decentralized Coordination Framework for UAV Swarms using Relative Suitability Elective Consensus and SITL Validation**
 

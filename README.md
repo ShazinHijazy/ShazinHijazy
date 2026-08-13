@@ -3650,320 +3650,336 @@ My repositories document different stages of my research process, from
 
 <table align="center" width="100%" cellpadding="12" cellspacing="0">
 
-<tr>
-
 <!-- ===================================================== -->
-<!-- CARD 1 -->
+<!-- ROW 01 : GITHUB LOGOS -->
 <!-- ===================================================== -->
 
-<td width="33.33%" valign="top" align="center">
+<tr width="100%">
 
-<table width="100%" cellpadding="14" cellspacing="0">
+<td width="33.33%" height="85" align="center" valign="middle">
 
-<tr>
-<td align="center" valign="middle" height="85">
 <a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
+
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
+     alt="GitHub"
+     width="48">
+
 </a>
+
 </td>
+
+<td width="33.33%" height="85" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
+
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+     alt="GitHub"
+     width="48">
+
+</a>
+
+</td>
+
+<td width="33.33%" height="85" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
+
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+     alt="GitHub"
+     width="48">
+
+</a>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 02 : TITLES -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <strong>Autonomous Catamaran</strong>
+
 </td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<strong>Adaptive Mobile<br>Barrier Coverage</strong>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<strong>RASID-SH<br>Architecture</strong>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 03 : RESEARCH AREAS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <sub><strong>Marine Robotics · ROS 2 · Navigation</strong></sub>
+
 </td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<sub><strong>Distributed Robotics · Probabilistic Coverage</strong></sub>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<sub><strong>Multi-Agent Systems · Swarm Simulation</strong></sub>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="115">
+
+<!-- ===================================================== -->
+<!-- ROW 04 : DESCRIPTIONS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="115" align="center" valign="middle">
+
 <sub>
 Autonomous Surface Vehicle development involving sensing,<br>
 navigation, SLAM, telemetry, simulation, and system integration.
 </sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
-<strong>Repository ↗</strong>
-</a>
-</td>
-</tr>
-
-</table>
 
 </td>
 
+<td width="33.33%" height="115" align="center" valign="middle">
 
-<!-- ===================================================== -->
-<!-- CARD 2 -->
-<!-- ===================================================== -->
-
-<td width="33.33%" valign="top" align="center">
-
-<table width="100%" cellpadding="14" cellspacing="0">
-
-<tr>
-<td align="center" valign="middle" height="85">
-<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
-<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<strong>Adaptive Mobile<br>Barrier Coverage</strong>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<sub><strong>Distributed Robotics · Probabilistic Coverage</strong></sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="115">
 <sub>
 Decentralized mobile-sensor barrier coverage for stochastic<br>
 target trajectories with reproducible numerical evaluation.
 </sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
-<strong>Repository ↗</strong>
-</a>
-</td>
-</tr>
-
-</table>
 
 </td>
 
+<td width="33.33%" height="115" align="center" valign="middle">
 
-<!-- ===================================================== -->
-<!-- CARD 3 -->
-<!-- ===================================================== -->
-
-<td width="33.33%" valign="top" align="center">
-
-<table width="100%" cellpadding="14" cellspacing="0">
-
-<tr>
-<td align="center" valign="middle" height="85">
-<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
-<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<strong>RASID-SH<br>Architecture</strong>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<sub><strong>Multi-Agent Systems · Swarm Simulation</strong></sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="115">
 <sub>
 Multi-agent swarm simulation exploring decentralized<br>
 leader election, reputation, communication quality, and visualization.
 </sub>
+
 </td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 05 : REPOSITORY LINKS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/Autonomous-Catamaran-IIT-KGP">
+<strong>Repository ↗</strong>
+</a>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/adaptive-mobile-barrier-coverage">
+<strong>Repository ↗</strong>
+</a>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
 <strong>Repository ↗</strong>
 </a>
-</td>
-</tr>
-
-</table>
 
 </td>
 
 </tr>
 
 
-<tr>
-
 <!-- ===================================================== -->
-<!-- CARD 4 -->
+<!-- ROW 06 : GITHUB LOGOS -->
 <!-- ===================================================== -->
 
-<td width="33.33%" valign="top" align="center">
+<tr width="100%">
 
-<table width="100%" cellpadding="14" cellspacing="0">
+<td width="33.33%" height="85" align="center" valign="middle">
 
-<tr>
-<td align="center" valign="middle" height="85">
 <a href="https://github.com/ShazinHijazy/sihdrone">
+
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
+     alt="GitHub"
+     width="48">
+
 </a>
+
 </td>
+
+<td width="33.33%" height="85" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/final-year-project">
+
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+     alt="GitHub"
+     width="48">
+
+</a>
+
+</td>
+
+<td width="33.33%" height="85" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy?tab=repositories">
+
+<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+     alt="GitHub"
+     width="48">
+
+</a>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 07 : TITLES -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <strong>SIH Drone</strong>
+
 </td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<strong>Final-Year Research</strong>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<strong>More Research<br>&amp; Robotics</strong>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 08 : RESEARCH AREAS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <sub><strong>UAV Swarms · Distributed Coordination</strong></sub>
+
 </td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<sub><strong>UAV Swarms · Resilient Autonomy</strong></sub>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<sub><strong>Projects · Experiments · Prototypes</strong></sub>
+
+</td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="115">
+
+<!-- ===================================================== -->
+<!-- ROW 09 : DESCRIPTIONS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="115" align="center" valign="middle">
+
 <sub>
 Drone-swarm simulation studying decentralized coordination,<br>
 communication degradation, stochastic scenarios, and swarm behaviour.
 </sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<a href="https://github.com/ShazinHijazy/sihdrone">
-<strong>Repository ↗</strong>
-</a>
-</td>
-</tr>
-
-</table>
 
 </td>
 
+<td width="33.33%" height="115" align="center" valign="middle">
 
-<!-- ===================================================== -->
-<!-- CARD 5 -->
-<!-- ===================================================== -->
-
-<td width="33.33%" valign="top" align="center">
-
-<table width="100%" cellpadding="14" cellspacing="0">
-
-<tr>
-<td align="center" valign="middle" height="85">
-<a href="https://github.com/ShazinHijazy/final-year-project">
-<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<strong>Final-Year Research</strong>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<sub><strong>UAV Swarms · Resilient Autonomy</strong></sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="115">
 <sub>
 Research implementation supporting undergraduate work on<br>
 fault-tolerant decentralized coordination for UAV swarms.
 </sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<a href="https://github.com/ShazinHijazy/final-year-project">
-<strong>Repository ↗</strong>
-</a>
-</td>
-</tr>
-
-</table>
 
 </td>
 
+<td width="33.33%" height="115" align="center" valign="middle">
 
-<!-- ===================================================== -->
-<!-- CARD 6 -->
-<!-- ===================================================== -->
-
-<td width="33.33%" valign="top" align="center">
-
-<table width="100%" cellpadding="14" cellspacing="0">
-
-<tr>
-<td align="center" valign="middle" height="85">
-<a href="https://github.com/ShazinHijazy?tab=repositories">
-<img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-alt="GitHub"
-width="48">
-</a>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<strong>More Research<br>&amp; Robotics</strong>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="55">
-<sub><strong>Projects · Experiments · Prototypes</strong></sub>
-</td>
-</tr>
-
-<tr>
-<td align="center" valign="middle" height="115">
 <sub>
 Additional work covering autonomous robotics, maritime technology,<br>
 software experiments, research prototypes, and technical projects.
 </sub>
+
 </td>
+
 </tr>
 
-<tr>
-<td align="center" valign="middle" height="55">
+
+<!-- ===================================================== -->
+<!-- ROW 10 : REPOSITORY LINKS -->
+<!-- ===================================================== -->
+
+<tr width="100%">
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/sihdrone">
+<strong>Repository ↗</strong>
+</a>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
+<a href="https://github.com/ShazinHijazy/final-year-project">
+<strong>Repository ↗</strong>
+</a>
+
+</td>
+
+<td width="33.33%" height="55" align="center" valign="middle">
+
 <a href="https://github.com/ShazinHijazy?tab=repositories">
 <strong>View All ↗</strong>
 </a>
-</td>
-</tr>
-
-</table>
 
 </td>
 

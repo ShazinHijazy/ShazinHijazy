@@ -4000,20 +4000,12 @@ The development of my academic and research work has been shaped by mentors who 
 <table width="100%" cellspacing="10" cellpadding="6">
 
 <!-- ========================================================== -->
-<!-- ROW 1 : SHASHI + KUDA -->
+<!-- ROW 01 : PHOTOS -->
 <!-- ========================================================== -->
 
 <tr width="100%">
 
-<!-- ========================= SHASHI ========================= -->
-
-<td width="50%" valign="top">
-
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<!-- PHOTO -->
-<tr width="100%">
-<td colspan="2" height="145" width="100%" align="center" valign="middle">
+<td width="50%" height="150" align="center" valign="middle">
 
 <img src="dr-shashi.png"
      alt="Prof. Shashi Mogalla"
@@ -4021,20 +4013,45 @@ The development of my academic and research work has been shaped by mentors who 
      height="125">
 
 </td>
+
+<td width="50%" height="150" align="center" valign="middle">
+
+<img src="dr-kuda.png"
+     alt="Prof. Kuda Nageswara Rao"
+     width="125"
+     height="125">
+
+</td>
+
 </tr>
 
-<!-- NAME -->
+<!-- ========================================================== -->
+<!-- ROW 02 : NAMES -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
 
 ### Prof. Shashi Mogalla
 
 </td>
+
+<td width="50%" height="55" align="center" valign="middle">
+
+### Prof. Kuda Nageswara Rao
+
+</td>
+
 </tr>
 
-<!-- LOGO -->
+<!-- ========================================================== -->
+<!-- ROW 03 : INSTITUTION LOGOS -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="72" width="100%" align="center" valign="middle">
+
+<td width="50%" height="80" align="center" valign="middle">
 
 <a href="https://andhrauniversity.irins.org/profile/244056">
 
@@ -4046,90 +4063,8 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
-</tr>
 
-<!-- DESIGNATION -->
-<tr width="100%">
-<td colspan="2" height="60" width="100%" align="center" valign="middle">
-
-**Principal,** <br> 
-**Andhra University College of Engineering**
-
-</td>
-</tr>
-
-<!-- RELATIONSHIP -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
-
-**Research Guide**  **·**  **Generalizable Robot Manipulation (PGDM)**        
-
-</td>
-</tr>
-
-<!-- GOOGLE SCHOLAR -->
-<tr>
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
-
-<a href="https://scholar.google.com/citations?user=Zg15xLgAAAAJ">
-
-<img src="https://img.shields.io/badge/Google_Scholar-0F172A?style=for-the-badge&logo=googlescholar&logoColor=white"
-     alt="Google Scholar">
-
-</a>
-
-</td>
-</tr>
-
-<!-- REQUEST REFERENCE -->
-<tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
-
-<a href="mailto:prof.mshashi@andhrauniversity.edu.in?subject=Request%20for%20Reference">
-
-<img src="https://img.shields.io/badge/Request_Reference-1E3A5F?style=for-the-badge"
-     alt="Request Reference">
-
-</a>
-
-</td>
-</tr>
-
-</table>
-
-</td>
-
-
-<!-- ========================== KUDA ========================== -->
-
-<td width="50%" valign="top">
-
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<!-- PHOTO -->
-<tr width="100%">
-<td colspan="2" height="145" width="100%" align="center" valign="middle">
-
-<img src="dr-kuda.png"
-     alt="Prof. Kuda Nageswara Rao"
-     width="125"
-     height="125">
-
-</td>
-</tr>
-
-<!-- NAME -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
-
-### Prof. Kuda Nageswara Rao
-
-</td>
-</tr>
-
-<!-- LOGO -->
-<tr width="100%">
-<td colspan="2" height="72" width="100%" align="center" valign="middle">
+<td width="50%" height="80" align="center" valign="middle">
 
 <a href="https://andhrauniversity.irins.org/profile/232216">
 
@@ -4141,30 +4076,71 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
+
 </tr>
 
-<!-- DESIGNATION -->
+<!-- ========================================================== -->
+<!-- ROW 04 : DESIGNATION -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="60" width="100%" align="center" valign="middle">
+
+<td width="50%" height="85" align="center" valign="middle">
+
+**Principal,** <br>
+**Andhra University College of Engineering**
+
+</td>
+
+<td width="50%" height="85" align="center" valign="middle">
 
 **Chairman, Board of Studies,** <br>
 **Department of Computer Science & Systems Engineering, AUCE**
 
 </td>
+
 </tr>
 
-<!-- RELATIONSHIP -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
+<!-- ========================================================== -->
+<!-- ROW 05 : RELATIONSHIP -->
+<!-- ========================================================== -->
 
-**Project Guide · B.Tech Final Year**
+<tr width="100%">
+
+<td width="50%" height="60" align="center" valign="middle">
+
+**Research Guide** <br>
+</em>***Generalizable Robot Manipulation (PGDM)***</em>
 
 </td>
+
+<td width="50%" height="60" align="center" valign="middle">
+
+**Project Guide**<br>
+</em>***B.Tech Final Year***</em>
+
+</td>
+
 </tr>
 
-<!-- GOOGLE SCHOLAR -->
+<!-- ========================================================== -->
+<!-- ROW 06 : GOOGLE SCHOLAR -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
+
+<a href="https://scholar.google.com/citations?user=Zg15xLgAAAAJ">
+
+<img src="https://img.shields.io/badge/Google_Scholar-0F172A?style=for-the-badge&logo=googlescholar&logoColor=white"
+     alt="Google Scholar">
+
+</a>
+
+</td>
+
+<td width="50%" height="55" align="center" valign="middle">
 
 <a href="https://scholar.google.com/citations?user=iDgn6UwAAAAJ">
 
@@ -4174,11 +4150,27 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
+
 </tr>
 
-<!-- REQUEST REFERENCE -->
+<!-- ========================================================== -->
+<!-- ROW 07 : REQUEST REFERENCE -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
+
+<a href="mailto:prof.mshashi@andhrauniversity.edu.in?subject=Request%20for%20Reference">
+
+<img src="https://img.shields.io/badge/Request_Reference-1E3A5F?style=for-the-badge"
+     alt="Request Reference">
+
+</a>
+
+</td>
+
+<td width="50%" height="55" align="center" valign="middle">
 
 <a href="mailto:knraoauce@andhrauniversity.edu.in?subject=Request%20for%20Reference">
 
@@ -4188,30 +4180,16 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
-</tr>
-
-</table>
-
-</td>
 
 </tr>
-
 
 <!-- ========================================================== -->
-<!-- ROW 2 : GIRI + VASUDEV -->
+<!-- ROW 08 : PHOTOS -->
 <!-- ========================================================== -->
 
 <tr width="100%">
 
-<!-- =========================== GIRI ========================= -->
-
-<td width="50%" valign="top">
-
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<!-- PHOTO -->
-<tr width="100%">
-<td colspan="2" height="145" width="100%" align="center" valign="middle">
+<td width="50%" height="150" align="center" valign="middle">
 
 <img src="dr-giri.png"
      alt="Dr. Giri Raja Sekhar Gunnu"
@@ -4219,20 +4197,45 @@ The development of my academic and research work has been shaped by mentors who 
      height="125">
 
 </td>
+
+<td width="50%" height="150" align="center" valign="middle">
+
+<img src="dr-klv.png"
+     alt="Dr. Kondeti Lakshmi Vasudev"
+     width="125"
+     height="125">
+
+</td>
+
 </tr>
 
-<!-- NAME -->
+<!-- ========================================================== -->
+<!-- ROW 09 : NAMES -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
 
 ### Dr. Giri Raja Sekhar Gunnu
 
 </td>
+
+<td width="50%" height="55" align="center" valign="middle">
+
+### Dr. Kondeti Lakshmi Vasudev
+
+</td>
+
 </tr>
 
-<!-- LOGO -->
+<!-- ========================================================== -->
+<!-- ROW 10 : INSTITUTION LOGOS -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="72" width="100%" align="center" valign="middle">
+
+<td width="50%" height="80" align="center" valign="middle">
 
 <a href="https://andhrauniversity.irins.org/profile/446560">
 
@@ -4244,90 +4247,8 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
-</tr>
 
-<!-- DESIGNATION -->
-<tr width="100%">
-<td colspan="2" height="60" width="100%" align="center" valign="middle">
-
-**Professor of Practice,** </br>
-**Department of Marine Engineering, Andhra University**
-
-</td>
-</tr>
-
-<!-- RELATIONSHIP -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
-
-**Research & Technical Guide** **·** **ADMOS** **·** **Arbitration**
-
-</td>
-</tr>
-
-<!-- GOOGLE SCHOLAR -->
-<tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
-
-<a href="https://scholar.google.com/scholar?q=%22Giri+Raja+Sekhar+Gunnu%22">
-
-<img src="https://img.shields.io/badge/Google_Scholar-0F172A?style=for-the-badge&logo=googlescholar&logoColor=white"
-     alt="Google Scholar">
-
-</a>
-
-</td>
-</tr>
-
-<!-- REQUEST REFERENCE -->
-<tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
-
-<a href="mailto:prof.giri.gunnu@andhrauniversity.edu.in?subject=Request%20for%20Reference">
-
-<img src="https://img.shields.io/badge/Request_Reference-1E3A5F?style=for-the-badge"
-     alt="Request Reference">
-
-</a>
-
-</td>
-</tr>
-
-</table>
-
-</td>
-
-
-<!-- ========================= VASUDEV ======================== -->
-
-<td width="50%" valign="top">
-
-<table width="100%" cellspacing="0" cellpadding="5">
-
-<!-- PHOTO -->
-<tr width="100%">
-<td colspan="2" height="145" width="100%" align="center" valign="middle">
-
-<img src="dr-klv.png"
-     alt="Dr. Kondeti Lakshmi Vasudev"
-     width="125"
-     height="125">
-
-</td>
-</tr>
-
-<!-- NAME -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
-
-### Dr. Kondeti Lakshmi Vasudev
-
-</td>
-</tr>
-
-<!-- LOGO -->
-<tr width="100%">
-<td colspan="2" height="72" width="100%" align="center" valign="middle">
+<td width="50%" height="80" align="center" valign="middle">
 
 <a href="https://www.iitkgp.ac.in/department/NA/faculty/na-lakshmivasudev">
 
@@ -4339,30 +4260,71 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
+
 </tr>
 
-<!-- DESIGNATION -->
-<tr width="100%">
-<td colspan="2" height="60" width="100%" align="center" valign="middle">
+<!-- ========================================================== -->
+<!-- ROW 11 : DESIGNATION -->
+<!-- ========================================================== -->
 
-**Assistant Professor Grade-I,** <br> 
+<tr width="100%">
+
+<td width="50%" height="85" align="center" valign="middle">
+
+**Professor of Practice,** <br>
+**Department of Marine Engineering, Andhra University**
+
+</td>
+
+<td width="50%" height="85" align="center" valign="middle">
+
+**Assistant Professor Grade-I,** <br>
 **Ocean Engineering and Naval Architecture, IIT Kharagpur**
 
 </td>
+
 </tr>
 
-<!-- RELATIONSHIP -->
-<tr width="100%">
-<td colspan="2" height="48" width="100%" align="center" valign="middle">
+<!-- ========================================================== -->
+<!-- ROW 12 : RELATIONSHIP -->
+<!-- ========================================================== -->
 
-**Internship Guide · Autonomous Catamaran**
+<tr width="100%">
+
+<td width="50%" height="60" align="center" valign="middle">
+
+**Research & Technical Guide**<br>
+</em>***ADMOS · Arbitration***</em>
 
 </td>
+
+<td width="50%" height="60" align="center" valign="middle">
+
+**Internship Guide**<br>
+</em>***Autonomous Catamaran***</em>
+
+</td>
+
 </tr>
 
-<!-- GOOGLE SCHOLAR -->
+<!-- ========================================================== -->
+<!-- ROW 13 : GOOGLE SCHOLAR -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
+
+<a href="https://scholar.google.com/scholar?q=%22Giri+Raja+Sekhar+Gunnu%22">
+
+<img src="https://img.shields.io/badge/Google_Scholar-0F172A?style=for-the-badge&logo=googlescholar&logoColor=white"
+     alt="Google Scholar">
+
+</a>
+
+</td>
+
+<td width="50%" height="55" align="center" valign="middle">
 
 <a href="https://scholar.google.com/scholar?q=%22Kondeti+Lakshmi+Vasudev%22">
 
@@ -4372,11 +4334,27 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
+
 </tr>
 
-<!-- REQUEST REFERENCE -->
+<!-- ========================================================== -->
+<!-- ROW 14 : REQUEST REFERENCE -->
+<!-- ========================================================== -->
+
 <tr width="100%">
-<td colspan="2" height="52" width="100%" align="center" valign="middle">
+
+<td width="50%" height="55" align="center" valign="middle">
+
+<a href="mailto:prof.giri.gunnu@andhrauniversity.edu.in?subject=Request%20for%20Reference">
+
+<img src="https://img.shields.io/badge/Request_Reference-1E3A5F?style=for-the-badge"
+     alt="Request Reference">
+
+</a>
+
+</td>
+
+<td width="50%" height="55" align="center" valign="middle">
 
 <a href="mailto:lakshmivasudev@naval.iitkgp.ac.in?subject=Request%20for%20Reference">
 
@@ -4386,17 +4364,18 @@ The development of my academic and research work has been shaped by mentors who 
 </a>
 
 </td>
-</tr>
-
-</table>
-
-</td>
 
 </tr>
 
 </table>
 
 ## Mentorship Across My Research Journey
+
+<br>
+
+<!-- ========================================================== -->
+<!-- RESEARCH THEMES : OUTSIDE TABLE -->
+<!-- ========================================================== -->
 
 <p align="center">
 
@@ -4407,18 +4386,24 @@ The development of my academic and research work has been shaped by mentors who 
 
 </p>
 
+<br>
+
 ```mermaid
 flowchart TB
 
-    A["B.TECH THESIS<br/>UAV SWARMS"]
-    B["RESEARCH DEVELOPMENT<br/>AI + ROBOTICS"]
-    C["APPLIED RESEARCH<br/>MARINE + AI + ML"]
-    D["MARINE ROBOTICS<br/>AUTONOMOUS CATAMARAN"]
+    A["B.TECH THESIS <br/>
+    UAV SWARMS"]
+    B["RESEARCH DEVELOPMENT <br/>
+    AI + ROBOTICS"]
+    C["APPLIED RESEARCH <br/>
+    MARINE + AI/ML"]
+    D["MARINE ROBOTICS <br/>
+    AUTONOMOUS CATAMARAN"]
 
-    A1["PROF. KUDA<br/>NAGESWARA RAO"]
-    B1["PROF. SHASHI<br/>MOGALLA"]
-    C1["DR. GIRI RAJA<br/>SEKHAR GUNNU"]
-    D1["DR. KONDETI<br/>LAKSHMI VASUDEV"]
+    A1["PROF. KUDA <br/> NAGESWARA RAO"]
+    B1["PROF. SHASHI <br/> MOGALLA"]
+    C1["DR. GIRI RAJA <br/> SEKHAR GUNNU"]
+    D1["DR. KONDETI <br/> LAKSHMI VASUDEV"]
 
     A --> B
     B --> C
@@ -4436,8 +4421,7 @@ flowchart TB
     class A1,B1,C1,D1 mentor;
 
     linkStyle default stroke:#0F172A,stroke-width:1.5px;
-```
-    
+```    
 ---
 
 <h1>Research Profiles</h1>

@@ -2852,7 +2852,7 @@ The complete implementation, model files, evaluation scripts, and supporting res
 
 ---
 
-## N-SWARM
+## Decentralized Multi UAV Coordination Simulator
 
 Decentralized autonomous drone swarm framework exploring:
 
@@ -2867,7 +2867,7 @@ Decentralized autonomous drone swarm framework exploring:
 The complete implementation, model files, evaluation scripts, and supporting resources are available in the project repository.
 </p> <br> 
 <p align="center"> 
-  <a href="https://github.com/ShazinHijazy/sihdrone"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
+  <a href="https://github.com/ShazinHijazy/AeroSwarm-Decentralized-Multi-UAV-Coordination-Simulator"> <img src="https://img.shields.io/badge/VIEW_REPOSITORY-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" /> </a> 
 </p>
 <p align="center"> 
 <a href="mailto:shazhijazy@gmail.com"> <img src="https://img.shields.io/badge/CONTACT_FOR_MORE_INFORMATION-1E3A5F?style=for-the-badge" alt="Contact for More Information" /> </a> </p>
@@ -3736,7 +3736,7 @@ My repositories document different stages of my research process, from
 
 <td width="33.33%" height="85" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
+<a href="https://github.com/ShazinHijazy/RASID-SH-Resilient-Multi-Agent-Coordination">
 
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
      alt="GitHub"
@@ -3769,7 +3769,8 @@ My repositories document different stages of my research process, from
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<strong>RASID-SH<br>Architecture</strong>
+<strong>RASID-SH-Resilient-Multi-Agent-Coordination
+</strong>
 
 </td>
 
@@ -3863,7 +3864,7 @@ leader election, reputation, communication quality, and visualization.
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/RASID-SH-architecture">
+<a href="https://github.com/ShazinHijazy/RASID-SH-Resilient-Multi-Agent-Coordination">
 <strong>Repository ↗</strong>
 </a>
 
@@ -3880,7 +3881,7 @@ leader election, reputation, communication quality, and visualization.
 
 <td width="33.33%" height="85" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/sihdrone">
+<a href="https://github.com/ShazinHijazy/AeroSwarm-Decentralized-Multi-UAV-Coordination-Simulator">
 
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
      alt="GitHub"
@@ -3892,7 +3893,7 @@ leader election, reputation, communication quality, and visualization.
 
 <td width="33.33%" height="85" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/final-year-project">
+<a href="https://github.com/ShazinHijazy/aegis-multi-uav-swarm">
 
 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
      alt="GitHub"
@@ -3925,13 +3926,13 @@ leader election, reputation, communication quality, and visualization.
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<strong>SIH Drone</strong>
+<strong>AeroSwarm: Decentralized Multi UAV Coordination Simulator</strong>
 
 </td>
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<strong>Final-Year Research</strong>
+<strong>Aegis Multi UAV Swarm</strong>
 
 </td>
 
@@ -4015,7 +4016,7 @@ software experiments, research prototypes, and technical projects.
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/sihdrone">
+<a href="https://github.com/ShazinHijazy/AeroSwarm-Decentralized-Multi-UAV-Coordination-Simulator">
 <strong>Repository ↗</strong>
 </a>
 
@@ -4023,7 +4024,7 @@ software experiments, research prototypes, and technical projects.
 
 <td width="33.33%" height="55" align="center" valign="middle">
 
-<a href="https://github.com/ShazinHijazy/final-year-project">
+<a href="https://github.com/ShazinHijazy/aegis-multi-uav-swarm">
 <strong>Repository ↗</strong>
 </a>
 

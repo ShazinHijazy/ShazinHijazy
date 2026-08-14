@@ -34,6 +34,60 @@
 
 ---
 
+## Navigation
+
+Click on the relevant section below to navigate directly to it.
+
+<div align="center">
+
+### Profile
+
+[![About Me](https://img.shields.io/badge/About%20Me-181717?style=for-the-badge)](#about-me)
+[![Research Identity](https://img.shields.io/badge/Research%20Identity-181717?style=for-the-badge)](#research-identity)
+[![Research Philosophy](https://img.shields.io/badge/Research%20Philosophy-181717?style=for-the-badge)](#research-philosophy)
+
+### Research
+
+[![Research Timeline](https://img.shields.io/badge/Research%20Timeline-1E3A5F?style=for-the-badge)](#research-timeline)
+[![Research Portfolio](https://img.shields.io/badge/Research%20Portfolio-1E3A5F?style=for-the-badge)](#research-portfolio)
+[![Research Themes](https://img.shields.io/badge/Research%20Themes-1E3A5F?style=for-the-badge)](#research-themes)
+[![Research Lifecycle](https://img.shields.io/badge/Research%20Lifecycle-1E3A5F?style=for-the-badge)](#research-lifecycle)
+[![Research Direction](https://img.shields.io/badge/Research%20Direction-1E3A5F?style=for-the-badge)](#research-direction)
+[![Future Research Interests](https://img.shields.io/badge/Future%20Research%20Interests-1E3A5F?style=for-the-badge)](#future-research-interests)
+[![The Bigger Research Question](https://img.shields.io/badge/The%20Bigger%20Research%20Question-1E3A5F?style=for-the-badge)](#the-bigger-research-question)
+
+### Robotics and Projects
+
+[![Robotic Platforms and Systems](https://img.shields.io/badge/Robotic%20Platforms%20and%20Systems-0F766E?style=for-the-badge)](#robotic-platforms--systems)
+[![Selected Technical Projects](https://img.shields.io/badge/Selected%20Technical%20Projects-0F766E?style=for-the-badge)](#selected-technical-projects)
+[![From Simulation to Reality](https://img.shields.io/badge/From%20Simulation%20to%20Reality-0F766E?style=for-the-badge)](#from-simulation-to-reality)
+[![The Drone Swarm](https://img.shields.io/badge/The%20Drone%20Swarm-0F766E?style=for-the-badge)](#the-drone-swarm)
+
+### Academic and Publications
+
+[![Publications and Research Outputs](https://img.shields.io/badge/Publications%20and%20Research%20Outputs-6D28D9?style=for-the-badge)](#publications-and-research-outputs)
+[![Education](https://img.shields.io/badge/Education-6D28D9?style=for-the-badge)](#education)
+[![Research Experience](https://img.shields.io/badge/Research%20Experience-6D28D9?style=for-the-badge)](#research-experience)
+[![Mentors and Research Guides](https://img.shields.io/badge/Mentors%20and%20Research%20Guides-6D28D9?style=for-the-badge)](#mentors-and-research-guides)
+
+### Skills
+
+[![Technical Skills](https://img.shields.io/badge/Technical%20Skills-B45309?style=for-the-badge)](#technical-skills)
+[![Open Source · Research · Reproducibility](https://img.shields.io/badge/Open%20Source%20%7C%20Research%20%7C%20Reproducibility-B45309?style=for-the-badge)](#open-source--research--reproducibility)
+
+### Network and Outreach
+
+[![Research Network](https://img.shields.io/badge/Research%20Network-374151?style=for-the-badge)](#research-network)
+[![Research Profiles](https://img.shields.io/badge/Research%20Profiles-374151?style=for-the-badge)](#research-profiles)
+[![Beyond Engineering](https://img.shields.io/badge/Beyond%20Engineering-374151?style=for-the-badge)](#beyond-engineering)
+[![Connect](https://img.shields.io/badge/Connect-374151?style=for-the-badge)](#connect)
+
+### Perspective
+
+[![Research Motto](https://img.shields.io/badge/Research%20Motto-181717?style=for-the-badge)](#research-motto)
+
+</div>
+
 # About Me
 
 I am a Computer Science and Engineering graduate from Andhra University, India, working at the intersection of robotics, autonomous systems, artificial intelligence, multi-agent coordination, and resilient robotic autonomy.

@@ -36,7 +36,7 @@
 
 # Navigation
 
-Click on the relevant section below to navigate directly to it.
+**Click on the relevant section below to navigate directly to it.**
 
 <div align="center">
 

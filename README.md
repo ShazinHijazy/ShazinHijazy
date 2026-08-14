@@ -34,7 +34,7 @@
 
 ---
 
-## Navigation
+# Navigation
 
 Click on the relevant section below to navigate directly to it.
 
@@ -53,8 +53,10 @@ Click on the relevant section below to navigate directly to it.
 [![Research Themes](https://img.shields.io/badge/Research%20Themes-1E3A5F?style=for-the-badge)](#research-themes)
 [![Research Lifecycle](https://img.shields.io/badge/Research%20Lifecycle-1E3A5F?style=for-the-badge)](#research-lifecycle)
 [![Research Direction](https://img.shields.io/badge/Research%20Direction-1E3A5F?style=for-the-badge)](#research-direction)
+[![Areas of Research](https://img.shields.io/badge/Areas%20of%20Research-1E3A5F?style=for-the-badge)](#my-research-in-one-picture)
 [![Future Research Interests](https://img.shields.io/badge/Future%20Research%20Interests-1E3A5F?style=for-the-badge)](#future-research-interests)
 [![The Bigger Research Question](https://img.shields.io/badge/The%20Bigger%20Research%20Question-1E3A5F?style=for-the-badge)](#the-bigger-research-question)
+
 
 ### Robotics and Projects
 
@@ -328,9 +330,9 @@ My broader goal is to contribute to reliable distributed autonomous systems that
 
 ---
 
-# My Research in One Picture
+## My Research in One Picture
 
-# Areas of Research
+## Areas of Research
 
 <p align="center">
   <img src="Areas%20of%20Research.png" alt="Areas of Research of Mohamed Hijazy Shazin Hassan" width="100%">

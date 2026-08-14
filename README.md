@@ -75,7 +75,7 @@ Click on the relevant section below to navigate directly to it.
 ### Skills
 
 [![Technical Skills](https://img.shields.io/badge/Technical%20Skills-B45309?style=for-the-badge)](#technical-skills)
-[![Open Source · Research · Reproducibility](https://img.shields.io/badge/Open%20Source%20%7C%20Research%20%7C%20Reproducibility-B45309?style=for-the-badge)](#open-source--research--reproducibility)
+[![Open Source Research Reproducibility](https://img.shields.io/badge/Open%20Source%20%%20Research%20%%20Reproducibility-B45309?style=for-the-badge)](#open-source-research-reproducibility)
 
 ### Network and Outreach
 
@@ -3685,7 +3685,7 @@ linkStyle default stroke:#0F172A,stroke-width:2px;
 
 ---
 
-<h1>Open Source · Research · Reproducibility</h1>
+<h1>Open Source Research Reproducibility</h1>
 
 <p>
 I use GitHub not only as a code repository, but as a working space for

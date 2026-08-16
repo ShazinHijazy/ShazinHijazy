@@ -1338,47 +1338,29 @@ The proposed end-to-end workflow is:
 ```mermaid
 flowchart TD
 
-    A["01<br/><br/> APPROACH <br/><br/>
-    <small>Tree approach and <br/> multi-angle scanning</small>"]
+    A["01<br/><b>APPROACH</b><br/><small>Tree approach · Multi-angle scanning</small>"]
+    B["02<br/><b>3D CANOPY RECONSTRUCTION</b><br/><small>LiDAR + RGB-D perception</small>"]
+    C["03<br/><b>TOPOLOGICAL ANALYSIS</b><br/><small>Connectivity · Skeletal representation</small>"]
+    D["04<br/><b>PRUNING POINT DETERMINATION</b><br/><small>Horticultural criteria · Decision rules</small>"]
+    E["05<br/><b>MANIPULATOR PATH PLANNING</b><br/><small>Collision-free trajectory generation</small>"]
+    F["06<br/><b>GRASP · CUT · RETRACT</b><br/><small>Force-feedback-assisted execution</small>"]
+    G["07<br/><b>QUALITY VERIFICATION</b><br/><small>Post-cut inspection · Validation</small>"]
 
-    B["02<br/><br/> 3D CANOPY RECONSTRUCTION <br/><br/>
-    <small> LiDAR + RGB-D <br/> perception</small>"]
+    A --> B --> C --> D --> E --> F --> G
 
-    C["03<br/><br/> TOPOLOGICAL ANALYSIS <br/><br/> 
-    <small> Branch connectivity <br/> and skeletal representation</small>"]
-
-    D["04<br/><br/> PRUNING POINT DETERMINATION<br/><br/> 
-    <small> Horticultural criteria <br/> and decision rules</small>"]
-
-    E["05<br/><br/> MANIPULATOR PATH PLANNING<br/><br/> 
-    <small> Collision-free <br/> trajectory generation</small>"]
-
-    F["06<br/><br/> GRASP • CUT • RETRACT<br/><br/> 
-    <small> Force-feedback-assisted <br/> execution</small>"]
-
-    G["07<br/><br/> QUALITY VERIFICATION <br/><br/> 
-    <small> Post-cut inspection <br/> and validation</small>"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-
-    classDef stage fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
-    classDef start fill:#0F172A,stroke:#0F172A,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
-    classDef decision fill:#FFFFFF,stroke:#1E3A5F,color:#0F172A,stroke-width:2px,font-size:15px,font-weight:700;
-    classDef execute fill:#FFFFFF,stroke:#0F172A,color:#0F172A,stroke-width:2.5px,font-size:15px,font-weight:700;
-    classDef finish fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px,font-size:15px,font-weight:700;
+    classDef start fill:#111827,stroke:#111827,color:#FFFFFF,stroke-width:2px;
+    classDef process fill:#FFFFFF,stroke:#374151,color:#111827,stroke-width:1.5px;
+    classDef decision fill:#F8FAFC,stroke:#1E3A5F,color:#111827,stroke-width:2px;
+    classDef execution fill:#FFFFFF,stroke:#111827,color:#111827,stroke-width:2px;
+    classDef finish fill:#1E3A5F,stroke:#1E3A5F,color:#FFFFFF,stroke-width:2px;
 
     class A start;
-    class B,C stage;
+    class B,C process;
     class D decision;
-    class E,F execute;
+    class E,F execution;
     class G finish;
 
-    linkStyle default stroke:#0F172A,stroke-width:2px;
+    linkStyle default stroke:#6B7280,stroke-width:1.5px;
 ```
 
 <p align="center">

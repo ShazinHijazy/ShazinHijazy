@@ -4823,5 +4823,6 @@ I would be happy to connect and explore opportunities for collaboration.
 ----
 
 <p align="center">
-© Mohamed Hijazy Shazin Hassan · Robotics · Autonomous Systems · Artificial Intelligence · Multi-Agent Robotics
+© <strong><a href="https://shazinhijazy.online/" target="_blank" rel="noopener noreferrer">Mohamed Hijazy Shazin Hassan</a></strong></br>
+· Robotics · Autonomous Systems · Artificial Intelligence · Multi-Agent Robotics
 </p>

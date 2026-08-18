@@ -8,6 +8,10 @@
 
 <p align="center">
 
+<a href="https://shazinhijazy.online/">
+<img src="https://img.shields.io/badge/🌐%20Portfolio-shazinhijazy.online-000000?style=for-the-badge" alt="Portfolio">
+</a>
+  
 <a href="https://github.com/ShazinHijazy">
 <img src="https://img.shields.io/badge/GitHub-ShazinHijazy-181717?style=for-the-badge&logo=github" />
 </a>

@@ -4658,7 +4658,7 @@ autonomous systems and intelligent robotics.
 
 <tr>
 
-<td align="center" valign="middle" width="33%">
+<td align="center" valign="middle" width="25%">
 <a href="https://www.linkedin.com/in/shazin-hijazy/">
 <img
 src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg"
@@ -4668,7 +4668,7 @@ height="48"
 </a>
 </td>
 
-<td align="center" valign="middle" width="33%">
+<td align="center" valign="middle" width="25%">
 <a href="mailto:shazhijazy@gmail.com">
 <img
 src="https://cdn.simpleicons.org/gmail"
@@ -4678,7 +4678,7 @@ height="48"
 </a>
 </td>
 
-<td align="center" valign="middle" width="33%">
+<td align="center" valign="middle" width="25%">
 <a href="https://github.com/ShazinHijazy">
 <img
 src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
@@ -4688,8 +4688,17 @@ height="65"
 </a>
 </td>
 
-</tr>
+<td align="center" valign="middle" width="25%">
+<a href="https://shazinhijazy.online/">
+<img
+src="https://cdn.simpleicons.org/googlechrome"
+alt="Website"
+height="48"
+>
+</a>
+</td>
 
+</tr>
 
 <!-- NAMES -->
 
@@ -4707,8 +4716,11 @@ height="65"
 <strong>GitHub</strong>
 </td>
 
-</tr>
+<td align="center" valign="middle">
+<strong>Website</strong>
+</td>
 
+</tr>
 
 <!-- ROLES -->
 
@@ -4726,8 +4738,11 @@ height="65"
 <sub><strong>Open Source · Research</strong></sub>
 </td>
 
-</tr>
+<td align="center" valign="middle">
+<sub><strong>Research · Portfolio</strong></sub>
+</td>
 
+</tr>
 
 <!-- DESCRIPTIONS -->
 
@@ -4760,8 +4775,16 @@ simulation environments, experiments, and open-source work.
 
 </td>
 
-</tr>
+<td align="center" valign="middle">
 
+<sub>
+Explore my research portfolio, robotics work,
+autonomous systems projects, publications, and professional background.
+</sub>
+
+</td>
+
+</tr>
 
 <!-- LINKS -->
 
@@ -4787,6 +4810,14 @@ simulation environments, experiments, and open-source work.
 
 <a href="https://github.com/ShazinHijazy">
 <strong>Explore GitHub ↗</strong>
+</a>
+
+</td>
+
+<td align="center" valign="middle">
+
+<a href="https://shazinhijazy.online/">
+<strong>Visit Website ↗</strong>
 </a>
 
 </td>
